@@ -28,7 +28,27 @@
         <script src='./js/themed-profiles.js'></script>
         <script src='./js/external.js'></script>
 
-
+        <style>
+            ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px dodgerblue;
+    border-radius: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 5px;;
+    background: dodgerblue; 
+    box-shadow: inset 0 0 6px dodgerblue; 
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: dodgerblue;
+    }
+        </style>
         <noscript>
         <style>
 
@@ -172,6 +192,8 @@
             { background-color:#000 !important;}
             .contrast a, .contrast .socialIcons.select-lang a{ color:#ffff00 !important;}
             body.contrast, .contrast p, .contrast div, .contrast table{ color: #fff !important}
+            
+      
         </style>
         </noscript>
 
@@ -185,7 +207,7 @@
 
     </head>
 
-    <body class="home page-template-default page page-id-17697 multiple-domain-s3c4ca4238a0b923820dcc509a6f75849b-s3waas-gov-in mva7-thc-activetheme-district-theme-3 lang-en wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+    <body style="background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAM0lEQVQoU2P8+Xz+f3bJREYGAgBDAS6NcIWETMZpJbpGRnQBglYT7RlCJhMMFphN1FcIAMQJIAsNBxkfAAAAAElFTkSuQmCC) repeat;" class="home page-template-default page mva7-thc-activetheme-district-theme-3 lang-en wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
         <!--<header id="mainHeader">-->
         <header>
             <section id="topBar1" class="wrapper">
@@ -297,7 +319,7 @@
                 <div class="menuMoreText hide">More</div>
                 <div class="container">
                     <nav class="menu"><ul id="menu-header-en" class="nav clearfix"><li id="menu-item-2658" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2658 active "><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/" aria-current="page">Home</a></li>
-                            <li id="menu-item-2486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2486"><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/about-district/">About District</a>
+                            <li id="menu-item-2486"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2486"><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/about-district/">About District</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-2736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2736"><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/history/">History</a></li>
                                     <li id="menu-item-2492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2492"><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/about-district/whos-who/">Who’s Who</a></li>
@@ -527,15 +549,126 @@
                                         </div>
                                     </div>                                               
                                 </div>
-                                <div class="vc_col-sm-4 text-center">
-                                                                                             
+                                <div class="vc_col-sm-5 mb-4  mb-md-0">
+                                     <style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  border-bottom: 2px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  min-height: 260px;
+  max-height: 260px;
+  overflow-y: scroll;
+
+}
+
+.tab>.tablinks{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+
+
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'London')">News Update</button>
+  <button class="tablinks" onclick="openTab(event, 'Paris')">Event</button>
+  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tender</button>
+</div>
+
+<div id="London" class="tabcontent" style="display:block">
+ 
+<!--  <marquee behavior="scroll" direction="up">-->
+      
+  <ul>
+      <li>First Elemement</li>     
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+      <li>First Elemement</li>
+
+  </ul>
+<!--      </marquee>-->
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script> 
+                                    
+                                    
+                                    
                                 </div>
-                                <div class="vc_col-sm-3 text-center">
+                                <div class="vc_col-sm-2 text-center">
                                     <div>
                                         <div class="card">
-                                            <img class="card-img-top p-5"  src="./images/profile.jpg" style="height: auto; width: 100%; display: block;">
+                                            <img class="card-img-top p-2"  src="./images/profile.jpg" style="height: auto; width: 100%; display: block;">
                                         <div class="card-body">
-                                            <h3>Malda DM</h3>
+                                            <h4>Malda DM</h4>
                                             <p>Meet District Magistrate, Malda</p>
                                         </div>
                                     </div> 
@@ -607,6 +740,7 @@
 
                                                         </a>
                                                     </li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div></div></div></div><div class="vc_row-full-width vc_clearfix">
@@ -714,15 +848,16 @@
                                                     <li class="  ">
                                                         <a href="#"   style="">
                                                             <span class="list-icon -bg  border-radius-round"></span>
-                                                            <div class="list-text">State Portal				</div>
+                                                            <div class="list-text">State Portal	</div>
                                                         </a>
                                                     </li>
                                                     <li class="  ">
                                                         <a href="#"   style="">
                                                             <span class="list-icon -bg  border-radius-round"></span>
-                                                            <div class="list-text">Government Order				</div>
+                                                            <div class="list-text">Government Order</div>
                                                         </a>
                                                     </li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -760,43 +895,62 @@
                                                             <div class="list-text">Crime Stopper -<b> 1090</b>				</div>
                                                         </div>
                                                     </li>
+                                                    <li class="  ">
+                                                        <div class="list-anchor">
+                                                            <span class="list-icon -bg  border-radius-round"></span>
+                                                            <div class="list-text">Crime Stopper -<b> 1090</b>				</div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="  ">
+                                                        <div class="list-anchor">
+                                                            <span class="list-icon -bg  border-radius-round"></span>
+                                                            <div class="list-text">Crime Stopper -<b> 1090</b>				</div>
+                                                        </div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1499927042202 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">    <div id="footerScrollbarWrapper" class="footerlogocarousel withbg withborder">
                                                 <div>
                                                     <div id="footerScrollbar" class="flexslider">
                                                         <ul class="slides" aria-label="Important Sites">
-                                                            <li>
-                                                                <a href="https://data.gov.in/" target="_blank" title="Open Government Data (OGD)  Platform India">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053014.png" alt="data.gov.in"/>                                    </a>
+                                                            
+                                                             <li>
+                                                                <a href="https://www.mygov.in/" target="_blank" title="My Government ">
+                                                                    <img src="./images/fotter_slider/1.png" alt="mygov"/>                                    
+                                                                </a>
                                                             </li>
                                                             <li>
                                                                 <a href="https://incredibleindia.org/" target="_blank" title="Incredible India">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053094.png" alt="Incredible India Site"/>                                    </a>
+                                                                    <img src="./images/fotter_slider/2.png" alt="Incredible India"/>                                    </a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://www.makeinindia.com/home" target="_blank" title="Make in India">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053052.png" alt="make in India"/>                                    </a>
+                                                                <a href="https://incredibleindia.org/" target="_blank" title="Digital India">
+                                                                    <img src="./images/fotter_slider/3.png" alt="Digital India"/>        
+                                                                </a>
+                                                            </li>
+                                                            
+                                                           
+                                                           
+                                                          
+                                                            <li>
+                                                                <a href="https://www.india.gov.in/" target="_blank" title="National Portal of India">
+                                                                    <img src="./images/fotter_slider/4.png" alt="india.gov.in"/>                                    
+                                                                </a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://www.mygov.in/" target="_blank" title="My Government">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053017.png" alt="mygov"/>                                    </a>
+                                                                <a href="http://www.digitalindia.gov.in/" target="_blank" title="Kanyashree Prakalpa">
+                                                                    <img src="./images/fotter_slider/5.png" alt="digital-india"/>                                    
+                                                                </a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://www.pmnrf.gov.in/" target="_blank" title="Prime Minister&#8217;s National Relief Fund">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053039.png" alt="PMNRF"/>                                    </a>
+                                                                <a href="http://www.digitalindia.gov.in/" target="_blank" title="Mission Nirmal Bangla">
+                                                                    <img src="./images/fotter_slider/6.png" alt="digital-india"/>                                    
+                                                                </a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://www.pmindia.gov.in/en/" target="_blank" title="Prime Minister of India">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/04/2017110781.png" alt="pmindia"/>                                    </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://www.india.gov.in/" target="_blank" title="The National Portal of India">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2019/05/2019052293.png" alt="india.gov.in"/>                                    </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="http://www.digitalindia.gov.in/" target="_blank" title="Digital India">
-                                                                    <img src="https://cdn.s3waas.gov.in/master/uploads/2017/07/2017072418.png" alt="digital-india"/>                                    </a>
+                                                                <a href="http://www.digitalindia.gov.in/" target="_blank" title="Swacch Bharat">
+                                                                    <img src="./images/fotter_slider/7.png" alt="digital-india"/>                                    
+                                                                </a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -832,7 +986,7 @@
         <footer id="footer2" class="footer-home">
             <div class="container">
                 <div class="footerMenu">
-                    <div class="text-white p-2">Last Updated: <strong>Sep 06, 2019</strong></div>
+                    <div class="text-white p-2"><span>Last Updated: <strong>Sep 06, 2019</strong></span> <span>Visitor Count <strong>1000</strong></span></div>
                     <ul id="menu-footer-en" class="menu p-2">
                         <li id="menu-item-2501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2501"><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/website-policies/">Website Policies</a></li>
                         <li id="menu-item-2503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2503"><a href="https://s3c4ca4238a0b923820dcc509a6f75849b.s3waas.gov.in/help/">Help</a></li>
