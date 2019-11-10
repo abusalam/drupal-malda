@@ -1,3 +1,3 @@
 # Official website of Malda
 
-Please read through our [contributing guidelines](docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [docementation](docs/README.md) for directions on opening issues, coding standards, and notes on development.
