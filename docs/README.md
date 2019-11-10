@@ -19,6 +19,10 @@
 ## Timeline for Development
 > Preparation of detail [timeline](ROADMAP.md) is in progress...
 
+## Contributing
+
+Please adhere to the [contributing guidelines](CONTRIBUTING.md).
+
 ## Credits
 This project includes works from various open source projects.
 
