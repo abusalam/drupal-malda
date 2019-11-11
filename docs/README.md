@@ -1,5 +1,7 @@
 # Official Website of Malda on Drupal 8
 
+[![Build Status](https://travis-ci.org/abusalam/drupal-malda.svg?branch=docs)](https://travis-ci.org/abusalam/drupal-malda)
+
 ## Basic Features of the website
 * Theme of the contents to be consistent across the relative segments. Layout should be fluid and can make optimal use of the users screen size (i.e. responsive).
 * The official [website of malda district](http://www.malda.gov.in) should have a look and feel similar to the [S3waaS](https://www.s3waas.gov.in) framework with a off-white non-uniform grainy textured background with consistent single font and size with no italics and subtle colours may be used to highlight.
