@@ -137,7 +137,6 @@ function openTab(evt, cityName) {
                   });
 
 
-
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("header");
