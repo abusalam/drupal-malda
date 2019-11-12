@@ -1187,12 +1187,12 @@ textarea {
 .clearfix:after {
   clear: both; }
 
-.row:before, .row:after {
+.rowsumanta:before, .rowsumanta:after {
   display: table;
   line-height: 0;
   content: ""; }
 
-.row:after {
+.rowsumanta:after {
   clear: both; }
 
 .footer-top-wrapper ul:before, .footer-top-wrapper ul:after {
@@ -1227,11 +1227,11 @@ textarea {
     content: "";
     clear: both; }
 
-.row:before, .footer-top-wrapper ul:before, .float-element:before {
+.rowsumanta:before, .footer-top-wrapper ul:before, .float-element:before {
   display: table;
   line-height: 0;
   content: ""; }
-.row:after, .footer-top-wrapper ul:after, .float-element:after {
+.rowsumanta:after, .footer-top-wrapper ul:after, .float-element:after {
   display: table;
   line-height: 0;
   content: "";
@@ -3425,16 +3425,16 @@ strong {
 .hidden-sm {
   display: none; }
 
-.row {
+.rowsumanta {
   position: relative;
   width: 100%; }
 
-.row [class^="col-"] {
+.rowsumanta [class^="col-"] {
   float: left;
   margin: 0.5rem 1%;
   min-height: 0.125rem; }
 
-.row::after {
+.rowsumanta::after {
   content: "";
   display: table;
   clear: both; }
@@ -11084,7 +11084,7 @@ table.bt tbody td .bt-content {
     padding: 20px 15px; } }
 /*---------------About distic section Ends---------*/
 /*--------About Section ------------*/
-.aboutSection .row {
+.aboutSection .rowsumanta {
   background: #e1e1e1;
   padding: 25px; }
 
@@ -11120,7 +11120,7 @@ table.bt tbody td .bt-content {
     float: none;
     width: 100%; } }
 @media (max-width: 768px) and (max-width: 500px) {
-  .aboutSection .row {
+  .aboutSection .rowsumanta {
     padding: 10px; } }
 @media (max-width: 768px) {
   .tabWrapper {
@@ -11568,14 +11568,14 @@ table.bt tbody td .bt-content {
 .location-info {
   background-color: #ffffff;
   border-bottom: 1px solid #e1e1e1; }
-  .location-info .row .col2 {
+  .location-info .rowsumanta .col2 {
     margin: 0;
     padding: 35px 30px; }
-    .location-info .row .col2 img {
+    .location-info .rowsumanta .col2 img {
       margin-bottom: 10px; }
-    .location-info .row .col2 p {
+    .location-info .rowsumanta .col2 p {
       color: #000000; }
-      .location-info .row .col2 p:last-child {
+      .location-info .rowsumanta .col2 p:last-child {
         padding-bottom: 0; }
 
 .contrast .location-info {
@@ -11583,32 +11583,32 @@ table.bt tbody td .bt-content {
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000; }
 
-.contrast .location-info .row .col2 p {
+.contrast .location-info .rowsumanta .col2 p {
   color: #ffffff; }
 
 @media (max-width: 640px) {
-  .location-info .row .col2 {
+  .location-info .rowsumanta .col2 {
     padding: 20px 30px; } }
 @media (max-width: 500px) {
-  .location-info .row .col2 {
+  .location-info .rowsumanta .col2 {
     padding: 10px 20px; }
-    .location-info .row .col2 img {
+    .location-info .rowsumanta .col2 img {
       display: inline-block;
       margin-bottom: 10px;
       vertical-align: middle; }
-    .location-info .row .col2 p {
+    .location-info .rowsumanta .col2 p {
       display: inline-block;
       margin-left: 10px; } }
 @media (max-width: 400px) {
-  .location-info .row .col2 {
+  .location-info .rowsumanta .col2 {
     padding: 5px 15px; }
-    .location-info .row .col2 img {
+    .location-info .rowsumanta .col2 img {
       display: inline-block;
       margin-bottom: 0;
       vertical-align: middle;
       width: 31px;
       height: auto; }
-    .location-info .row .col2 p {
+    .location-info .rowsumanta .col2 p {
       display: inline-block;
       margin-left: 1px; } }
 .tourist-guide {
@@ -11744,11 +11744,11 @@ table.bt tbody td .bt-content {
     float: none;
     text-align: left;
     width: 100%; }
-    .area_cont .location-info .row .col2 img {
+    .area_cont .location-info .rowsumanta .col2 img {
       display: inline-block;
       margin-bottom: 10px;
       vertical-align: middle; }
-    .area_cont .location-info .row .col2 p {
+    .area_cont .location-info .rowsumanta .col2 p {
       display: inline-block;
       margin-left: 10px; }
 
@@ -13825,6 +13825,6 @@ table.bt tbody td .bt-content {
           .gen-tab.tab-vertical .resp-tabs-list { width: 33% !important;}
         }
       }
-	  
+
 	  .rd-pad{padding:0; margin:0;}
 	  .award .awardItems:hover h2 a{ color:#ffffff; text-decoration:underline;}

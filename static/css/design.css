@@ -80,7 +80,7 @@
         }
 
         .quick-links ul li {
-            line-height: 25px;
+            line-height: 15px;
         }
 
         .quick-links ul {
@@ -218,7 +218,6 @@
 
         .menu-site {
             display: block;
-            padding: 0px!important;
             list-style-type: none;
             text-align: center;
             white-space: nowrap;
@@ -244,3 +243,36 @@
             color: white;
             padding: 7px 10px;
         }
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+      #header {
+        z-index: 9999;
+    }
+    #cssmenu ul{
+      z-index: 999;
+    }
+
+    /*float*/
+.push-left {
+  float: left; }
+
+.push-right {
+  float: right; }
+
+.push-center {
+  margin: 0 auto;
+  float: none; }
+
+
+
+.top-banner img{
+  width: 100%;
+}
+
+
+.main-body{
+  background-image: url(../images/texture.png);
+}
