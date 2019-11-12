@@ -137,3 +137,20 @@ border: 1px solid #e1e1e1;
 }
 
 
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#header{
+  z-index: 9999;
+}
