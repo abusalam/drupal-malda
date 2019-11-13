@@ -4,13 +4,23 @@
     <head-placeholder token="{{ placeholder_token }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token }}">
+    <noscript>
+            <link rel="stylesheet" type="text/css" href="/{{ directory }}/css/noscript.css">
+
+        </noscript>
     <js-placeholder token="{{ placeholder_token }}">
+
+
+
   </head>
   <body{{ attributes }} class="home page-template-default page mva7-thc-activetheme-district-theme-3 lang-en wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
     {#
       Keyboard navigation/accessibility link to main content section in
       page.html.twig.
     #}
+
+
+
     <a href="#main-content" class="visually-hidden focusable">
       {{ 'Skip to main content'|t }}
     </a>
