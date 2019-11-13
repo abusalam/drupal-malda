@@ -151,3 +151,16 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+$(window).scroll(function() {
+  if ($(this).scrollTop()) {
+      $('.scrollToTop').fadeIn();
+  } else {
+      $('.scrollToTop').fadeOut();
+  }
+});
+
+$('.scrollToTop').on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
