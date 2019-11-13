@@ -2,76 +2,59 @@ global-css:
   version: VERSION
   css:
     theme:
-      css/ace-responsive-menu.css: {}
-      css/base.css: {}
       css/bootstrap.css: {}
-      css/component-helper.css: {}
-      css/contact-form-7.css: {}
-      css/custom-flexslider.css: {}
-      css/demo.css: {}
-      css/design.css: {}
-      css/district-theme.css: {}
-      css/events.css: {}
-      css/extra.css: {}
-      css/extra.features.css: {}
-      css/flexslider.min.css: {}
-      css/font-awesome.min.css: {}
-      css/font-awsome.css: {}
-      css/footer-logo-carousel.css: {}
-      css/js_composer.min.css: {}
-      css/js_composer_tta.min.css: {}
-      css/list-style.min.css: {}
-      css/list-style.min1.css: {}
-      css/menumaker.css: {}
-      css/nav-menu.css: {}
-      css/noscript.css: {}
-      css/photo-gallery-home.css: {}
-      css/profile-hm.css: {}
-      css/service-tabs.css: {}
-      css/sliderhelper.css: {}
-      css/style.css: {}
-      css/style.min.css: {}
-      css/styles.css: {}
       css/theme-my-login.css: {}
-      css/themestyle.css: {}
+      css/style.min.css: {}
+      css/base.css: {}
+      css/extra.features.css: {}
+      css/styles.css: {}
+      css/style.css: {}
+      css/sliderhelper.css: {}
+      css/js_composer.min.css: {}
+      css/font-awsome.css: {}
+      css/extra.css: {}
       css/themestyles.css: {}
-      css/vc_lte_ie9.min.css: {}
-      css/wordpress-social-login.css: {}
+      css/menumaker.css: {}
+      css/flexslider.min.css: {}
+      css/custom-flexslider.css: {}
+      css/list-style.min.css: {}
+      css/component-helper.css: {}
+      css/profile-hm.css: {}
+      css/list-style.min.css: {}
+      css/service-tabs.css: {}
+      css/footer-logo-carousel.css: {}
+      css/design.css: {}
+      css/noscript.css: {}
+
+
 
 
 global-js:
   js:
     theme:
-      js/ace-responsive-menu.js: {}
-      js/ace-responsive-menu-min.js: {}
-      js/bootstrap.js: {}
-      js/bootstrap.min.js: {}
-      js/common.js: {}
-      js/core.min.js: {}
-      js/custom.js: {}
-      js/design.js: {}
-      js/easyResponsiveTabs.js: {}
-      js/external.js: {}
-      js/extra.js: {}
-      js/html5shiv.min.js: {}
-      js/jquery.fancybox.js: {}
-      js/jquery.flexslider.js: {}
-      js/jquery.flexslider-min.js: {}
-      js/jquery-1.8.3.min.js: {}
       js/jquery-3.4.1.min.js: {}
+      js/menumaker.js: {}
+
+      js/bootstrap.min.js: {}
       js/jquerylogic.js: {}
       js/jquery-migrate.min.js: {}
-      js/js_composer_front.min.js: {}
-      js/menu.js: {}
-      js/menumaker.js: {}
-      js/nav-menu.js: {}
+      jsthemed-profiles.js: {}
+      js/external.js: {}
+      js/themescript.js: {}
+      js/common.js: {}
+      js/core.min.js: {}
+      js/jquery.flexslider.js: {}
+      js/jeasyResponsiveTabs.js: {}
+      js/jquery.fancybox.js: {}
       js/style.switcher.js: {}
       js/table.min.js: {}
-      js/themed-profiles.js: {}
-      js/themescript.js: {}
-      js/vc-accordion.min.js: {}
-      js/vc-tabs.min.js: {}
-      js/vc-tta-autoplay.min.js: {}
+      js/custom.js: {}
+      js/extra.js: {}
+      js/menu.js: {}
       js/wp-embed.min.js: {}
+      js/js_composer_front.min.js: {}
+      js/jquery.flexslider-min.js: {}
+
+
 
 

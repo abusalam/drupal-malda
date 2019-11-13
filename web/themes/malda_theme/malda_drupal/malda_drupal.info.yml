@@ -32,8 +32,8 @@ regions:
   footer_description: Footer Description
 
 libraries:
-  - themeone/global-css
-  - themeone/global-js
+  - malda_drupal/global-css
+  - malda_drupal/global-js
 
 
 
