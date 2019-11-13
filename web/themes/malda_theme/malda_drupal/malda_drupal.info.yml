@@ -31,6 +31,10 @@ regions:
   footer_menu: Footer Menu
   footer_description: Footer Description
 
+libraries:
+  - themeone/global-css
+  - themeone/global-js
+
 
 
 

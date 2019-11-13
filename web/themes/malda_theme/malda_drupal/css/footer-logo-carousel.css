@@ -1,0 +1,16 @@
+.footerlogocarousel{ display: inline-block; width: 100%;}
+.footerlogocarousel {
+  background: #fff; }
+  .footerlogocarousel.withbg {
+    background: #eee; }
+  .footerlogocarousel .flexslider .slides > li {
+    padding: 0 5px; }
+  .footerlogocarousel.withborder .flexslider .slides > li {
+    box-shadow: 1px 0px 0px 0px #ccc; }
+    .footerlogocarousel.withborder .flexslider .slides > li:first-child {
+      border-left: 1px solid #ccc; }
+
+@media screen and (max-width: 800px) {
+  .footerlogocarousel.withborder .flexslider .slides > li{ width: auto !important;}
+}
+/*# sourceMappingURL=footer-logo-carousel.css.map */
