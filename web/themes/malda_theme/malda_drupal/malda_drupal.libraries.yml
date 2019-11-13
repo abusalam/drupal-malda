@@ -24,7 +24,7 @@ global-css:
       css/service-tabs.css: {}
       css/footer-logo-carousel.css: {}
       css/design.css: {}
-      css/noscript.css: {}
+
 
 
 
