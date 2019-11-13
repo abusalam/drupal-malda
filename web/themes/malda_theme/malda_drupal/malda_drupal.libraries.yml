@@ -32,28 +32,32 @@ global-css:
 global-js:
   js:
     theme:
-      js/jquery-3.4.1.min.js: {}
-      js/menumaker.js: {}
+    js/jquery-3.4.1.min.js: {}
+    js/menumaker.js: {}
 
-      js/bootstrap.min.js: {}
-      js/jquerylogic.js: {}
-      js/jquery-migrate.min.js: {}
-      jsthemed-profiles.js: {}
-      js/external.js: {}
-      js/themescript.js: {}
-      js/common.js: {}
-      js/core.min.js: {}
-      js/jquery.flexslider.js: {}
-      js/jeasyResponsiveTabs.js: {}
-      js/jquery.fancybox.js: {}
-      js/style.switcher.js: {}
-      js/table.min.js: {}
-      js/custom.js: {}
-      js/extra.js: {}
-      js/menu.js: {}
-      js/wp-embed.min.js: {}
-      js/js_composer_front.min.js: {}
-      js/jquery.flexslider-min.js: {}
+    js/bootstrap.min.js: {}
+    js/jquerylogic.js: {}
+    js/jquery-migrate.min.js: {}
+    jsthemed-profiles.js: {}
+    js/external.js: {}
+    js/themescript.js: {}
+    js/common.js: {}
+    js/core.min.js: {}
+    js/jquery.flexslider.js: {}
+    js/jeasyResponsiveTabs.js: {}
+    js/jquery.fancybox.js: {}
+    js/style.switcher.js: {}
+    js/table.min.js: {}
+    js/custom.js: {}
+    js/extra.js: {}
+    js/menu.js: {}
+    js/wp-embed.min.js: {}
+    js/js_composer_front.min.js: {}
+    js/jquery.flexslider-min.js: {}
+
+  dependencies:
+   - core/jquery
+   - core/drupal
 
 
 
