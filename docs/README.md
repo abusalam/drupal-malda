@@ -21,6 +21,22 @@
 ## Timeline for Development
 > Preparation of detail [timeline](ROADMAP.md) is in progress...
 
+## Some Docker Commands for ready reference
+
+All the commands should run from the root
+
+- **Start Docker:**
+    `docker-compose up -d`
+
+- **Stop Docker:**
+    `docker-compose stop`
+
+- **Run Coding Standard Tests in Docker:**
+    `docker-compose exec php phpcs web/themes/custom`
+
+- **Export Database from Docker:**
+    `docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"password" drupal' > mariadb-init/drupal.sql`
+
 ## Contributing
 
 Please adhere to the [contributing guidelines](CONTRIBUTING.md).
