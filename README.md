@@ -1,14 +1,45 @@
 # Official website of Malda
 
-[![Build Status](https://travis-ci.org/abusalam/drupal-malda.svg?branch=dev)](https://travis-ci.org/abusalam/drupal-malda)
+[![Build Status](https://travis-ci.org/abusalam/drupal-malda.svg?branch=dev)](
+  https://travis-ci.org/abusalam/drupal-malda)
 
-Please go through the [documentation](docs/README.md) for directions on opening issues, coding standards, and notes on development.
+Please go through the [documentation](docs/README.md) for directions on opening
+ issues, coding standards, and notes on development.
+
+## Usage
+
+1. Copy `.env.dist` to `.env`
+2. Command to start docker:
+    ```
+    docker-compose up -d
+    ```
+3. Open URL http://drupal.docker.localhost:8000/ and use the following values
+  to install Drupal 8
+    ```env
+    Database Name = drupal
+    Database User = drupal
+    Password      = drupal
+    Database Host = mariadb
+    ```
+4. Command to clear Drupal 8 cache:
+    ```
+    docker-compose exec php drush cr
+    ```
+5. Backup database:
+    ```
+    docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"password" drupal' > mariadb-init/drupal.sql
+    ```
+    when staring docker using `docker-compose` it will automatically restore
+     the database from `mariadb-init/drupal.sql`.
+4. Command to stop docker:
+    ```
+    docker-compose stop
+    ```
 
 ## Timeline for Development
 > Preparation of detail [timeline](docs/ROADMAP.md) is in progress...
 
 ## Contributing
-
 Please adhere to the [contributing guidelines](docs/CONTRIBUTING.md).
 
 ## Credits

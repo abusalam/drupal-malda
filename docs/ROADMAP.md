@@ -13,7 +13,8 @@
 ### Development Environment
 - [x] CI Integration for Code Standard Tests
 - [x] Backup files and database on every rebase and merge.
-- [ ] Finalize the technology requirements like deployment tools, coding tools, debuging tools etc.
+- [ ] Finalize the technology requirements like deployment tools, coding tools,
+  debuging tools etc.
 
 ### Development Plan
 - [x] Finalisation of regions and blocks in the Home Page
