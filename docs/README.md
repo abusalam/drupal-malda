@@ -34,6 +34,9 @@ All the commands should run from the root
 - **Run Coding Standard Tests in Docker:**
     `docker-compose exec php phpcs web/themes/custom`
 
+- **Fix Coding Standard Issues using Docker:**
+    `docker-compose exec php phpcbf -v web/themes/custom`
+
 - **Export Database from Docker:**
     `docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"password" drupal' > mariadb-init/drupal.sql`
 
