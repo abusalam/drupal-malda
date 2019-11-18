@@ -1,30 +1,45 @@
-name: S3WaaS
+name: S3Waas
 type: theme
 description: Malda Website Theme for Malda District Portal
 core: 8.x
-
-base theme: classy
-
-libraries:
-  - s3waas/global-styling
+version: '1.0'
+screenshot: s3waas.png
 
 regions:
-  header: Header
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
-  highlighted: Highlighted
-  featured_top: 'Featured top'
+  top_menu: Top Menu
+  branding_1: Branding 1
+  branding_2: Branding 2
+  main_menu: Main Menu
+  slider: Slider
+  thumbnail: Thumbnail
   breadcrumb: Breadcrumb
   content: Content
-  sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
-  featured_bottom_first: 'Featured bottom first'
-  featured_bottom_second: 'Featured bottom second'
-  featured_bottom_third: 'Featured bottom third'
-  footer_first: 'Footer first'
-  footer_second: 'Footer second'
-  footer_third: 'Footer third'
-  footer_fourth: 'Footer fourth'
-  footer_fifth: 'Footer fifth'
+  highlight_1: Highlight 1
+  highlight_2: Highlight 2
+  highlight_3: Highlight 3
+  highlight_4: Highlight 4
+  about_district: About District
+  district_update: District Update
+  whats_new: Whats New
+  event: Event
+  tender: Tender
+  services: Services
+  public_utility: Public Utility
+  quick_links: Quick Links
+  helpline_number: Helpline Number
+  footer_slider: Footer Slider
+  version: Version
+  last_updated: Last Updated
+  visitor_count: Visitor Count
+  footer_menu: Footer Menu
+  footer_description: Footer Description
+
+libraries:
+  - s3waas/global-css
+  - s3waas/global-js
+
+
+
+
+
+
