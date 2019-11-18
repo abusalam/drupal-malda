@@ -1,0 +1,19 @@
+{%
+  set classes = [
+    'block',
+    'block-menu',
+    'navigation',
+    'menu--' ~ derivative_plugin_id|clean_class,
+  ]
+%}
+{% set heading_id = attributes.id ~ '-menu'|clean_id %}
+
+  {# Label. If not displayed, we still provide it for screen readers. #}
+
+
+
+  {# Menu. #}
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+
