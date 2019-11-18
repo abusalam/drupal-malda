@@ -1,0 +1,22 @@
+{% extends "block.html.twig" %}
+
+{% block content %}
+  {% if site_logo %}
+    <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" class="site_logo" height="100" id="logo"  aria-label="Go to home" class="emblem" rel="home">
+      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" height="100"/>
+    </a>
+  {% endif %}
+  {% if site_name %}
+    <div class="logo-text">
+      <strong lang="grt" class="site_name_regional">
+        {{ site_slogan }}
+      </strong>
+      <h1 class="site_name_english" style="font-weight:bold; font-size:20px;">
+        {{ site_name }}
+      </h1>
+    </div>
+  {% endif %}
+{% endblock %}
+
+
+
