@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_slideshow_style
+label: 'Responsive slideshow style'
+effects:
+  responsive_slideshow_imgeffect_image_scale_and_crop:
+    uuid: responsive_slideshow_imgeffect_image_scale_and_crop
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1140
+      height: 300
+      upscale: TRUE

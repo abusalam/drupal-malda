@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - menu_ui
+      - responsive_slideshow 
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Responsive Slideshow'
+type: responsive_slideshow
+description: 'Responsive Slideshow'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

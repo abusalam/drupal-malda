@@ -1,0 +1,7 @@
+responsive_slideshow.settings:
+  path: /admin/config/user-interface/responsive_slideshow
+  defaults:
+    _title: 'Responsive Slideshow'
+    _form: \Drupal\responsive_slideshow\Form\ResponsiveslideshowForm
+  requirements:
+    _permission: 'administer responsive slideshow'

@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * @file
+ * Install, update, and uninstall functions for the Responsive slideshow module.
+ */
+
+use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\image\Entity\ImageStyle;
+
+/**
+ * Implements hook_install().
+ */
+function responsive_slideshow_install() {
+  $locked = \Drupal::state()->get('node.type.locked');
+  $locked['responsive_slideshow'] = 'responsive_slideshow';
+  \Drupal::state()->set('node.type.locked', $locked);
+  $config = \Drupal::service('config.factory')->getEditable('responsive_slideshow.settings');
+  $config->set('responsive_slideshow_no_of_slides', 5);
+  $config->set('responsive_slideshow_description_length', 180);
+  $config->set('responsive_slideshow_interval', 5000);
+  $config->save();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function responsive_slideshow_uninstall() {
+  $result = \Drupal::entityQuery('node')
+    ->condition('type', 'responsive_slideshow')
+    ->execute();
+  entity_delete_multiple('node', $result);
+  if ($field_storage = FieldStorageConfig::loadByName('node', 'field_slide_teaser')) {
+    $field_storage->delete();
+  }
+  if ($field_storage = FieldStorageConfig::loadByName('node', 'field_slideshow_image')) {
+    $field_storage->delete();
+  }
+  if ($field_storage = FieldStorageConfig::loadByName('node', 'field_body_desc')) {
+    $field_storage->delete();
+  }
+  // Purge all field infromation.
+  field_purge_batch(1000);
+  // Remove responsive_slideshow_style image style.
+  $image_style = ImageStyle::load('responsive_slideshow_style');
+  $image_style->delete();
+  $config = \Drupal::service('config.factory')->getEditable('responsive_slideshow.settings');
+  $config->clear('responsive_slideshow_no_of_slides');
+  $config->clear('responsive_slideshow_description_length');
+  $config->clear('responsive_slideshow_interval');
+  $config->save();
+  // Allow to delete a responsive_slideshow's node type.
+  $locked = \Drupal::state()->get('node.type.locked');
+  unset($locked['responsive_slideshow']);
+  \Drupal::state()->set('node.type.locked', $locked);
+  drupal_flush_all_caches();
+}

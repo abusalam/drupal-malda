@@ -1,0 +1,171 @@
+<?php
+
+/**
+ * @file
+ * This module allows create responsive slideshows.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\file\Entity\File;
+use Drupal\Core\Url;
+use Drupal\image\Entity\ImageStyle;
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Language\Language;
+
+/**
+ * Function for retreiving slideshow contents.
+ */
+function responsive_slideshow_homepage() {
+  $output = '';
+  $config = \Drupal::config('responsive_slideshow.settings');
+  $sliders = array();
+  $nids = array();
+  $current_language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  global $base_url;
+  $query = \Drupal::database()->select('node_field_data', 'n');
+  $query->fields('n', ['nid']);
+  $query->join('node__field_slideshow_image', 'img', 'n.nid = img.entity_id');
+  $query->condition('n.type', 'responsive_slideshow');
+  $query->condition('n.status', 1);
+  $query->condition('n.langcode', array($current_language, Language::LANGCODE_NOT_SPECIFIED), 'IN');
+  $query->orderBy('n.changed', 'DESC');
+  $query->range(0, $config->get('responsive_slideshow_no_of_slides'));
+  $query->addTag('node_access');
+  $query_result = $query->execute();
+  foreach ($query_result as $key => $record) {
+    $nids[] = $record->nid;
+  }
+  $nodes = \Drupal::entityManager()->getStorage('node')->loadMultiple($nids);
+  $key = 0;
+  foreach ($nodes as $slide_node) {
+    $sliders[$key]['nid'] = $slide_node->nid->value;
+    $field_slideshow_image = $slide_node->get('field_slideshow_image')->getValue();
+    if (!empty($field_slideshow_image)) {
+      $sliders[$key]['image']['alt'] = !empty($field_slideshow_image[0]['alt']) ? Html::escape($field_slideshow_image[0]['alt']) : Html::escape($slide_node->title->value);
+      $sliders[$key]['image']['title'] = !empty($field_slideshow_image[0]['title']) ? Html::escape($field_slideshow_image[0]['title']) : Html::escape($slide_node->title->value);
+      $fid = $field_slideshow_image[0]['target_id'];
+      $file = File::load($fid);
+      $uri = $file->uri->value;
+      $sliders[$key]['image']['pic'] = ImageStyle::load('responsive_slideshow_style')->buildUrl($uri);
+    }
+    $sliders[$key]['title'] = Html::escape($slide_node->title->value);
+    $sliders[$key]['title'] = substr(strip_tags($slide_node->title->value), 0, 90);
+    $sliders[$key]['title'] = strlen(Html::escape($sliders[$key]['title'])) > 90 ? $sliders[$key]['title'] . '...' : $sliders[$key]['title'];
+    $slide_desc = '';
+    $field_slide_teaser = $slide_node->get('field_slide_teaser')->getValue();
+    if (!empty($field_slide_teaser)) {
+      $slide_desc = $field_slide_teaser[0]['value'];
+    }
+    else {
+      $body = $slide_node->get('field_body_desc')->getValue();
+      if (!empty($body)) {
+        $slide_desc = check_markup($body[0]['value'], 'restricted_html');
+      }
+    }
+    if ($config->get('responsive_slideshow_description_length') == 0) {
+      $sliders[$key]['description'] = strip_tags($slide_desc);
+    }
+    else {
+      $sliders[$key]['description'] = substr(strip_tags($slide_desc), 0, $config->get('responsive_slideshow_description_length'));
+      if ($sliders[$key]['description']) {
+        $sliders[$key]['description'] .= '... ';
+      }
+    }
+    $user = \Drupal::currentUser();
+    $permission = $user->hasPermission('administer nodes');
+    if ($permission) {
+      $editpath = $base_url . '/node/' . $slide_node->nid->value . '/edit';
+      $editurl = Url::fromUri($editpath);
+      $edit_link = \Drupal::l(t('Edit'), $editurl);
+      $sliders[$key]['link'] = $edit_link;
+    }
+    $key++;
+  }
+  $output = responsive_slideshow_build_slideshow_string($sliders);
+  return $output;
+}
+
+/**
+ * Function for retreiving the styled output.
+ */
+function responsive_slideshow_build_slideshow_string($sliders) {
+  $rand = rand();
+  $carousel_id = "carousel-main-" . $rand;
+  $output = '';
+  global $base_url;
+  $responsive_slideshow_item_count = count($sliders);
+  $li_id = "#carousel-main-" . $rand;
+  $config = \Drupal::config('responsive_slideshow.settings');
+  $output = '<div class="col-md-12 column">
+               <div class="carousel slide" data-ride="carousel" data-interval="' . $config->get('responsive_slideshow_interval') . '" id="' . $carousel_id . '">';
+  if ($responsive_slideshow_item_count > 1) {
+    $output .= '<ol class="carousel-indicators">';
+    for ($i = 0; $i < $responsive_slideshow_item_count; $i++) {
+      $item_class = ($i == 0) ? 'active' : '';
+      $output .= ' <li data-target="' . $li_id . '" data-slide-to="' . $i . '" class="' . $item_class . '"></li>';
+    }
+    $output .= '</ol>';
+  }
+  $output .= '<div class="carousel-inner">';
+  for ($i = 0; $i < $responsive_slideshow_item_count; $i++) {
+    $item_class = ($i == 0) ? 'item active' : 'item';
+    $output .= '<div class="' . $item_class . '">';
+    $output .= '<img class="home-img-slideshow" title="' . $sliders[$i]['image']['title'] . '" alt="' . $sliders[$i]['image']['alt'] . '" src="' . $sliders[$i]['image']['pic'] . '" />';
+    $output .= '<div class="carousel-caption">';
+    $output .= '<h4>';
+    $path  = $base_url . '/node/' . $sliders[$i]['nid'];
+    $url = Url::fromUri($path);
+    $title = t('@slidetitle', array('@slidetitle' => $sliders[$i]['title']));
+    $title = \Drupal::l($title, $url);
+    $output .= $title;
+    $output .= '</h4>';
+    $output .= '<p>';
+    if (isset($sliders[$i]['description'])) {
+      $output .= $sliders[$i]['description'];
+    }
+    else {
+      $output .= '';
+    }
+    if (isset($sliders[$i]['link'])) {
+      $output .= $sliders[$i]['link'];
+    }
+    else {
+      $output .= '';
+    }
+    $output .= '</p>';
+    $output .= '</div>';
+    $output .= '</div>';
+  }
+  $output .= '</div>';
+  if ($responsive_slideshow_item_count > 1) {
+    $output .= '<a class="left carousel-control" href="' . $li_id . '" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+     <a class="right carousel-control" href="' . $li_id . '" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>';
+  }
+  $output .= '</div>
+              </div>';
+  return $output;
+}
+
+/**
+ * Implements hook_help().
+ *
+ * @inheritdoc
+ */
+function responsive_slideshow_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.responsive_slideshow':
+      $text = file_get_contents(dirname(__FILE__) . "/README.md");
+      if (!\Drupal::moduleHandler()->moduleExists('markdown')) {
+        return '<pre>' . $text . '</pre>';
+      }
+      else {
+        // Use the Markdown filter to render the README.
+        $filter_manager = \Drupal::service('plugin.manager.filter');
+        $settings = \Drupal::configFactory()->get('markdown.settings')->getRawData();
+        $config = array('settings' => $settings);
+        $filter = $filter_manager->createInstance('markdown', $config);
+        return $filter->process($text, 'en');
+      }
+  }
+  return NULL;
+}

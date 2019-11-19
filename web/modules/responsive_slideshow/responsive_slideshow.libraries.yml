@@ -1,0 +1,5 @@
+responsive-styling:
+  version: 1.0.0
+  css:
+      theme:
+        css/responsive_slideshow.css: {}

@@ -3,60 +3,29 @@ global-css:
   css:
     theme:
       css/bootstrap.css: {}
-      css/theme-my-login.css: {}
-      css/style.min.css: {}
-      css/base.css: {}
-      css/extra.features.css: {}
-      css/styles.css: {}
-      css/style.css: {}
+      css/bootstrap.min.css: {}
       css/sliderhelper.css: {}
-      css/js_composer.min.css: {}
-      css/font-awsome.css: {}
-      css/extra.css: {}
-      css/themestyles.css: {}
       css/menumaker.css: {}
       css/flexslider.min.css: {}
       css/custom-flexslider.css: {}
-      css/list-style.min.css: {}
-      css/component-helper.css: {}
-      css/profile-hm.css: {}
-      css/list-style.min.css: {}
-      css/service-tabs.css: {}
       css/footer-logo-carousel.css: {}
       css/design.css: {}
-
-
-
 
 
 global-js:
   js:
     theme:
-    js/jquery-3.4.1.min.js: {}
     js/menumaker.js: {}
     js/bootstrap.min.js: {}
-    js/jquerylogic.js: {}
-    js/jquery-migrate.min.js: {}
-    jsthemed-profiles.js: {}
-    js/external.js: {}
     js/themescript.js: {}
-    js/common.js: {}
-    js/core.min.js: {}
     js/jquery.flexslider.js: {}
-    js/jeasyResponsiveTabs.js: {}
-    js/jquery.fancybox.js: {}
-    js/style.switcher.js: {}
-    js/table.min.js: {}
-    js/custom.js: {}
-    js/extra.js: {}
-    js/menu.js: {}
-    js/wp-embed.min.js: {}
-    js/js_composer_front.min.js: {}
     js/jquery.flexslider-min.js: {}
+    //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
 
   dependencies:
    - core/jquery
    - core/drupal
+   - core/boostrap
 
 
 

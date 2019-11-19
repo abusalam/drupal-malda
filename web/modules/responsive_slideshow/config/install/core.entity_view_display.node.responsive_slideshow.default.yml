@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.responsive_slideshow.field_slide_teaser
+    - field.field.node.responsive_slideshow.field_body_desc
+    - field.field.node.responsive_slideshow.field_slideshow_image
+    - node.type.responsive_slideshow
+  module:
+    - image
+    - user
+    - text
+id: node.responsive_slideshow.default
+targetEntityType: node
+bundle: responsive_slideshow
+mode: default
+content:
+  field_slideshow_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_slide_teaser:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_body_desc:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden: {  }

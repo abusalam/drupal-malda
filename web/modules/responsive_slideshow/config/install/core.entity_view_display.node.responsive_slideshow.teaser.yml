@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.responsive_slideshow.field_slide_teaser
+    - node.type.responsive_slideshow
+  module:
+    - user
+    - text
+id: node.responsive_slideshow.teaser
+targetEntityType: node
+bundle: responsive_slideshow
+mode: teaser
+content:
+  links:
+    weight: 10
+hidden:
+  field_slide_teaser: true

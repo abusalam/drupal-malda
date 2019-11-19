@@ -1,0 +1,5 @@
+responsive_slideshow.settings:
+  route_name: responsive_slideshow.settings
+  title: 'Responsive Slideshow'
+  description: 'Configure the responsive slideshow.'
+  parent: system.admin_config_ui

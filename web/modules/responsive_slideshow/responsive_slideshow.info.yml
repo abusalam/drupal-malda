@@ -1,0 +1,14 @@
+name: 'Responsive Slideshow'
+description: Module for getting responsive slideshow in bootstrap theme.
+package: Bootstrap
+type: module
+# core: 8.x
+configure: responsive_slideshow.settings
+dependencies:
+  - image
+
+# Information added by Drupal.org packaging script on 2017-01-24
+version: '8.x-1.2'
+core: '8.x'
+project: 'responsive_slideshow'
+datestamp: 1485251586
