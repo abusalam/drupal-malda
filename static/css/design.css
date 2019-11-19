@@ -244,3 +244,14 @@
             color: white;
             padding: 7px 10px;
         }
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+      #header {
+        z-index: 9999;
+    }
+    #cssmenu ul{
+      z-index: 999;
+    }
