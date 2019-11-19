@@ -13,3 +13,234 @@
   line-height: 42px;
   z-index: 999;
 }
+
+
+.flexslider{
+	background:none;
+	border:none;
+	box-shadow:none;
+	margin:0px;
+}
+
+
+         ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+         ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 10px dodgerblue;
+            border-radius: 5px;
+        }
+
+         ::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            ;
+            background: dodgerblue;
+            box-shadow: inset 0 0 6px dodgerblue;
+        }
+
+         ::-webkit-scrollbar-thumb:hover {
+            background: dodgerblue;
+        }
+
+        .helpline-number {
+            border: 1px solid #e2e2e2;
+            padding: 10px;
+            margin: 10px;
+        }
+        .footer-slider{
+          background: #e2e2e2;
+        }
+
+        .public_utils {
+            padding-bottom: 10px;
+        }
+
+        .counter {
+            border-radius: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .public_util_name {
+            font-size: 15px;
+            font-weight: bold;
+            top: 2px;
+            position: relative;
+        }
+
+        .helpline-number .head {
+            font-size: 13px;
+        }
+
+        .helpline-number div.number {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .quick-links ul li {
+            line-height: 25px;
+        }
+
+        .quick-links ul {
+            padding-left: 13px;
+        }
+
+        .home-service {
+            background: #e2e2e2;
+            padding: 20px;
+        }
+
+        .fa-3x {
+            color: white;
+        }
+
+        .home-service-text {
+            font-size: 18px;
+            padding-top: 6px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a {
+            color: black;
+        }
+
+        .version,
+        .last_update,
+        .visitor_count {
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .menu-list {
+            display: block;
+            padding: 0px;
+            list-style-type: none;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .menu-list-item {
+            display: block;
+            min-width: 90px;
+            font-size: 14px;
+            text-align: center;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+
+        .menu-list-item a {
+            display: block;
+            cursor: pointer;
+            color: white;
+        }
+
+        .menu-list-item:hover a {
+            text-decoration: none;
+            color: rgba(153, 153, 153, 1);
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+        }
+
+        @media(min-width: 480px) {
+            .menu-list-item {
+                display: inline-block;
+            }
+            .menu-list-item a {
+                min-width: 90px;
+            }
+        }
+
+        @media(max-width: 720px){
+          .brandrightlogo{
+            display: none;
+          }
+        }
+
+        .footer-content {
+            font-size: 13px;
+            ;
+        }
+        /* Style the tab */
+
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        /* Style the buttons inside the tab */
+
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 15px;
+        }
+        /* Change background color of buttons on hover */
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+
+        .tab button.active {
+            background-color: #ccc;
+            border-bottom: 2px solid black;
+        }
+        /* Style the tab content */
+
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            min-height: 260px;
+            max-height: 260px;
+            overflow-y: scroll;
+        }
+
+        .about_district_home {
+            min-height: 315px;
+            border: 1px solid #e1e1e1;
+            background: ;
+        }
+
+        .tab>.tablinks {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .menu-site {
+            display: block;
+            padding: 0px!important;
+            list-style-type: none;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .menu-site-item {
+            display: inline-block;
+            font-weight: 700;
+            min-width: 90px;
+            font-size: 11px;
+            text-align: center;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+
+        .menu-site-spt {
+            border-right: 1px solid white;
+        }
+
+        .menu-site-item a {
+            display: block;
+            cursor: pointer;
+            color: white;
+            padding: 7px 10px;
+        }
