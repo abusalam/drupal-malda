@@ -218,7 +218,6 @@
 
         .menu-site {
             display: block;
-            padding: 0px!important;
             list-style-type: none;
             text-align: center;
             white-space: nowrap;
@@ -255,3 +254,17 @@
     #cssmenu ul{
       z-index: 999;
     }
+
+    /*float*/
+.push-left {
+  float: left; }
+
+.push-right {
+  float: right; }
+
+.push-center {
+  margin: 0 auto;
+  float: none; }
+
+
+

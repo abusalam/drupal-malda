@@ -1009,9 +1009,9 @@ table.bt thead tr th, table.bt thead tr td, table.bt tbody tr th, table.bt tbody
 
 .file-type i.fa-file-video-o {
   color: #ce0a0a; }
-
+/*
 .row [class^="col-"] {
-  margin: 0 1%; }
+  margin: 0 1%; } */
 
 .gen-list ul li.light-grey-bg .list-text, .gen-list ul li.light-gray-bg .list-text {
   color: #000 !important; }
@@ -1755,7 +1755,7 @@ body.show-focus-outlines .flexslider.full-cntrl-center-caption-bottom .flex-dire
 
 .adlogin-cntr .login-link:hover {
   background: #545454; }
-
+/*
 .text-center {
   text-align: center !important; }
 
@@ -1763,7 +1763,7 @@ body.show-focus-outlines .flexslider.full-cntrl-center-caption-bottom .flex-dire
   text-align: right !important; }
 
 .text-justify {
-  text-align: justify !important; }
+  text-align: justify !important; } */
 
 .margin-bottom-medium {
   margin-bottom: 15px !important; }
