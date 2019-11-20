@@ -1,0 +1,13 @@
+{
+      "editor.rulers": [
+        80
+      ],
+      "files.associations": {
+        "*.html.twig": "twig"
+      },
+      "emmet.includeLanguages": {
+        "twig": "html"
+      },
+      "twigcs.executablePath": "./vendor/friendsoftwig/twigcs/bin/twigcs",
+      "zenMode.hideLineNumbers": false
+}
