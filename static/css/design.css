@@ -80,7 +80,7 @@
         }
 
         .quick-links ul li {
-            line-height: 25px;
+            line-height: 15px;
         }
 
         .quick-links ul {
@@ -268,3 +268,6 @@
 
 
 
+.top-banner img{
+  width: 100%;
+}
