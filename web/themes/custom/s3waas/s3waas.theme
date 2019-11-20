@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the S3waaS theme.
+ */
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function s3waas_preprocess_block(&$variables) {
+  switch ($variables['base_plugin_id']) {
+    case 'system_branding_block':
+      $variables['site_logo'] = '';
+      if (
+        $variables['content']['site_logo']['#access']
+        && $variables['content']['site_logo']['#uri']
+      ) {
+        // dump($variables);
+        $variables['site_logo'] = str_replace(
+          '.svg',
+          '.png',
+          $variables['content']['site_logo']['#uri']
+        );
+      }
+      break;
+  }
+}

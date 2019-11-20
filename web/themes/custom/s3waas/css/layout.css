@@ -1,0 +1,14 @@
+/**
+ * @file
+ * S3WaaS layout styling.
+ */
+
+/**
+ * Container
+ */
+
+.layout-container {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+}

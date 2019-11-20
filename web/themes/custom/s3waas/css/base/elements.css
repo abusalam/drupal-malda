@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Overall specifications for S3WaaS.
+ */
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  word-wrap: break-word;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 87.5%;
+  line-height: 1.5;
+}
