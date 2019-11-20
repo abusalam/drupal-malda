@@ -1,8 +1,9 @@
 # Detail development plan with timeline
 
-##  List of things to do
+## List of things to do
 
 ### Documentation
+
 - [x] Detail requirements of the website.
 - [x] How to run in a Docker Container.
 - [x] How to create database backups automatically on commit.
@@ -11,12 +12,14 @@
 - [ ] Packaging and deployment for security audit.
 
 ### Development Environment
+
 - [x] CI Integration for Code Standard Tests
 - [x] Backup files and database on every rebase and merge.
 - [ ] Finalize the technology requirements like deployment tools, coding tools,
   debuging tools etc.
 
 ### Development Plan
+
 - [x] Finalisation of regions and blocks in the Home Page
 - [x] Image Preview for the Home Page
 - [ ] Fully functional static Home Page with all interactive sections.

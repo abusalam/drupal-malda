@@ -10,36 +10,53 @@ Please go through the [documentation](docs/README.md) for directions on opening
 
 1. Copy `.env.dist` to `.env`
 2. Command to start docker:
-    ```
+
+    ```bash
     docker-compose up -d
     ```
-3. Open URL http://drupal.docker.localhost:8000/ and use the following values
+
+3. Command to install dependencies via composer:
+
+    ```bash
+    docker-compose exec php composer install
+    ```
+
+4. Open URL [http://drupal.docker.localhost:8000/](http://drupal.docker.localhost:8000/) and use the following values
   to install Drupal 8
+
     ```env
     Database Name = drupal
     Database User = drupal
     Password      = drupal
     Database Host = mariadb
     ```
-4. Command to clear Drupal 8 cache:
-    ```
+
+5. Command to clear Drupal 8 cache:
+
+    ```bash
     docker-compose exec php drush cr
     ```
-5. Backup database:
-    ```
+
+6. Backup database:
+
+    ```bash
     docker-compose exec mariadb sh -c 'exec mysqldump -uroot -p"password" drupal' > mariadb-init/drupal.sql
     ```
+
     when staring docker using `docker-compose` it will automatically restore
      the database from `mariadb-init/drupal.sql`.
-4. Command to stop docker:
-    ```
+7. Command to stop docker:
+
+    ```bash
     docker-compose stop
     ```
 
 ## Timeline for Development
+
 > Preparation of detail [timeline](docs/ROADMAP.md) is in progress...
 
 ## Contributing
+
 Please adhere to the [contributing guidelines](docs/CONTRIBUTING.md).
 
 ## Credits
