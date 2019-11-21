@@ -271,3 +271,8 @@
 .top-banner img{
   width: 100%;
 }
+
+
+.main-body{
+  background-image: url(../images/texture.png);
+}
