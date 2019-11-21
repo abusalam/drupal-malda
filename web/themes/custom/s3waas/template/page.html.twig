@@ -1,154 +1,144 @@
-
-    <a href="#" title="sroll" class="scrollToTop" style="display: inline;"><i class="fa fa-angle-up"></i></a>
-    <header>
-        <section class="container-fluid" style="background: black;">
-            {{ page.top_menu }}
-            </section>
-        <section class="container-fluid">
-
-            <div class="row pb-2">
-                <div class="col-sm-8">
-                  <div class="logo">
-                    {{ page.branding_1 }}
-                  </div>
-                </div>
-                <div class="col-sm-4 text-right brandrightlogo">
-                   {{ page.branding_2 }}
-                </div>
-            </div>
-
-        </section>
-
-
-        <div class="header" id="header">
-            {{ page.main_menu }}
+<div class="main-body"> 
+  <a href="#" title="sroll" class="scrollToTop" style="display: inline;"><i class="fa fa-angle-up"></i></a>
+  <header>
+    <section id="topBar1" class="wrapper">
+        {{ page.top_menu }}
+    </section>
+    <section class="wrapper header-wrapper">
+      <div class="container header-container">
+        <div class="logo">
+          {{ page.branding_1 }}
         </div>
-    </header>
+      </div>
+      
+      <div class="header-right clearfix">
+        <div class="right-content clearfix">
+          <div class="float-element">
+            {{ page.branding_2 }}
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="header" id="header">
+      {{ page.main_menu }}
+    </div>
+  </header>   
+  
+  <div class="container-fluid">
+    <div id="SkipContent"></div> 
+
+    <div class="row">
+      <div class="col-sm-12 p-0">
+        <div class="home-slider full-cntrl-left-caption-bottom nav-white flexslider main-banner-three">
+          {% if page.slider %}
+            {{ page.slider }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="row p-5 text-center">
+      <div class="col-sm-3">
+        {% if page.highlight_1 %}
+          {{ page.highlight_1 }}
+        {% endif %}
+      </div>
+      <div class="col-sm-3">
+        {% if page.highlight_2 %}
+          {{ page.highlight_2 }}
+        {% endif %}
+      </div>
+      <div class="col-sm-3">
+        {% if page.highlight_3 %}
+          {{ page.highlight_3 }}
+        {% endif %}
+      </div>
+      <div class="col-sm-3">
+        {% if page.highlight_4 %}
+          {{ page.highlight_4 }}
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="row p-5">
+      <div class="col-sm-6 mb-5  mb-md-0">
+        {% if page.about_district %}
+          {{ page.about_district }}
+        {% endif %}
+        {% if page.content %}
+          {{ page.content }}
+        {% endif %}
+      </div>
+      <div class="col-sm-6">
+        {% if page.district_update %} 
+          {{ page.district_update }} 
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="row home-service">
+      <div class="col-sm-10 offset-sm-1 text-center">
+        {% if page.services %} 
+          {{ page.services }} 
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="row p-5">
+      <div class="col-sm-5"> 
+        {% if page.public_utility %}
+          {{ page.public_utility }}
+        {% endif %}
+      </div>
+      
+      <div class="col-sm-3 quick-links">
+        {% if page.quick_links %}
+          {{ page.quick_links }}
+        {% endif %}
+      </div>
+      
+      <div class="col-sm-4">
+        {% if page.helpline_number %}
+          {{ page.helpline_number }}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <img src="{{directory}}/images/footer_top_bg.gif" alt="Biswa Bangla" width="100%">
+  
+  <div class="container-fluid footer-slider">
+    <div class="row"">
+      <div class="col-sm-12 p-0">
+        {% if page.footer_slider %} 
+          {{ page.footer_slider }}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  
+  <footer id="footer2" class="footer-home pt-2" style="background:black">
     <div class="container-fluid">
-        <div id="SkipContent"></div>
-<div class="row">
-  <div class="col-sm-12 p-0">
-
-      {% if page.slider %}
-                    {{ page.slider }}
-                  {% endif %}
-
-  </div>
+      <div class="row text-white p-3">
+        <div class="col-sm-4 text-sm-left text-center">
+          {{ page.version }}
+        </div>
+        <div class="col-sm-4 text-sm-center text-center">
+          {{ page.last_updated }}
+        </div>
+        <div class="col-sm-4 text-sm-right text-center">
+          {{ page.visitor_count }}
+        </div>
+      </div>
+      
+      {{ page.footer_menu }}
+      
+      <div class="row text-white p-3">
+        <div class="col-sm-8 offset-2">
+          {{ page.footer_description }}
+        </div>
+      </div>
+    </div> 
+  </footer>
 </div>
-        <div class="row p-5 text-center">
-            <div class="col-sm-3">
-
-                {% if page.highlight_1 %}
-                {{ page.highlight_1 }}
-              {% endif %}
-            </div>
-            <div class="col-sm-3">
-
-                {% if page.highlight_2 %}
-                {{ page.highlight_2 }}
-              {% endif %}
-            </div>
-            <div class="col-sm-3">
-
-               {% if page.highlight_3 %}
-                {{ page.highlight_3 }}
-              {% endif %}
-            </div>
-            <div class="col-sm-3">
-
-                {% if page.highlight_4 %}
-                {{ page.highlight_4 }}
-              {% endif %}
-            </div>
-        </div>
-
-        <div class="row p-5">
-            <div class="col-sm-6 mb-5  mb-md-0">
-               {% if page.about_district %}
-                {{ page.about_district }}
-              {% endif %}
-              {% if page.content %}
-                {{ page.content }}
-              {% endif %}
-
-            </div>
-            <div class="col-sm-6">
-                {% if page.district_update %} {{ page.district_update }} {% endif %}
-            </div>
-        </div>
-
-        <div class="row home-service">
-            <div class="col-sm-10 offset-sm-1 text-center">
-               {% if page.services %} {{ page.services }} {% endif %}
-
-            </div>
-        </div>
-
-        <div class="row p-5">
-            <div class="col-sm-5">
-                {% if page.public_utility %}
-                    {{ page.public_utility }}
-                  {% endif %}
-            </div>
-            <div class="col-sm-3 quick-links">
-                 {% if page.quick_links %}
-                        {{ page.quick_links }}
-                      {% endif %}
-            </div>
-            <div class="col-sm-4">
-                {% if page.helpline_number %}
-                      {{ page.helpline_number }}
-                    {% endif %}
-            </div>
-        </div>
-
-
-    </div>
-    <img src="images/footer_top_bg.gif" alt="Biswa Bangla" width="100%">
-    <div class="container-fluid footer-slider">
-      <!-- Place somewhere in the <body> of your page -->
-
-<div class="row"">
-  <div class="col-sm-12 p-0">
-      {% if page.footer_slider %}
-                      {{ page.footer_slider }}
-                    {% endif %}
-  </div>
-</div>
-
-
-    </div>
-    <footer id="footer2" class="footer-home pt-2" style="background:black">
-        <div class="container-fluid">
-            <div class="row text-white p-3">
-                <div class="col-sm-4 text-sm-left text-center">
-                    {{ page.version }}
-                </div>
-                <div class="col-sm-4 text-sm-center text-center">
-                    {{ page.last_updated }}
-                </div>
-                <div class="col-sm-4 text-sm-right text-center">
-                    {{ page.visitor_count }}
-                </div>
-            </div>
-
-
-            {{ page.footer_menu }}
-
-
-
-            <div class="row text-white p-3">
-
-                <div class="col-sm-8 offset-2">
-                   {{ page.footer_description }}
-                </div>
-            </div>
-
-
-
-
-        </div>
-        </div>
-    </footer>
 
 

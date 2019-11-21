@@ -6,21 +6,25 @@ global-css:
       css/bootstrap.min.css: {}
       css/sliderhelper.css: {}
       css/menumaker.css: {}
+      css/base.css: {}
+      css/extra.css: {}
       css/flexslider.min.css: {}
       css/custom-flexslider.css: {}
       css/footer-logo-carousel.css: {}
       css/design.css: {}
+      //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
 
 
 global-js:
   js:
     theme:
+    js/jquery-3.4.1.min.js: {}
     js/menumaker.js: {}
     js/bootstrap.min.js: {}
     js/themescript.js: {}
     js/jquery.flexslider.js: {}
     js/jquery.flexslider-min.js: {}
-    //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
+  
 
   dependencies:
    - core/jquery
