@@ -120,9 +120,8 @@
                     <div class="header-right clearfix">
                         <div class="right-content clearfix">
                             <div class="float-element">
-                                <a aria-label="Digital India - External site that opens in a new window" href="http://digitalindia.gov.in/" target= "_blank" title="Digital India">
-                                     {{ page.branding_2 }}
-                                </a>
+                                   {{ page.branding_2 }}
+
                             </div>
                         </div>
                     </div>
@@ -150,28 +149,14 @@
       </div>
     </div>
 
+{% if page.highlight %}
     <div class="row p-5 text-center">
-      <div class="col-sm-3">
-        {% if page.highlight_1 %}
-          {{ page.highlight_1 }}
-        {% endif %}
-      </div>
-      <div class="col-sm-3">
-        {% if page.highlight_2 %}
-          {{ page.highlight_2 }}
-        {% endif %}
-      </div>
-      <div class="col-sm-3">
-        {% if page.highlight_3 %}
-          {{ page.highlight_3 }}
-        {% endif %}
-      </div>
-      <div class="col-sm-3">
-        {% if page.highlight_4 %}
-          {{ page.highlight_4 }}
-        {% endif %}
-      </div>
+        <div class="col-sm-12">
+            {{ page.highlight}}
+
+        </div>
     </div>
+{% endif %}
 
     <div class="row p-5">
       <div class="col-sm-6 mb-5  mb-md-0">

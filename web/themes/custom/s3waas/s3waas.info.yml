@@ -15,6 +15,7 @@ regions:
   thumbnail: Thumbnail
   breadcrumb: Breadcrumb
   content: Content
+  highlight: Highlight
   highlight_1: Highlight 1
   highlight_2: Highlight 2
   highlight_3: Highlight 3
