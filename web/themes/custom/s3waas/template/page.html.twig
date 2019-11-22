@@ -1,6 +1,6 @@
-<div class="main-body"> 
+<div class="main-body">
   <a href="#" title="sroll" class="scrollToTop" style="display: inline;"><i class="fa fa-angle-up"></i></a>
-{# 
+{#
 /** <header>
     <section id="topBar1" class="wrapper">
         {{ page.top_menu }}
@@ -11,7 +11,7 @@
           {{ page.branding_1 }}
         </div>
       </div>
-      
+
       <div class="header-right clearfix">
         <div class="right-content clearfix">
           <div class="float-element">
@@ -25,7 +25,7 @@
     </div>
   </header>
   **/
-#}   
+#}
   <header>
               <section id="topBar1" class="wrapper">
                 <div class="container">
@@ -132,50 +132,13 @@
 
                 <div class="header" id="header">
                     <div id="cssmenu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li>
-                                <a href="#">ABOUT DISTRICT</a>
-                                <ul>
-                                    <li><a href="#">HISTORY</a></li>
-                                    <li>
-                                        <a href="#">ADMINISTRATIVE SETUP</a>
-                                        <ul>
-                                            <li><a href="#">COLLECTORATE</a></li>
-                                            <li><a href="#">Extensions</a></li>
-                                            <li><a href="#">VILLAGE AND PANCHAYATS</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Another Widget</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">ABOUT DISTRICT</a>
-                                <ul>
-                                    <li><a href="#">HISTRORY</a></li>
-                                    <li><a href="#">MAP OF DISTRICT</a></li>
-                                    <li><a href="#">ADMINISTRATIVE SETUP</a>
-                                        <ul>
-                                            <li><a href="#">COLLECTORATE</a></li>
-                                            <li><a href="#">VILLAGE AND PANCHAYATS</a></li>
-
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">DIRECTORY</a></li>
-                            <li><a href="#">DEPARTMENTS</a></li>
-                            <li><a href="#">TOURISM</a></li>
-                            <li><a href="#">DOCUMENTS</a></li>
-                            <li><a href="#">FORMS</a></li>
-                            <li><a href="#">NOTICES</a></li>
-                            <li><a href="#">CITIZEN SERVICES</a></li>
-                        </ul>
+                        {{page.main_menu}}
                     </div>
                 </div>
+
             </header>
   <div class="container-fluid">
-    <div id="SkipContent"></div> 
+    <div id="SkipContent"></div>
 
     <div class="row">
       <div class="col-sm-12 p-0">
@@ -186,7 +149,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="row p-5 text-center">
       <div class="col-sm-3">
         {% if page.highlight_1 %}
@@ -209,7 +172,7 @@
         {% endif %}
       </div>
     </div>
-    
+
     <div class="row p-5">
       <div class="col-sm-6 mb-5  mb-md-0">
         {% if page.about_district %}
@@ -220,33 +183,33 @@
         {% endif %}
       </div>
       <div class="col-sm-6">
-        {% if page.district_update %} 
-          {{ page.district_update }} 
+        {% if page.district_update %}
+          {{ page.district_update }}
         {% endif %}
       </div>
     </div>
-    
+
     <div class="row home-service">
       <div class="col-sm-10 offset-sm-1 text-center">
-        {% if page.services %} 
-          {{ page.services }} 
+        {% if page.services %}
+          {{ page.services }}
         {% endif %}
       </div>
     </div>
-    
+
     <div class="row p-5">
-      <div class="col-sm-5"> 
+      <div class="col-sm-5">
         {% if page.public_utility %}
           {{ page.public_utility }}
         {% endif %}
       </div>
-      
+
       <div class="col-sm-3 quick-links">
         {% if page.quick_links %}
           {{ page.quick_links }}
         {% endif %}
       </div>
-      
+
       <div class="col-sm-4">
         {% if page.helpline_number %}
           {{ page.helpline_number }}
@@ -255,17 +218,17 @@
     </div>
   </div>
   <img src="{{directory}}/images/footer_top_bg.gif" alt="Biswa Bangla" width="100%">
-  
+
   <div class="container-fluid footer-slider">
     <div class="row"">
       <div class="col-sm-12 p-0">
-        {% if page.footer_slider %} 
+        {% if page.footer_slider %}
           {{ page.footer_slider }}
         {% endif %}
       </div>
     </div>
   </div>
-  
+
   <footer id="footer2" class="footer-home pt-2" style="background:black">
     <div class="container-fluid">
       <div class="row text-white p-3">
@@ -279,15 +242,15 @@
           {{ page.visitor_count }}
         </div>
       </div>
-      
+
       {{ page.footer_menu }}
-      
+
       <div class="row text-white p-3">
         <div class="col-sm-8 offset-2">
           {{ page.footer_description }}
         </div>
       </div>
-    </div> 
+    </div>
   </footer>
 </div>
 
