@@ -278,3 +278,5 @@
 .full-cntrl-bottom-caption-blank .flex-direction-nav a { bottom: 10px; }
 .full-cntrl-bottom-caption-blank .flex-pauseplay a { bottom: 18px; }
 }
+.footer-slider .flex-direction-nav .flex-prev, .footer-slider.flexslider:hover .flex-direction-nav .flex-prev { left: 1%; top:50% }
+.footer-slider .flex-direction-nav .flex-next, .footer-slider.flexslider:hover .flex-direction-nav .flex-next { left: 95%; top:50% }
