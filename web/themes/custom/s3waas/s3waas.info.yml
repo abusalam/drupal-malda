@@ -4,7 +4,6 @@ description: Malda Website Theme for Malda District Portal
 core: 8.x
 version: '1.0'
 base theme: classy
-screenshot: S3WaaS.png
 
 regions:
   top_menu: Top Menu
