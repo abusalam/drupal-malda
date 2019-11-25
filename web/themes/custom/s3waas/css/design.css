@@ -276,3 +276,9 @@
 .main-body{
   background-image: url(../images/texture.png);
 }
+
+
+.footer-bg-image img{
+  width:100%;
+  height:auto;
+}

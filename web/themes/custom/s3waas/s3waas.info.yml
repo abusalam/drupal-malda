@@ -29,6 +29,7 @@ regions:
   public_utility: Public Utility
   quick_links: Quick Links
   helpline_number: Helpline Number
+  footer_image: Footer Image
   footer_slider: Footer Slider
   version: Version
   last_updated: Last Updated
