@@ -53,7 +53,7 @@
 }
 
 .color-success {
-  color: #2AC171;
+  color: #2ac171;
 }
 
 .color-gov,
@@ -105,7 +105,7 @@
 }
 
 .bg-info {
-  background-color: #3F42F6;
+  background-color: #3f42f6;
 }
 
 .bg-success {
@@ -9306,7 +9306,7 @@ h6 {
   -moz-border-radius: 15px;
   border-radius: 15px;
   text-shadow: 0 1px 2px #222;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   line-height: 24px;
   white-space: nowrap;
@@ -10164,7 +10164,7 @@ body,
 }
 
 .main-menu ul li.active a i {
-  color: #FFF;
+  color: #fff;
 }
 
 .main-menu>ul>li.active>a {
@@ -10273,7 +10273,7 @@ body,
 }
 
 .megamenu-row h5 {
-  color: #FDD371;
+  color: #fdd371;
   font-weight: 400;
   font-size: 17px;
   padding: 0px 15px 15px 8px;
@@ -11404,7 +11404,7 @@ body,
     display: block;
   }
   #tab2 .resp-vtabs .resp-tab-content {
-    border: 1px solid #C1C1C1;
+    border: 1px solid #c1c1c1;
   }
   #tab2 .resp-vtabs .resp-tab-content:last-child {
     border-bottom: 1px solid #c1c1c1 !important;
@@ -11529,7 +11529,7 @@ body,
     display: block;
   }
   #tab6 .resp-vtabs .resp-tab-content {
-    border: 1px solid #C1C1C1;
+    border: 1px solid #c1c1c1;
   }
   #tab6 .resp-vtabs .resp-tab-content:last-child {
     border-bottom: 1px solid #c1c1c1 !important;
@@ -13252,14 +13252,6 @@ table.bt tbody td .bt-content {
   display: flex;
   align-items: center;
   background: #d43c3c;
-  /*&::after{
-  	transform: skewX(-20deg);
-  	position: absolute;
-  	content: "";
-  	background: $themeColor3;
-  	height: 100%;
-  	width: 100%;
-  }*/
 }
 
 .banner-wrapper .container .slide-caption {
