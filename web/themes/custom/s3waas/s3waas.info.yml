@@ -2,7 +2,6 @@ name: S3WaaS
 type: theme
 description: Malda Website Theme for Malda District Portal
 core: 8.x
-version: '1.0'
 base theme: classy
 
 regions:
