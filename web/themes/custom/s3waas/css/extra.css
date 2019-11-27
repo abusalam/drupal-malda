@@ -1690,8 +1690,8 @@ table.bt tbody tr td {
 }
 
 .video-playbtn:hover i {
-  background: #E02F2F;
-  border-color: #E02F2F;
+  background: #e02f2f;
+  border-color: #e02f2f;
 }
 
 .cmpnt-vdo-thumb li {
@@ -3729,14 +3729,6 @@ a.menuToggle:hover {
   color: #000 !important;
 }
 
-
-/*Theme 1 start*/
-
-.mva7-thc-activetheme-district-theme,
-.home-1 {
-  /*#footer { padding-top: 10px;}*/
-}
-
 .mva7-thc-activetheme-district-theme .touristContainer .tourmainContent .photoTxtContainer .txtHeading,
 .home-1 .touristContainer .tourmainContent .photoTxtContainer .txtHeading {
   margin: 10px 0;
@@ -4757,11 +4749,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .mva7-thc-activetheme-district-theme,
-  .home-1 {
-    /*#topBar #accessibility ul li:first-child a{ border-left:none;}*/
-    /*#topBar #accessibility ul li { margin: 0 2px 0 -4px;}*/
-  }
   .mva7-thc-activetheme-district-theme #topBar #accessibility ul li:last-child a,
   .home-1 #topBar #accessibility ul li:last-child a {
     border-right: none;
@@ -4865,17 +4852,6 @@ a.menuToggle:hover {
   .mva7-thc-activetheme-district-theme .logo a span,
   .home-1 .logo a span {
     padding-top: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .mva7-thc-activetheme-district-theme,
-  .home-1 {
-    /*#topBar #accessibility ul li .textSizing, #topBar1 #accessibility ul li .textSizing, #topBar #accessibility ul li .textSizing ul li a, #topBar1 #accessibility ul li .textSizing ul li a {
-        padding: 4px !important;
-      }
-      #topBar #accessibility ul li .textSizing li{ margin: 0 3px 0 0;}
-      #topBar #accessibility ul li .textSizing li:first-child{ margin-left: 3px;}*/
   }
 }
 
@@ -7045,7 +7021,7 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-3 #tab6 .resp-tabs-list li,
 .home-3 #tab6 .resp-tabs-list li {
   border-right: 1px solid #e1e1e1 !important;
-  background-color: #F5F5F5 !important;
+  background-color: #f5f5f5 !important;
 }
 
 .mva7-thc-activetheme-district-theme-3 #tab6 li.resp-tab-active,
@@ -7560,17 +7536,6 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-3.contrast .text-highlight,
 .contrast .home-3 .text-highlight {
   color: #fff;
-}
-
-
-/*Theme 3 end*/
-
-
-/*Theme 4 start*/
-
-.mva7-thc-activetheme-district-theme-4,
-.home-4 {
-  /*-----------------*/
 }
 
 .mva7-thc-activetheme-district-theme-4 body,
@@ -8749,19 +8714,6 @@ a.menuToggle:hover {
     background: #3b3b3b !important;
     border: none;
   }
-}
-
-
-/*Theme 4 end*/
-
-
-/*Theme 5 start*/
-
-.mva7-thc-activetheme-district-theme-5,
-.home-5 {
-  /*-----------------*/
-  /*.vc_row-fluid { width: 100% !important; max-width: 100% !important;}*/
-  /*.nav li.active>a { border-top: none;}*/
 }
 
 .mva7-thc-activetheme-district-theme-5 body,
@@ -10237,7 +10189,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-6 .current-menu-ancestor>a,
 .home-6 .current-menu-ancestor>a {
-  background: #2F7361;
+  background: #2f7361;
   color: #fff;
 }
 
@@ -10273,7 +10225,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-6 .nav ul li a:hover,
 .home-6 .nav ul li a:hover {
-  background: #2F7361;
+  background: #2f7361;
 }
 
 .mva7-thc-activetheme-district-theme-6 .photodetailsContainer .photomainContent.public-ulti-cntr,
@@ -10825,19 +10777,6 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-6.contrast .text-highlight,
 .contrast .home-6 .text-highlight {
   color: #fff;
-}
-
-
-/*Theme 6 end*/
-
-
-/*Theme 7 start*/
-
-.mva7-thc-activetheme-district-theme-7,
-.home-7 {
-  /*.hm-slider-seven.full-cntrl-left-caption-right .container .slide-caption p.heading3 { font-size: 1.2em;}*/
-  /*search category start*/
-  /*search category end*/
 }
 
 .mva7-thc-activetheme-district-theme-7 .singlebox,
@@ -11617,7 +11556,7 @@ a.menuToggle:hover {
 .home-7 .helpline-seven.gen-list.no-list ul li a b,
 .home-7 .helpline-seven.gen-list.no-list ul li .list-anchor b {
   font-size: 2em;
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-7 .gen-list-squre-icons ul.equal-height li,
@@ -11748,11 +11687,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-7,
-  .home-7 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-7 .hm-slider-seven.full-cntrl-left-caption-right .container .slide-caption h2,
   .home-7 .hm-slider-seven.full-cntrl-left-caption-right .container .slide-caption h2 {
     text-align: center;
@@ -12986,10 +12920,6 @@ a.menuToggle:hover {
 }
 
 @media (max-width: 768px) {
-  .mva7-thc-activetheme-district-theme-8,
-  .home-8 {
-    /*#topBar1 #accessibility ul li .textSizing li { margin-left: 2px;}*/
-  }
   .mva7-thc-activetheme-district-theme-8 .responsive-show,
   .home-8 .responsive-show {
     display: inherit;
@@ -13605,7 +13535,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-9 .main-slider-nine.full-cntrl-bottom-caption-bottom .container .slide-caption h2,
 .home-9 .main-slider-nine.full-cntrl-bottom-caption-bottom .container .slide-caption h2 {
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .main-slider-nine.full-cntrl-bottom-caption-bottom .container .slide-caption p,
@@ -13636,7 +13566,7 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-9 .tab-position-top-nine.vc_tta.vc_general .vc_tta-tab.vc_active>a,
 .home-9 .tab-position-top-nine.vc_tta.vc_general .vc_tta-tab.vc_active>a {
   border-bottom: 3px solid #000;
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .gen-list.district-glance-nine h2,
@@ -13659,12 +13589,12 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-9 .gen-list.district-glance-nine ul li:hover .list-anchor div.list-text,
 .home-9 .gen-list.district-glance-nine ul li:hover a div.list-text,
 .home-9 .gen-list.district-glance-nine ul li:hover .list-anchor div.list-text {
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .gen-list.small-icon-list.district-glance-nine li:hover .list-icon,
 .home-9 .gen-list.small-icon-list.district-glance-nine li:hover .list-icon {
-  background: #3C7D14 !important;
+  background: #3c7d14 !important;
   color: #fff !important;
 }
 
@@ -13720,12 +13650,12 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-9 .services-nine .gen-tab .resp-tabs-list .resp-tab-item.resp-tab-active,
 .home-9 .services-nine .gen-tab .resp-tabs-list .resp-tab-item.resp-tab-active {
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .services-nine .gen-tab .resp-tabs-list .resp-tab-item.resp-tab-active span,
 .home-9 .services-nine .gen-tab .resp-tabs-list .resp-tab-item.resp-tab-active span {
-  background: #3C7D14;
+  background: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .public-utility-nine,
@@ -13806,7 +13736,7 @@ a.menuToggle:hover {
 .home-9 .helpline-nine.gen-list.no-list ul li a b,
 .home-9 .helpline-nine.gen-list.no-list ul li .list-anchor b {
   font-size: 2em;
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .flex-direction-nav a,
@@ -13840,7 +13770,7 @@ a.menuToggle:hover {
   width: 30%;
   float: left;
   position: relative;
-  background: #3C7D14;
+  background: #3c7d14;
   padding: 25px;
 }
 
@@ -13881,7 +13811,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-9 .button.is-info,
 .home-9 .button.is-info {
-  background-color: #3C7D14;
+  background-color: #3c7d14;
   border-color: transparent;
   color: #fff;
 }
@@ -13933,7 +13863,7 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-9 .nav li.active>a,
 .home-9 .current-menu-ancestor>a,
 .home-9 .nav li.active>a {
-  background: #3C7D14;
+  background: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .nav li>a,
@@ -13949,7 +13879,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-9 .serviceHeadingCont:after,
 .home-9 .serviceHeadingCont:after {
-  border-left: 10px solid #3C7D14;
+  border-left: 10px solid #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .events-wrapper .eventItem.event-sidebar,
@@ -13975,7 +13905,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-9 caption,
 .home-9 caption {
-  background: #3C7D14;
+  background: #3c7d14;
   color: #fff;
 }
 
@@ -14261,7 +14191,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-9 .text-highlight,
 .home-9 .text-highlight {
-  color: #3C7D14;
+  color: #3c7d14;
 }
 
 .mva7-thc-activetheme-district-theme-9 .ofMenu .current-menu-ancestor>a,
@@ -14384,11 +14314,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-9,
-  .home-9 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-9 .office-bearers-nine .khowMinisterBox .MinisterProfile ul,
   .home-9 .office-bearers-nine .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -15560,11 +15485,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-10,
-  .home-10 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-10 .slide-caption p,
   .home-10 .slide-caption p {
     text-align: left !important;
@@ -15962,18 +15882,6 @@ a.menuToggle:hover {
   .contrast .home-10 .gen-tab .resp-tabs-container .resp-tab-content {
     background: #000;
   }
-}
-
-
-/*Theme 10 end*/
-
-
-/*Theme 11 start*/
-
-.mva7-thc-activetheme-district-theme-11,
-.home-11 {
-  /*search category start*/
-  /*search category end*/
 }
 
 .mva7-thc-activetheme-district-theme-11 .banner-eleven.full-cntrl-right-caption-left .container,
@@ -16567,11 +16475,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-11,
-  .home-11 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-11 .office-bearers-eleven .khowMinisterBox .MinisterProfile ul,
   .home-11 .office-bearers-eleven .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -16958,18 +16861,6 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-11.contrast .text-highlight,
 .contrast .home-11 .text-highlight {
   color: #fff;
-}
-
-
-/*Theme 11 end*/
-
-
-/*Theme 12 start*/
-
-.mva7-thc-activetheme-district-theme-12,
-.home-12 {
-  /*search category start*/
-  /*search category end*/
 }
 
 .mva7-thc-activetheme-district-theme-12 .banner-twelve.full-cntrl-right-caption-bottom .container .slide-caption,
@@ -17590,11 +17481,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-12,
-  .home-12 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-12 .meet-minister-twelve .khowMinisterBox .MinisterProfile ul,
   .home-12 .meet-minister-twelve .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -17947,18 +17833,6 @@ a.menuToggle:hover {
   .contrast .home-12 .list-view .photogallery-main .col-3 .gen-card-content-main .gen-card-content .shareGalleryContainer {
     text-align: left;
   }
-}
-
-
-/*Theme 12 end*/
-
-
-/*Theme 13 start*/
-
-.mva7-thc-activetheme-district-theme-13,
-.home-13 {
-  /*search category start*/
-  /*search category end*/
 }
 
 .mva7-thc-activetheme-district-theme-13 .nav>li,
@@ -18678,11 +18552,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-13,
-  .home-13 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-13 .office-bearers-thirteen .khowMinisterBox .MinisterProfile ul,
   .home-13 .office-bearers-thirteen .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -19029,18 +18898,6 @@ a.menuToggle:hover {
   }
 }
 
-
-/*Theme 13 end*/
-
-
-/*Theme 14 start*/
-
-.mva7-thc-activetheme-district-theme-14,
-.home-14 {
-  /*search category start*/
-  /*search category end*/
-}
-
 .mva7-thc-activetheme-district-theme-14 h2,
 .mva7-thc-activetheme-district-theme-14 h3,
 .mva7-thc-activetheme-district-theme-14 h4,
@@ -19255,7 +19112,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-14 .photo-gallery-fourteen .carasoleflex-wrap .galleryMeta a,
 .home-14 .photo-gallery-fourteen .carasoleflex-wrap .galleryMeta a {
-  background: #0078AF;
+  background: #0078af;
   color: #fff !important;
   padding: 5px 12px;
 }
@@ -19301,7 +19158,7 @@ a.menuToggle:hover {
   width: 30%;
   float: left;
   position: relative;
-  background: #0078AF;
+  background: #0078af;
   padding: 25px;
 }
 
@@ -19320,7 +19177,7 @@ a.menuToggle:hover {
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 10px solid #0078AF;
+  border-left: 10px solid #0078af;
   border-bottom: 10px solid transparent;
 }
 
@@ -19342,7 +19199,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-14 .button.is-info,
 .home-14 .button.is-info {
-  background-color: #0078AF;
+  background-color: #0078af;
   border-color: transparent;
   color: #fff;
   font-size: 1em;
@@ -19430,7 +19287,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-14 table thead tr th,
 .home-14 table thead tr th {
-  background: #0078AF;
+  background: #0078af;
   color: #fff;
 }
 
@@ -19447,7 +19304,7 @@ a.menuToggle:hover {
 .home-14 .nav li.active>a,
 .home-14 .nav li:hover>a {
   color: #fff;
-  background: #0078AF;
+  background: #0078af;
 }
 
 .mva7-thc-activetheme-district-theme-14 .slide-caption p,
@@ -19521,7 +19378,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-14 .wpcf7-form input[type=submit],
 .home-14 .wpcf7-form input[type=submit] {
-  background: #0078AF;
+  background: #0078af;
   color: #fff;
 }
 
@@ -19598,7 +19455,7 @@ a.menuToggle:hover {
 
 .mva7-thc-activetheme-district-theme-14 .text-highlight,
 .home-14 .text-highlight {
-  color: #0078AF;
+  color: #0078af;
 }
 
 .mva7-thc-activetheme-district-theme-14 #topBar1 #accessibility ul li .socialIcons.select-lang a:hover,
@@ -19609,7 +19466,7 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-14 #overflowMenu .ofMenu ul li.current-menu-ancestor>a,
 .home-14 #overflowMenu .ofMenu ul li.current-menu-ancestor>a {
   background: #70e0f8;
-  color: #0078AF;
+  color: #0078af;
 }
 
 .mva7-thc-activetheme-district-theme-14 .list-view .photoglrydetailsMainCont .phtodetailsImage img,
@@ -19651,12 +19508,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-14,
-  .home-14 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-    /*#topBar1 #accessibility ul li .textSizing ul li a { padding: 4px 2px !important;}*/
-  }
   .mva7-thc-activetheme-district-theme-14 .slide-caption p,
   .home-14 .slide-caption p {
     text-align: left !important;
@@ -19990,18 +19841,6 @@ a.menuToggle:hover {
 .mva7-thc-activetheme-district-theme-14.contrast #overflowMenu .ofMenu ul li a,
 .contrast .home-14 #overflowMenu .ofMenu ul li a {
   border-bottom: 0;
-}
-
-
-/*Theme 14 end*/
-
-
-/*Theme 15 start*/
-
-.mva7-thc-activetheme-district-theme-15,
-.home-15 {
-  /*search category start*/
-  /*search category end*/
 }
 
 .mva7-thc-activetheme-district-theme-15 .main-banner-fifteen.full-cntrl-right-caption-left .container,
@@ -20562,11 +20401,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-15,
-  .home-15 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-15 .slide-caption p,
   .home-15 .slide-caption p {
     text-align: left !important;
