@@ -3589,7 +3589,7 @@ textarea.input-lg {
     vertical-align: middle;
   }
   .form-inline .form-control-static {
-    display: inline-block
+    display: inline-block;
   }
   .form-inline .input-group {
     display: inline-table;
