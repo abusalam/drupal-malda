@@ -39,9 +39,3 @@ regions:
 libraries:
   - s3waas/global-css
   - s3waas/global-js
-
-
-
-
-
-
