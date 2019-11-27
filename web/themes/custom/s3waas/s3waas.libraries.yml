@@ -14,7 +14,6 @@ global-css:
       css/design.css: {}
       //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
 
-
 global-js:
   js:
     theme:
@@ -24,13 +23,8 @@ global-js:
     js/themescript.js: {}
     js/jquery.flexslider.js: {}
     js/jquery.flexslider-min.js: {}
-  
 
   dependencies:
    - core/jquery
    - core/drupal
    - core/boostrap
-
-
-
-
