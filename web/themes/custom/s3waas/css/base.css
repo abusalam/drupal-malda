@@ -11518,7 +11518,7 @@ body,
   border: none;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 12px solid #9B9797;
+  border-bottom: 12px solid #9b9797;
 }
 
 @media (max-width: 640px) {
@@ -19950,7 +19950,7 @@ table.bt tbody td .bt-content {
 }
 
 .carasoleflex-wrap .button:hover {
-  background: #D77024;
+  background: #d77024;
   border: 1px solid #ef8d44;
 }
 
