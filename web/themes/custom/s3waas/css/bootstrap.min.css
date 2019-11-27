@@ -239,8 +239,8 @@ th {
 
 @media print {
   *,
-   :after,
-   :before {
+  :after,
+  :before {
     color: #000!important;
     text-shadow: none!important;
     background: 0 0!important;
@@ -252,14 +252,14 @@ th {
     text-decoration: underline;
   }
   a[href]:after {
-    content: " (" attr(href) ")"
+    content: " (" attr(href) ")";
   }
   abbr[title]:after {
-    content: " (" attr(title) ")"
+    content: " (" attr(title) ")";
   }
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
-    content: ""
+    content: "";
   }
   blockquote,
   pre {
@@ -267,11 +267,11 @@ th {
     page-break-inside: avoid;
   }
   thead {
-    display: table-header-group
+    display: table-header-group;
   }
   img,
   tr {
-    page-break-inside: avoid
+    page-break-inside: avoid;
   }
   img {
     max-width: 100%!important;
@@ -280,21 +280,21 @@ th {
   h3,
   p {
     orphans: 3;
-    widows: 3
+    widows: 3;
   }
   h2,
   h3 {
-    page-break-after: avoid
+    page-break-after: avoid;
   }
   .navbar {
-    display: none
+    display: none;
   }
   .btn>.caret,
   .dropup>.btn>.caret {
     border-top-color: #000!important;
   }
   .label {
-    border: 1px solid #000
+    border: 1px solid #000;
   }
   .table {
     border-collapse: collapse!important;
@@ -2354,7 +2354,7 @@ pre code {
     width: 8.33333333%;
   }
   .col-sm-pull-12 {
-    right: 100%
+    right: 100%;
   }
   .col-sm-pull-11 {
     right: 91.66666667%;
@@ -2372,7 +2372,7 @@ pre code {
     right: 58.33333333%;
   }
   .col-sm-pull-6 {
-    right: 50%
+    right: 50%;
   }
   .col-sm-pull-5 {
     right: 41.66666667%;
@@ -2638,7 +2638,7 @@ pre code {
     margin-left: 8.33333333%;
   }
   .col-md-offset-0 {
-    margin-left: 0
+    margin-left: 0;
   }
 }
 
@@ -3044,7 +3044,7 @@ th {
     border: 1px solid #ddd;
   }
   .table-responsive>.table {
-    margin-bottom: 0
+    margin-bottom: 0;
   }
   .table-responsive>.table>tbody>tr>td,
   .table-responsive>.table>tbody>tr>th,
@@ -5207,10 +5207,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
   }
   .navbar-nav .open .dropdown-menu .dropdown-header,
   .navbar-nav .open .dropdown-menu>li>a {
-    padding: 5px 15px 5px 25px
+    padding: 5px 15px 5px 25px;
   }
   .navbar-nav .open .dropdown-menu>li>a {
-    line-height: 20px
+    line-height: 20px;
   }
   .navbar-nav .open .dropdown-menu>li>a:focus,
   .navbar-nav .open .dropdown-menu>li>a:hover {
@@ -5224,7 +5224,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin: 0;
   }
   .navbar-nav>li {
-    float: left
+    float: left;
   }
   .navbar-nav>li>a {
     padding-top: 15px;
@@ -5256,7 +5256,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     vertical-align: middle;
   }
   .navbar-form .form-control-static {
-    display: inline-block
+    display: inline-block;
   }
   .navbar-form .input-group {
     display: inline-table;
@@ -5291,7 +5291,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-left: 0;
   }
   .navbar-form .has-feedback .form-control-feedback {
-    top: 0
+    top: 0;
   }
 }
 
@@ -6099,32 +6099,29 @@ a.thumbnail:hover {
 
 @-webkit-keyframes progress-bar-stripes {
   from {
-    background-position: 40px 0
+    background-position: 40px 0;
   }
   to {
-    background-position: 0 0
+    background-position: 0 0;
   }
-  ;
 }
 
 @-o-keyframes progress-bar-stripes {
   from {
-    background-position: 40px 0
+    background-position: 40px 0;
   }
   to {
-    background-position: 0 0
+    background-position: 0 0;
   }
-  ;
 }
 
 @keyframes progress-bar-stripes {
   from {
-    background-position: 40px 0
+    background-position: 40px 0;
   }
   to {
-    background-position: 0 0
+    background-position: 0 0;
   }
-  ;
 }
 
 .progress {
@@ -7474,22 +7471,21 @@ button.close {
   .carousel-inner>.item.next {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
-    left: 0
+    left: 0;
   }
   .carousel-inner>.item.active.left,
   .carousel-inner>.item.prev {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
-    left: 0
+    left: 0;
   }
   .carousel-inner>.item.active,
   .carousel-inner>.item.next.left,
   .carousel-inner>.item.prev.right {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    left: 0
+    left: 0;
   }
-  ;
 }
 
 .carousel-inner>.active,
