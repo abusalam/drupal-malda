@@ -26,3 +26,20 @@ function s3waas_preprocess_block(&$variables) {
       break;
   }
 }
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function s3waas_preprocess_page(&$vars) {
+  $current_path = \Drupal::service('path.current')->getPath();
+  $language = $vars['language']->getId();
+
+  if ($language == 'bn') {
+    $vars['switch_path'] = $current_path;
+    $vars['switch_lang'] = t('English');
+  }
+  else {
+    $vars['switch_path'] = '/bn' . $current_path;
+    $vars['switch_lang'] = t('বাংলা');
+  }
+}
