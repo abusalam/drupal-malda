@@ -1,0 +1,45 @@
+quicktabs:
+  version: VERSION
+  css:
+    theme:
+      css/quicktabs.css: {}
+  js:
+    js/quicktabs.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupalSettings
+
+quicktabs.form:
+  version: VERSION
+  js:
+    js/quicktabs_form.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+quicktabs.accordion:
+  version: VERSION
+  js:
+    js/qt_accordion.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.accordion
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+quicktabs.ui:
+  version: VERSION
+  js:
+    js/qt_ui_tabs.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.tabs
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
