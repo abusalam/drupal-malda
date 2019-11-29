@@ -9,5 +9,7 @@
         "twig": "html"
       },
       "twigcs.executablePath": "./vendor/friendsoftwig/twigcs/bin/twigcs",
-      "zenMode.hideLineNumbers": false
+      "zenMode.hideLineNumbers": false,
+      "csscomb.preset": "./.csscomb.json",
+      "csscomb.formatOnSave": true,
 }
