@@ -9,6 +9,8 @@
         "twig": "html"
       },
       "twigcs.executablePath": "./vendor/friendsoftwig/twigcs/bin/twigcs",
+      "twig-language-2.indentLevel": 2,
+      "twig-language-2.indentStyle": "space",
       "zenMode.hideLineNumbers": false,
       "csscomb.preset": "./.csscomb.json",
       "csscomb.formatOnSave": true,

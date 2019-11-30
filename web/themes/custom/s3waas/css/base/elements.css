@@ -14,3 +14,7 @@ body {
   font-size: 87.5%;
   line-height: 1.5;
 }
+
+#main-wrapper {
+  min-height: 400px;
+}
