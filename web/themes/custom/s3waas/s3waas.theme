@@ -37,5 +37,11 @@ function s3waas_preprocess_block(&$variables) {
         $variables['switch_lang'] = t('বাংলা');
       }
       break;
+
+    case 'system_powered_by_block':
+      $variables['theme_version'] = `git rev-parse --short HEAD`;
+      $variables['last_update'] = `git log -1 --format=%cI`;
+      $variables['visitor_count'] = time();
+      break;
   }
 }

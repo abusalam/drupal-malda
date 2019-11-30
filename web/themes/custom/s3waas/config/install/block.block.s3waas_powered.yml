@@ -1,0 +1,5 @@
+id: s3waas_powered
+theme: s3waas
+region: footer
+weight: 10
+plugin: system_powered_by_block
