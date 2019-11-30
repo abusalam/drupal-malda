@@ -1,0 +1,10 @@
+id: s3waas_language_switcher
+theme: s3waas
+region: topbar
+weight: 0
+plugin: 'language_block:language_interface'
+dependencies:
+  module:
+    - config_translation
+  theme:
+    - s3waas

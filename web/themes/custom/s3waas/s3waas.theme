@@ -24,5 +24,18 @@ function s3waas_preprocess_block(&$variables) {
         );
       }
       break;
+
+    case 'language_block':
+      $current_path = \Drupal::service('path.current')->getPath();
+      $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+      if ($langcode == 'bn') {
+        $variables['switch_path'] = $current_path;
+        $variables['switch_lang'] = t('English');
+      }
+      else {
+        $variables['switch_path'] = '/bn' . $current_path;
+        $variables['switch_lang'] = t('বাংলা');
+      }
+      break;
   }
 }
