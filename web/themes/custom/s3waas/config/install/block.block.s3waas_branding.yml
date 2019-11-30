@@ -1,0 +1,5 @@
+id: s3waas_branding
+theme: s3waas
+region: header
+weight: 0
+plugin: system_branding_block

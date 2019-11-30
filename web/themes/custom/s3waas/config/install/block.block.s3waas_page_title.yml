@@ -1,0 +1,5 @@
+id: s3waas_page_title
+theme: s3waas
+region: content
+weight: 0
+plugin: page_title_block

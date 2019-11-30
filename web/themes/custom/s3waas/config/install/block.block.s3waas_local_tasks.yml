@@ -1,0 +1,5 @@
+id: s3waas_local_tasks
+theme: s3waas
+region: content
+weight: 0
+plugin: local_tasks_block

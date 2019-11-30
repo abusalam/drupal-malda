@@ -1,0 +1,5 @@
+id: s3waas_breadcrumbs
+theme: s3waas
+region: breadcrumb
+weight: 0
+plugin: system_breadcrumb_block

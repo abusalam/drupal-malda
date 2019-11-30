@@ -1,0 +1,5 @@
+id: s3waas_main_menu
+theme: s3waas
+region: primary_menu
+weight: 0
+plugin: 'system_menu_block:main'

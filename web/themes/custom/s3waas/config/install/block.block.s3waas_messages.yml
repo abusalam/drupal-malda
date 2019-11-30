@@ -1,0 +1,5 @@
+id: s3waas_messages
+theme: s3waas
+region: highlighted
+weight: 0
+plugin: system_messages_block
