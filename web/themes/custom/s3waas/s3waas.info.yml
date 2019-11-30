@@ -7,6 +7,7 @@ base theme: classy
 
 libraries:
   - s3waas/global-styling
+  - s3waas/bootstrap
 
 regions:
   topbar: 'Top Bar'
