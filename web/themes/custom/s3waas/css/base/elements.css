@@ -22,10 +22,3 @@ h2:empty {
 #main-wrapper {
   min-height: 400px;
 }
-
-.container {
-  padding-right: 0px!important;
-  padding-left: 0px!important;
-  margin-right: auto;
-  margin-left: auto;
-}

@@ -200,3 +200,9 @@ a:active,
 .contrast #overflowMenu {
   background: #000;
 }
+
+span.theme-version,
+span.last-update,
+span.visitor-count {
+  color: #fff!important;
+}

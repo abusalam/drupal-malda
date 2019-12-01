@@ -1527,10 +1527,6 @@ table.bt tbody tr td {
   color: #ce0a0a;
 }
 
-.row [class^="col-"] {
-  margin: 0 1%;
-}
-
 .gen-list ul li.light-grey-bg .list-text,
 .gen-list ul li.light-gray-bg .list-text {
   color: #000 !important;

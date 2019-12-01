@@ -9,39 +9,39 @@
  * - visitor_count: For the main menu in container.
  *
  * @see template_preprocess_block()
- * 
+ *
  */
 #}
-<div class="row text-white p-3">
-	<div class="col-sm-4 text-sm-left text-center">
-		<span class="theme-version">{{ 'Version:'|t }}
-			{{ theme_version }}</span>
-	</div>
-	<div class="col-sm-4 text-sm-center text-center">
-		<span class="last-update">{{ 'Last Updated:'|t }}{{ last_update }}</span>
-	</div>
-	<div class="col-sm-4 text-sm-right text-center">
-		<span class="visitor-count">{{ 'Visitors:'|t }}{{ visitor_count }}</span>
-	</div>
+<div class="row text-white">
+  <div class="col-sm-4 text-left">
+    <span class="theme-version">{{ 'Version:'|t }}
+      {{ theme_version }}</span>
+  </div>
+  <div class="col-sm-4 text-center">
+    <span class="last-update">{{ 'Last Updated:'|t }}{{ last_update }}</span>
+  </div>
+  <div class="col-sm-4 text-right">
+    <span class="visitor-count">{{ 'Visitors:'|t }}{{ visitor_count }}</span>
+  </div>
 </div>
-<div class="row text-white p-3">
-	<div class="col-sm-2 offset-2">
-		<a href="http://www.nic.in/">
-			<img src="/{{ directory }}/images/icons/nicLogo.png" alt="National Informatics Centre">
-		</a>
-	</div>
-	<div class="col-sm-4 text-center footer-content">
-		<div>{{ 'Content Owned by District Administration'|t }}</div>
-		<p class="text-warning">
-			{{ 'Developed and hosted by'|t }}
-			<a href="http://www.nic.in/" class="text-light" target="_blank">
-				{{ 'National Informatics Centre'|t }}
-			</a>
-		</p>
-	</div>
-	<div class="col-sm-2">
-		<a href="http://www.digitalindia.gov.in/">
-			<img src="/{{ directory }}/images/icons/digitalIndia.png" alt="Digital India">
-		</a>
-	</div>
+<div class="row text-white">
+  <div class="col-sm-2 offset-sm-2 text-right">
+    <a href="http://www.nic.in/">
+      <img src="/{{ directory }}/images/icons/nicLogo.png" alt="National Informatics Centre">
+    </a>
+  </div>
+  <div class="col-sm-4 text-center footer-content">
+    <div>{{ 'Content Owned by District Administration'|t }}</div>
+    <p class="text-warning">
+      {{ 'Developed and hosted by'|t }}
+      <a href="http://www.nic.in/" class="text-light" target="_blank">
+        {{ 'National Informatics Centre'|t }}
+      </a>
+    </p>
+  </div>
+  <div class="col-sm-2 text-left">
+    <a href="http://www.digitalindia.gov.in/">
+      <img src="/{{ directory }}/images/icons/digitalIndia.png" alt="Digital India">
+    </a>
+  </div>
 </div>

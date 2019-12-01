@@ -20,6 +20,7 @@ global-styling:
       css/components/menu.css: {}
       css/components/topbar.css: {}
       css/components/header.css: {}
+      css/components/footer.css: {}
     layout:
       css/layout.css: {}
     theme:

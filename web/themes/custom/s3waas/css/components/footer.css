@@ -1,0 +1,23 @@
+@media only screen and (max-width: 767px) {
+  .text-left,
+  .text-right {
+    text-align: center!important;
+  }
+  .offset-sm-2 {
+    margin-left: 0%!important;
+  }
+}
+
+.offset-sm-2 {
+  margin-left: 16.666667%;
+}
+
+.row.text-white.ml-3 {
+  padding-bottom: 30px;
+}
+
+span.theme-version,
+span.last-update,
+span.visitor-count {
+  font-size: 15px;
+}
