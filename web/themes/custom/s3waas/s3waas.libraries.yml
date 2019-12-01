@@ -14,10 +14,12 @@ global-styling:
   css:
     base:
       css/base/elements.css: {}
+      css/base/base.css: {}
     component:
       css/components/block.css: {}
       css/components/menu.css: {}
       css/components/topbar.css: {}
+      css/components/header.css: {}
     layout:
       css/layout.css: {}
     theme:

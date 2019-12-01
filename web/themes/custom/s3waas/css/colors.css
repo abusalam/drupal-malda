@@ -60,5 +60,143 @@ a:active,
 }
 
 #topbar {
-    background: #000000;
+  background: #000000;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.color-muted {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.color-muted-inverse {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.color-error {
+  color: red;
+}
+
+.color-info {
+  color: #3f4db8;
+}
+
+.color-success {
+  color: #2AC171;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-gov {
+  color: #f26522;
+}
+
+.bg-blue {
+  background-color: #0686c8;
+}
+
+.bg-grey {
+  background-color: #c8c8c8;
+}
+
+.bg-grey-light {
+  background-color: #e1e1e1;
+}
+
+.bg-blue-dark {
+  background-color: #e1e1e1;
+  border-radius: 0 !important;
+}
+
+.bg-black {
+  background-color: #222;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-muted {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.bg-muted-inverse {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bg-error {
+  background-color: red;
+}
+
+.bg-info {
+  background-color: #3F42F6;
+}
+
+.bg-success {
+  background-color: green;
+}
+
+.bg-gov {
+  background-color: #f26522;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+#topBar1 {
+  background: #000000;
+}
+
+#topBar1 .govBranding ul li a {
+  color: #ffffff;
+}
+
+#topBar1 #accessibility ul li a {
+  color: #ffffff;
+}
+
+#topBar1 #accessibility ul li a:hover,
+#topBar1 #accessibility ul li a:focus {
+  background: #000000;
+  color: #ffffff;
+}
+
+#topBar1 #accessibility ul li.highContrast.dark a {
+  background: #333333;
+  color: #fff;
+}
+
+#topBar1 #accessibility ul li .textSizing ul li a {
+  border: 1px solid #e1e1e1;
+}
+
+#topBar1 #accessibility ul li select {
+  background: #ffffff;
+}
+
+#topBar1 #accessibility ul li .goiSearch input[type=text],
+#topBar1 #accessibility ul li .goiSearch input[type=search] {
+  border: 1px solid #d8d8d8;
+}
+
+#topBar1 #accessibility ul li .goiSearch button {
+  background: #d8d8d8;
+}
+
+#topBar1 #accessibility ul li .socialIcons {
+  border: 1px solid #d8d8d8;
+}
+
+#topBar1 #accessibility ul li .socialIcons ul li a:hover,
+#topBar1 #accessibility ul li .socialIcons ul li a:focus {
+  background: #d8d8d8;
+}
+
+.contrast #overflowMenu {
+  background: #000;
 }

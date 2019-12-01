@@ -11,10 +11,6 @@
   padding-bottom: 0;
 }
 
-#topBar1 {
-  background: #000000;
-}
-
 #topBar1 .govBranding ul li {
   display: inline-block;
 }
@@ -25,7 +21,6 @@
   font-weight: 400;
   text-transform: uppercase;
   padding: 8px 10px;
-  color: #ffffff;
 }
 
 #topBar1 .govBranding ul li:first-child {
@@ -39,26 +34,14 @@
 }
 
 #topBar1 #accessibility ul li a {
-  color: #ffffff;
   font-size: 1.3em;
   padding: 4px 8px;
   vertical-align: top;
   display: block;
 }
 
-#topBar1 #accessibility ul li a:hover,
-#topBar1 #accessibility ul li a:focus {
-  background: #000000;
-  color: #ffffff;
-}
-
 #topBar1 #accessibility ul li a:focus {
   outline: none;
-}
-
-#topBar1 #accessibility ul li.highContrast.dark a {
-  background: #333333;
-  color: #fff;
 }
 
 #topBar1 #accessibility ul li {
@@ -71,7 +54,6 @@
 
 #topBar1 #accessibility ul li .textSizing ul li a {
   font-size: 0.8em;
-  border: 1px solid #e1e1e1;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -88,7 +70,6 @@
   font-size: 0.8em;
   margin-left: 8px;
   height: 23px;
-  background: #ffffff;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -110,7 +91,6 @@
 #topBar1 #accessibility ul li .goiSearch input[type=search] {
   display: inline-block;
   width: 160px;
-  border: 1px solid #d8d8d8;
 }
 
 #topBar1 #accessibility ul li .goiSearch button {
@@ -121,7 +101,6 @@
   padding: 0px 0px;
   text-align: center;
   float: right;
-  background: #d8d8d8;
 }
 
 #topBar1 #accessibility ul li .socialIcons {
@@ -131,7 +110,6 @@
   left: 0px;
   overflow: hidden;
   visibility: hidden;
-  border: 1px solid #d8d8d8;
   border-top: 0px;
   border-left: 0px;
 }
@@ -139,11 +117,6 @@
 #topBar1 #accessibility ul li .socialIcons ul li {
   display: block;
   text-align: center;
-}
-
-#topBar1 #accessibility ul li .socialIcons ul li a:hover,
-#topBar1 #accessibility ul li .socialIcons ul li a:focus {
-  background: #d8d8d8;
 }
 
 #topBar1 #accessibility ul li.mFocus .socialIcons,
