@@ -1,0 +1,44 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * S3WaaS's override for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+{% block content %}
+  <section class="wrapper header-wrapper">
+    <div class="container header-container">
+      <div class="logo">
+        {% if site_logo %}
+          <a href="{{ path('<front>') }}" aria-label="{{ 'Go to home'|t }}" title="{{ 'Home'|t }}" class="emblem" rel="home">
+            <img class="site_logo" id="logo" src="{{ site_logo }}" alt="{{ 'Home'|t }}" height="100">
+            <div class="logo-text">
+              <strong class="site_name_regional" lang="grt">মালদা জেলা</strong>
+              <h1 class="site_name_english">{{ site_name }}</h1>
+            </div>
+          </a>
+        {% endif %}
+        {% if site_slogan %}
+          <div class="site-slogan">{{ site_slogan }}</div>
+        {% endif %}
+      </div>
+      <div class="header-right clearfix">
+        <div class="right-content clearfix">
+          <div class="float-element">
+            <a aria-label="Digital India - External site that opens in a new window" href="http://digitalindia.gov.in/" target="_blank" title="Digital India">
+              <img class="sw-logo" src="/{{ directory }}/images/icons/tourishm_logo.png" alt="Digital India" height="95">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
