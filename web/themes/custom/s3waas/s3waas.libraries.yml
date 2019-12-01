@@ -17,6 +17,7 @@ global-styling:
     component:
       css/components/block.css: {}
       css/components/menu.css: {}
+      css/components/topbar.css: {}
     layout:
       css/layout.css: {}
     theme:
