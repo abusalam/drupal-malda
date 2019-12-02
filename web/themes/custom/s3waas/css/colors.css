@@ -206,3 +206,16 @@ span.last-update,
 span.visitor-count {
   color: #fff!important;
 }
+
+#cssmenu>ul>li>a.is-active {
+  color: black!important;
+}
+
+#cssmenu>ul>li>a.is-active {
+  background: #fdfdfd66;
+}
+
+.region-primary-menu .menu-item a.is-active,
+.region-primary-menu .menu-item--active-trail a {
+  background: #fdfdfd66;
+}
