@@ -18,7 +18,7 @@
         e.preventDefault();
         $('html, body').animate({
           scrollTop: 0
-        }, '300');
+        }, "slow");
       });
 
       $('.footer').once().before('<img src="https://sumantablog.github.io/drupal-malda/static/images/footer_top_bg.gif" alt="Biswa Bangla" width="100%">');
