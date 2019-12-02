@@ -26,3 +26,6 @@ global-styling:
     theme:
       css/colors.css: {}
       css/print.css: { media: print }
+  js:
+    js/menu.js: {}
+    js/themescript.js: {}
