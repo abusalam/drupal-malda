@@ -17,6 +17,15 @@ fontawesome:
   js:
     vendor/fontawesome/js/all.min.js: {}
 
+cssmenumaker:
+  version: VERSION
+  css:
+    theme:
+      vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/css/menumaker.css: {}
+  js:
+    vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/js/min/menumaker.min.js: {}
+    
+
 global-styling:
   version: VERSION
   css:
@@ -38,5 +47,6 @@ global-styling:
     js/menu.js: {}
     js/themescript.js: {}
   dependencies:
+    - core/drupal
     - core/jquery
     - core/jquery.once
