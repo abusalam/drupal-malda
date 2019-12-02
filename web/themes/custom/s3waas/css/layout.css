@@ -17,8 +17,7 @@
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   /* margin-top: -150px; */
   /* negative value of footer height */
   min-height: 150px;
