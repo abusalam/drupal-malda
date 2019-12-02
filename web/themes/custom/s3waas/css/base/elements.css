@@ -18,7 +18,3 @@ body {
 h2:empty {
   display: none;
 }
-
-#main-wrapper {
-  min-height: 400px;
-}
