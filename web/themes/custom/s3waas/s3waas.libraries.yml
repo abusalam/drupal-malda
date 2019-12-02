@@ -2,9 +2,9 @@ bootstrap:
   version: VERSION
   css:
     theme:
-      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/bootstrap/css/bootstrap.min.css: { minified: true }
   js:
-    vendor/bootstrap/js/bootstrap.min.js: {}
+    vendor/bootstrap/js/bootstrap.min.js: { minified: true }
   dependencies:
     - core/jquery
     - core/jquery.once
@@ -13,9 +13,9 @@ fontawesome:
   version: VERSION
   css:
     theme:
-      vendor/fontawesome/css/all.min.css: {}
+      vendor/fontawesome/css/all.min.css: { minified: true }
   js:
-    vendor/fontawesome/js/all.min.js: {}
+    vendor/fontawesome/js/all.min.js: { minified: true }
 
 cssmenumaker:
   version: VERSION
@@ -23,7 +23,7 @@ cssmenumaker:
     theme:
       vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/css/menumaker.css: {}
   js:
-    vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/js/min/menumaker.min.js: {}
+    vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/js/min/menumaker.min.js: { minified: true }
   dependencies:
     - core/jquery
 
@@ -53,3 +53,12 @@ global-styling:
     theme:
       css/colors.css: {}
       css/print.css: { media: print }
+
+global-scripts:
+  version: VERSION
+  js:
+    js/themescript.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
