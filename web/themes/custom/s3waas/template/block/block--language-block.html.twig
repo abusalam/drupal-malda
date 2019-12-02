@@ -9,20 +9,29 @@
     <div class="push-right" role="navigation" aria-label="Primary">
       <div id="accessibility">
         <ul id="accessibilityMenu">
-          <li><a href="#SkipContent" class="skip-to-content" title="Skip to main content"><span
-                class="icon-skip-to-main responsive-show"></span><strong class="responsive-hide">SKIP TO MAIN
-                CONTENT</strong></a></li>
-          <li><a href="javascript:void(0);" title="Site Search"><span class="icon-search" aria-hidden="true"></span></a>
+          <li>
+            <a href="#SkipContent" class="skip-to-content" title="{{ 'Skip to main content'|t }}">
+              <span class="icon-skip-to-main responsive-show"></span>
+              <strong class="responsive-hide">{{ 'Skip to main content'|t }}</strong>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="Site Search">
+              <span class="icon-search" aria-hidden="true"></span>
+            </a>
             <div class="goiSearch" role="search">
               <form onsubmit="" action="" method="get">
                 <label for="search" class="hide">Search</label>
                 <input type="search" title="Enter Text" name="s" id="search" value="">
-                <button type="submit" title="Search"><small class="tcon">Search</small><small
-                    class="tcon">Search</small><span class="icon-search" aria-hidden="true"></span></button>
+                <button type="submit" title="Search">
+                  <small class="tcon">Search</small>
+                  <span class="icon-search" aria-hidden="true"></span>
+                </button>
               </form>
             </div>
           </li>
-          <li><a href="javascript:void(0);" title="Social Media Links" class="show-social-links">
+          <li>
+            <a href="javascript:void(0);" title="Social Media Links" class="show-social-links">
               <span class="icon-social-link" aria-hidden="true">
                 <span class="icon-facebook"></span>
                 <span class="icon-twitter"></span>
@@ -35,46 +44,51 @@
 
                 <li class="ico-social">
                   <ul>
-                    <li><a href="#" target="_blank"
-                        aria-label="Facebook | External site that opens in a new window"><img
-                          src="/{{ directory }}/images/icons/ico-facebook.png"
-                          title="Facebook | External site that opens in a new window"
-                          alt="Facebook | External site that opens in a new window"></a></li>
-                    <li><a href="#" target="_blank" aria-label="Twitter | External site that opens in a new window"><img
-                          src="/{{ directory }}/images/icons/ico-twitter.png" title="Twitter | External site that opens in a new window"
-                          alt="Twitter | External site that opens in a new window"></a></li>
-                    <li><a href="#" target="_blank" aria-label="Youtube | External site that opens in a new window"><img
-                          src="/{{ directory }}/images/icons/ico-youtube.png" title="Youtube | External site that opens in a new window"
-                          alt="Youtube | External site that opens in a new window"></a></li>
+                    <li><a href="#" target="_blank" aria-label="Facebook | External site that opens in a new window"><img src="/{{ directory }}/images/icons/ico-facebook.png" title="Facebook | External site that opens in a new window" alt="Facebook | External site that opens in a new window"></a></li>
+                    <li><a href="#" target="_blank" aria-label="Twitter | External site that opens in a new window"><img src="/{{ directory }}/images/icons/ico-twitter.png" title="Twitter | External site that opens in a new window" alt="Twitter | External site that opens in a new window"></a></li>
+                    <li><a href="#" target="_blank" aria-label="Youtube | External site that opens in a new window"><img src="/{{ directory }}/images/icons/ico-youtube.png" title="Youtube | External site that opens in a new window" alt="Youtube | External site that opens in a new window"></a></li>
                   </ul>
                 </li>
-
               </ul>
             </div>
           </li>
-          <li><a href="" title="Sitemap"><span class="off-css">Site Map</span>
+          <li>
+            <a href="" title="Sitemap">
+              <span class="off-css">Site Map</span>
               <span class="icon-sitemap" aria-hidden="true"></span>
             </a>
           </li>
           <li>
-            <a href="javascript:void(0);" title="Accessibility Links" aria-label="Accessibility Links"
-              class="mobile-show accessible-icon"><span class="off-css">Accessibility Links</span><span
-                class="icon-accessibility" aria-hidden="true"></span></a>
+            <a href="javascript:void(0);" title="Accessibility Links" aria-label="Accessibility Links" class="mobile-show accessible-icon">
+              <span class="off-css">Accessibility Links</span>
+              <span class="icon-accessibility" aria-hidden="true"></span>
+            </a>
             <div class="accessiblelinks textSizing">
               <ul>
-                <li><a href="javascript:void(0);" aria-label="Font Size Increase" title="Font Size Increase"><span
-                      aria-hidden="true">A+</span></a></li>
-                <li><a href="javascript:void(0);" aria-label="Normal Font" title="Normal Font"><span
-                      aria-hidden="true">A&nbsp;</span></a></li>
-                <li><a href="javascript:void(0);" aria-label="Font Size Decrease" title="Font Size Decrease"><span
-                      aria-hidden="true">A-</span></a></li>
+                <li>
+                  <a href="javascript:void(0);" aria-label="Font Size Increase" title="Font Size Increase">
+                    <span aria-hidden="true">A+</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" aria-label="Normal Font" title="Normal Font">
+                    <span aria-hidden="true">A&nbsp;</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" aria-label="Font Size Decrease" title="Font Size Decrease">
+                    <span aria-hidden="true">A-</span>
+                  </a>
+                </li>
                 <li class="highContrast dark tog-con">
-                  <a href="javascript:void(0);" aria-label="High Contrast" title="High Contrast"><span
-                      aria-hidden="true">A</span></a>
+                  <a href="javascript:void(0);" aria-label="High Contrast" title="High Contrast">
+                    <span aria-hidden="true">A</span>
+                  </a>
                 </li>
                 <li class="highContrast light">
-                  <a href="javascript:void(0);" aria-hidden="true" aria-label="Normal Contrast"
-                    title="Normal Contrast"><span aria-hidden="true">A</span></a>
+                  <a href="javascript:void(0);" aria-hidden="true" aria-label="Normal Contrast" title="Normal Contrast">
+                    <span aria-hidden="true">A</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -90,8 +104,12 @@
     <div class="push-left">
       <div class="govBranding">
         <ul>
-          <li><a href="" lang="grt">Government of West Bengal</a></li>
-          <li><a href="#">Malda District</a></li>
+          <li>
+            <a href="http://wb.gov.in" lang="grt">{{ 'Government of West Bengal'|t }}</a>
+          </li>
+          <li>
+            <a href="{{ path('<front>') }}">{{ 'Malda District'|t }}</a>
+          </li>
         </ul>
       </div>
     </div>
