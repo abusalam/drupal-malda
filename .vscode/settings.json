@@ -1,17 +1,20 @@
 {
-      "editor.rulers": [
-        80
-      ],
-      "files.associations": {
-        "*.html.twig": "twig"
-      },
-      "emmet.includeLanguages": {
-        "twig": "html"
-      },
-      "twigcs.executablePath": "./vendor/friendsoftwig/twigcs/bin/twigcs",
-      "twig-language-2.indentLevel": 2,
-      "twig-language-2.indentStyle": "space",
-      "zenMode.hideLineNumbers": false,
-      "csscomb.preset": "./.csscomb.json",
-      "csscomb.formatOnSave": true,
+  "editor.rulers": [
+    80
+  ],
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.html.twig": "twig"
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "twigcs.executablePath": "./vendor/friendsoftwig/twigcs/bin/twigcs",
+  "twig-language-2.indentLevel": 2,
+  "twig-language-2.indentStyle": "space",
+  "zenMode.hideLineNumbers": false,
+  "csscomb.preset": "./.csscomb.json",
+  "csscomb.formatOnSave": true,
 }
