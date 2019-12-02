@@ -9,6 +9,8 @@ libraries:
   - s3waas/global-styling
   - s3waas/bootstrap
   - s3waas/fontawesome
+  - s3waas/cssmenumaker
+  - s3waas/themescript
 
 regions:
   topbar: 'Top Bar'

@@ -24,7 +24,17 @@ cssmenumaker:
       vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/css/menumaker.css: {}
   js:
     vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/js/min/menumaker.min.js: {}
-    
+  dependencies:
+    - core/jquery
+
+themescript:
+  version: VERSION
+  js:
+    js/themescript.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
 
 global-styling:
   version: VERSION
@@ -43,10 +53,3 @@ global-styling:
     theme:
       css/colors.css: {}
       css/print.css: { media: print }
-  js:
-    js/menu.js: {}
-    js/themescript.js: {}
-  dependencies:
-    - core/drupal
-    - core/jquery
-    - core/jquery.once
