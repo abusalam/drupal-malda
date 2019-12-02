@@ -9,6 +9,14 @@ bootstrap:
     - core/jquery
     - core/jquery.once
 
+fontawesome:
+  version: VERSION
+  css:
+    theme:
+      vendor/fontawesome/css/all.min.css: {}
+  js:
+    vendor/fontawesome/js/all.min.js: {}
+
 global-styling:
   version: VERSION
   css:
@@ -29,3 +37,6 @@ global-styling:
   js:
     js/menu.js: {}
     js/themescript.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
