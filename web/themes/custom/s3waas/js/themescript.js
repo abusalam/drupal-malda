@@ -1,7 +1,8 @@
 (function ($, Drupal) {
   Drupal.behaviors.myModuleBehavior = {
     attach: function (context, settings) {
-      $("ul.menu").first().wrap('<div id="cssmenu"></div>');
+      $("ul.menu").first().once().wrap('<div id="cssmenu"></div>');
+      
       $('.region-topbar').append('<a href="#" title="Back To Top" class="scrollToTop" style="display: none;"><i class="fa fa-angle-up"></i></a>');
 
       $("#cssmenu").menumaker({title: "Menu", format: "multitoggle"});
