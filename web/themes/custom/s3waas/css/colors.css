@@ -219,3 +219,13 @@ span.visitor-count {
 .region-primary-menu .menu-item--active-trail a {
   background: #fdfdfd66;
 }
+
+.path-frontpage {
+  background: red;
+}
+
+#header,
+#page,
+#main {
+  background-image: url(../images/texture.png);
+}
