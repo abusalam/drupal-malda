@@ -123,10 +123,10 @@
 .full-cntrl-center-caption-bottom .container .slide-caption p{ padding-bottom: 5px;}
 .full-cntrl-center-caption-bottom.nav-white .flex-direction-nav a:before, .full-cntrl-center-caption-bottom.nav-white .flex-pauseplay a:before { color:#fff;}
 /*------------Full Width with bottom Caption and left controls-----------*/
-.full-cntrl-left-caption-bottom .flex-direction-nav a { opacity: 1; top: auto; bottom: 20px; }
+.full-cntrl-left-caption-bottom .flex-direction-nav a { opacity: 1; top: 20px; bottom: auto; }
 .full-cntrl-left-caption-bottom .flex-direction-nav .flex-prev, .full-cntrl-left-caption-bottom.flexslider:hover .flex-direction-nav .flex-prev { left: 40px; }
 .full-cntrl-left-caption-bottom .flex-direction-nav .flex-next, .full-cntrl-left-caption-bottom.flexslider:hover .flex-direction-nav .flex-next { left: 120px; }
-.full-cntrl-left-caption-bottom .flex-pauseplay a { left: 93px; bottom: 27px; width: 25px; height: 25px; }
+.full-cntrl-left-caption-bottom .flex-pauseplay a { left: 93px; bottom: 50px; width: 25px; height: 25px; }
 .full-cntrl-left-caption-bottom .flex-pauseplay a:before { font-size: 25px; }
 .full-cntrl-left-caption-bottom ul.slides li { position: relative; }
 .full-cntrl-left-caption-bottom.nav-white .flex-direction-nav a:before, .full-cntrl-left-caption-bottom.nav-white .flex-pauseplay a:before { color:#fff;}
@@ -278,3 +278,5 @@
 .full-cntrl-bottom-caption-blank .flex-direction-nav a { bottom: 10px; }
 .full-cntrl-bottom-caption-blank .flex-pauseplay a { bottom: 18px; }
 }
+.footer-slider .flex-direction-nav .flex-prev, .footer-slider.flexslider:hover .flex-direction-nav .flex-prev { left: 1%; top:50% }
+.footer-slider .flex-direction-nav .flex-next, .footer-slider.flexslider:hover .flex-direction-nav .flex-next { left: 95%; top:50% }
