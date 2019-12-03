@@ -26,8 +26,16 @@ cssmenumaker:
     vendor/jQuery-Plugin-Responsive-Drop-Down-0.8.5/js/min/menumaker.min.js: { minified: true }
   dependencies:
     - core/jquery
+    - core/jquery.once
 
 slider:
+  js:
+    js/slider.js: {}
+  dependencies:
+    - core/drupal
+    - s3waas/flexslider
+
+flexslider:
   version: VERSION
   css:
     theme:
@@ -39,15 +47,6 @@ slider:
   dependencies:
     - core/jquery
     - s3waas/fontawesome
-
-themescript:
-  version: VERSION
-  js:
-    js/themescript.js: {}
-  dependencies:
-    - core/drupal
-    - core/jquery
-    - core/jquery.once
 
 global-styling:
   version: VERSION
@@ -72,6 +71,4 @@ global-scripts:
   js:
     js/themescript.js: {}
   dependencies:
-    - core/drupal
-    - core/jquery
-    - core/jquery.once
+    - s3waas/cssmenumaker
