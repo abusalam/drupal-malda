@@ -32,8 +32,8 @@ slider:
   css:
     theme:
       vendor/slider/css/sliderhelper.css: {}
-      vendor/slider/css/custom-flesslider.css: {}
-      vendor/slider/css/flesslider.min.css: { minified: true }
+      vendor/slider/css/custom-flexslider.css: {}
+      vendor/slider/css/flexslider.min.css: { minified: true }
   js:
     vendor/slider/js/jquery.flexslider-min.js: { minified: true }
   dependencies:
