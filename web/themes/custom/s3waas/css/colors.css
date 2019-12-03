@@ -220,12 +220,9 @@ span.visitor-count {
   background: #fdfdfd66;
 }
 
-.path-frontpage {
-  background: red;
-}
-
 #header,
 #page,
-#main {
+#main,
+.path-frontpage {
   background-image: url(../images/texture.png);
 }
