@@ -204,11 +204,11 @@ a:active,
 span.theme-version,
 span.last-update,
 span.visitor-count {
-  color: #fff!important;
+  color: #fff;
 }
 
 #cssmenu>ul>li>a.is-active {
-  color: black!important;
+  color: black;
 }
 
 #cssmenu>ul>li>a.is-active {

@@ -1,0 +1,49 @@
+@import url("../colors.css");
+#topBar1 {
+  background: #23282d!important;
+  color: yellow!important;
+}
+
+a {
+  color: yellow!important;
+}
+
+header#header,
+#page,
+#main {
+  background: #000000!important;
+  color: yellow!important;
+}
+
+.full-cntrl-left-caption-bottom.nav-white .flex-direction-nav a:before,
+.full-cntrl-left-caption-bottom.nav-white .flex-pauseplay a:before {
+  color: yellow!important;
+}
+
+#cssmenu>ul>li>a.is-active {
+  background: #000000!important;
+}
+
+#cssmenu>ul>li>a.is-active {
+  color: yellow!important;
+}
+
+.scrollToTop {
+  color: #ffffff!important;
+}
+
+span.theme-version,
+span.last-update,
+span.visitor-count {
+  color: #fff!important;
+}
+
+.full-cntrl-left-caption-bottom .container .slide-caption {
+  color: yellow!important;
+  background: rgba(0, 0, 0, 0.81)!important;
+}
+
+#menubar {
+  border-top: 1px solid #777676;
+  border-bottom: 1px solid #777676;
+}

@@ -41,7 +41,7 @@
  * @see html.html.twig
  */
 #}
-<div id="page-wrapper">
+<div id="page-wrapper contrast">
   <div id="page">
     {{ page.topbar }}
     <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
@@ -49,25 +49,25 @@
         {{ page.header }}
       </div>
     </header>
-  <div id="menubar" class="section container-fluid clearfix">
-    <div class="section container clearfix">
-      <div class="main-menu">
-        {{ page.primary_menu }}
-      </div>
-      <div class="user-menu pull-right">
-        {{ page.secondary_menu }}
+    <div id="menubar" class="section container-fluid clearfix">
+      <div class="section container clearfix">
+        <div class="main-menu">
+          {{ page.primary_menu }}
+        </div>
+        <div class="user-menu pull-right">
+          {{ page.secondary_menu }}
+        </div>
       </div>
     </div>
-  </div>
     {% if page.slider %}
-      {{ page.slider }}
+    {{ page.slider }}
     {% endif %}
     {% if page.highlighted %}
-      <div class="highlighted">
-        <aside class="container section clearfix" role="complementary">
-          {{ page.highlighted }}
-        </aside>
-      </div>
+    <div class="highlighted">
+      <aside class="container section clearfix" role="complementary">
+        {{ page.highlighted }}
+      </aside>
+    </div>
     {% endif %}
     <div id="main-wrapper" class="layout-main-wrapper container clearfix">
       <div id="main" class="layout-main clearfix">
