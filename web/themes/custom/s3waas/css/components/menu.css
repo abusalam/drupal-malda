@@ -17,3 +17,7 @@ ul.menu {
 [dir="rtl"] ul.menu {
   margin: 0;
 }
+
+#cssmenu ul {
+  z-index: 10!important;
+}
