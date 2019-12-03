@@ -59,6 +59,9 @@
       </div>
     </div>
   </div>
+    {% if page.slider %}
+      {{ page.slider }}
+    {% endif %}
     {% if page.highlighted %}
       <div class="highlighted">
         <aside class="container section clearfix" role="complementary">

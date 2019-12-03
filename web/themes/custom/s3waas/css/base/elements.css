@@ -22,3 +22,7 @@ h2:empty {
 #content {
   min-height: 320px;
 }
+
+.demo-block {
+  text-align: center;
+}

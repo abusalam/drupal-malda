@@ -27,6 +27,19 @@ cssmenumaker:
   dependencies:
     - core/jquery
 
+slider:
+  version: VERSION
+  css:
+    theme:
+      vendor/slider/css/sliderhelper.css: {}
+      vendor/slider/css/custom-flesslider.css: {}
+      vendor/slider/css/flesslider.min.css: { minified: true }
+  js:
+    vendor/slider/js/jquery.flexslider-min.js: { minified: true }
+  dependencies:
+    - core/jquery
+    - s3waas/fontawesome
+
 themescript:
   version: VERSION
   js:

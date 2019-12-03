@@ -21,7 +21,22 @@
           scrollTop: 0
         }, "slow");
       });
-
+      $('.home-slider').flexslider({
+        animation: ($('body').hasClass('rtl')) ? "fade" : "slide",
+        directionNav: true,
+        prevText: "<span class='hide'>Previous</span>",
+        nextText: "<span class='hide'>Next</span>",
+        pausePlay: true,
+        pauseText: "<span class='hide'>Pause</span>",
+        playText: "<span class='hide'>Play</span>",
+        controlNav: false,
+        start: function (slider) {
+            $('body').find('.flexslider').resize();
+            if (slider.count == 1) {
+                slider.pausePlay.parent().remove();
+            }
+        }
+      });
       $('.footer').once().before('<img src="https://sumantablog.github.io/drupal-malda/static/images/footer_top_bg.gif" alt="Biswa Bangla" width="100%">');
     }
   };
