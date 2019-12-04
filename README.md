@@ -47,10 +47,19 @@ Look at the [static version](https://abusalam.github.io/drupal-malda/static/) is
 
     when staring docker using `docker-compose` it will automatically restore
      the database from `mariadb-init/drupal.sql`.
+
 7. Command to stop docker:
 
     ```bash
     docker-compose stop
+    ```
+
+8. Command to update drupal/core from 8.7.x to 8.8.x:
+
+    ```bash
+    docker-compose exec php composer remove webflo/drupal-core-require-dev 
+    docker-compose exec php composer require drupal/core
+    docker-compose exec php composer require --dev drupal/core-dev
     ```
 
 ## Timeline for Development
