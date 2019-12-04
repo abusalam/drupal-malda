@@ -1,0 +1,31 @@
+form#user-login-form,
+form#user-register-form,
+form#user-pass {
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #d8d3d3;
+  padding: 20px;
+}
+
+input {
+  border: 1px solid #c3c3c3;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+input:active {
+  border: 1px solid #c3c3c3;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.form-submit {
+  background: green;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
