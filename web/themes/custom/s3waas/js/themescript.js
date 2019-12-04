@@ -22,6 +22,18 @@
       });
 
       $('.footer').once().before('<img src="/themes/custom/s3waas/images/footer-background.gif" alt="Biswa Bangla" width="100%">');
+
+      $('.contrast').click(function() {
+        var code = this.id;
+        if (code == 'dark') {
+          $('head').append('<link href="/themes/custom/s3waas/css/base/contrast.css" rel="stylesheet" id="newcss" title="contrast" />');
+        } else if (code == 'light') {
+          $('link[href="/themes/custom/s3waas/css/base/contrast.css"]').remove();
+        } else {
+          return false;
+        }
+      });
+
     }
   };
 })(jQuery, Drupal);
