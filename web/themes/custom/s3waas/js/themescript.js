@@ -34,6 +34,28 @@
         }
       });
 
+      $('.font-size').click(function() {
+        var code = this.id;
+        var fontSize = parseInt($(".slide-caption").css("font-size"));
+        if (code == 'normal') {
+          $('.slide-caption, .layout-main ').attr("style", 'font-size: 14px');
+        } else if (code == 'increase') {
+          fontSize = fontSize + 1;
+          if (fontSize < 21) {
+            $('.slide-caption, .layout-main ').attr("style", 'font-size: ' + fontSize + 'px');
+          } else {
+            return false;
+          }
+        } else if (code == 'decrease') {
+          fontSize = fontSize - 1;
+          if (fontSize > 9) {
+            $('.slide-caption, .layout-main ').attr("style", 'font-size: ' + fontSize + 'px');
+          } else {
+            return false;
+          }
+        }
+      });
+
     }
   };
 })(jQuery, Drupal);
