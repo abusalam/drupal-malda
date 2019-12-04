@@ -18,7 +18,7 @@ body {
 
 .tabs ul.primary li.is-active a {
   border-bottom-color: #fff;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 #topbar {
@@ -225,4 +225,33 @@ span.visitor-count {
 #main,
 .path-frontpage {
   background-image: url(../images/texture.png);
+}
+
+form#user-login-form,
+form#user-register-form,
+form#user-pass {
+  background: white;
+  border: 1px solid #d8d3d3;
+}
+
+input {
+  border: 1px solid #c3c3c3;
+}
+
+input:active {
+  border: 1px solid #c3c3c3;
+}
+
+.form-submit {
+  background: green;
+  color: white;
+}
+
+ul.tabs.primary {
+  background: white;
+  border: 1px solid #c3c3c3;
+}
+
+.tabs>li {
+  border-right: 2px solid #c3c3c3;
 }

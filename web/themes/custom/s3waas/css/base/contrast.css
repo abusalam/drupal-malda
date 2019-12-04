@@ -47,3 +47,29 @@ span.visitor-count {
   border-top: 1px solid #777676;
   border-bottom: 1px solid #777676;
 }
+
+form#user-login-form,
+form#user-register-form,
+form#user-pass {
+  background: black;
+  border: 2px solid #ffffff;
+}
+
+ul.tabs.primary {
+  background: #121212;
+  border: 2px solid #ffffff;
+}
+
+.tabs ul.primary li.is-active a {
+  border-bottom-color: #000;
+  background-color: #5f5e5e;
+}
+
+.tabs>li>a:hover {
+  background: #525252;
+}
+
+.breadcrumb {
+  background-color: #121212!important;
+  border: 1px solid #fff!important;
+}

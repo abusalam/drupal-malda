@@ -1,31 +1,76 @@
 form#user-login-form,
 form#user-register-form,
 form#user-pass {
-  background: white;
   border-radius: 5px;
-  border: 1px solid #d8d3d3;
   padding: 20px;
 }
 
 input {
-  border: 1px solid #c3c3c3;
   padding: 5px;
   font-size: 14px;
   border-radius: 5px;
 }
 
+input[type=submit] {
+  min-width: 150px;
+}
+
 input:active {
-  border: 1px solid #c3c3c3;
   padding: 5px;
   font-size: 14px;
   border-radius: 5px;
 }
 
 .form-submit {
-  background: green;
-  color: white;
   font-size: 15px;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+ul.tabs {
+  margin: 0 0 0em;
+  padding: 0;
+  list-style: none;
+}
+
+ul.tabs.primary {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tabs>li>a:hover {
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.tabs>li>a {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  input {
+    width: 100%;
+  }
+}
+
+.tabs ul.primary li.is-active a {
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+
+/* nav.tabs {
+  width: 80%;
+  margin: auto;
+} */
+
+
+/*
+form#user-login-form,
+form#user-register-form,
+form#user-pass {
+  width: 80%;
+  margin: auto;
+} */
