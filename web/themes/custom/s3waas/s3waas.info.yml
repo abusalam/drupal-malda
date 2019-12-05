@@ -10,7 +10,6 @@ libraries:
   - s3waas/global-scripts
   - s3waas/bootstrap
   - s3waas/fontawesome
-  - s3waas/cssmenumaker
 
 regions:
   topbar: 'Top Bar'

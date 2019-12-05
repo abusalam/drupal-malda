@@ -2,8 +2,6 @@
   Drupal.behaviors.myModuleBehavior = {
     attach: function(context, settings) {
       console.log(settings);
-      $("ul.menu", context).first().once().wrap('<div id="cssmenu"></div>');
-      $("#cssmenu").menumaker({ title: "Menu", format: "multitoggle" });
 
       $(window).scroll(function() {
         if ($(this).scrollTop()) {
