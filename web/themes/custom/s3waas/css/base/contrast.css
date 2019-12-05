@@ -73,3 +73,7 @@ ul.tabs.primary {
   background-color: #121212!important;
   border: 1px solid #fff!important;
 }
+
+a#light {
+  color: black!important;
+}

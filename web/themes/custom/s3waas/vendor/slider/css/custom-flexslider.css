@@ -693,7 +693,8 @@
 .full-cntrl-left-caption-bottom .container .slide-caption {
   background: rgba(0, 0, 0, 0.69);
   padding: 10px;
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
   width: 100%;
   margin: 0 auto;
   color: #FFF;

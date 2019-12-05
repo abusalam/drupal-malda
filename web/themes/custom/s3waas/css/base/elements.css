@@ -26,3 +26,11 @@ h2:empty {
 .demo-block {
   text-align: center;
 }
+
+.flex-direction-nav a:before,
+.flex-pauseplay,
+.full-cntrl-left-caption-bottom.nav-white .flex-direction-nav a:before,
+.full-cntrl-left-caption-bottom.nav-white .flex-pauseplay a:before {
+  text-shadow: -1px -1px 2px #424242 !important;
+  color: #fff!important;
+}

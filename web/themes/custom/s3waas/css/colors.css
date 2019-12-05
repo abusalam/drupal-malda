@@ -26,7 +26,7 @@ body {
 }
 
 #menubar {
-  background-color: #333;
+  background-color: #424242;
 }
 
 #header {
@@ -254,4 +254,80 @@ ul.tabs.primary {
 
 .tabs>li {
   border-right: 2px solid #c3c3c3;
+}
+
+.sf-depth-1,
+.sf-depth-2,
+.sf-depth-3,
+.sf-depth-4,
+.sf-depth-5,
+.sf-depth-6,
+.sf-depth-7,
+.sf-depth-8,
+.sf-depth-9,
+.sf-depth-10,
+.sf-depth-11,
+.sf-depth-12,
+.sf-depth-13,
+.sf-depth-14 {
+  color: #fff;
+}
+
+.sf-depth-1>a:hover,
+.sf-depth-2>a:hover,
+.sf-depth-3>a:hover,
+.sf-depth-4>a:hover,
+.sf-depth-5>a:hover,
+.sf-depth-6>a:hover,
+.sf-depth-7>a:hover,
+.sf-depth-8>a:hover,
+.sf-depth-9>a:hover,
+.sf-depth-10>a:hover,
+.sf-depth-11>a:hover,
+.sf-depth-12>a:hover,
+.sf-depth-13>a:hover,
+.sf-depth-14>a:hover {
+  color: #e2e2e2;
+  text-decoration: none;
+  background: #3C7D14;
+}
+
+.sf-depth-1>a:active,
+.sf-depth-2>a:active,
+.sf-depth-3>a:active,
+.sf-depth-4>a:active,
+.sf-depth-5>a:active,
+.sf-depth-6>a:active,
+.sf-depth-7>a:active,
+.sf-depth-8>a:active,
+.sf-depth-9>a:active,
+.sf-depth-10>a:active,
+.sf-depth-11>a:active,
+.sf-depth-12>a:active,
+.sf-depth-13>a:active,
+.sf-depth-14>a:active {
+  color: #e2e2e2;
+  text-decoration: none;
+  background: #3C7D14;
+}
+
+.menuparent>ul {
+  background: #4da219;
+  color: #fff;
+  top: inherit!important;
+}
+
+ul.menu a.is-active {
+  color: #fff;
+  background: #3C7D14;
+  ;
+}
+
+.main-menu>div>div>div {
+  background: darkgreen;
+}
+
+.user-menu>div>div>div {
+  padding: 10px;
+  background: #3f51b5;
 }

@@ -21295,7 +21295,7 @@ a.menuToggle:hover {
 #topBar1 #accessibility ul li.highContrast.dark a {
   background: #000;
   color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-right: none;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -21430,28 +21430,36 @@ a.menuToggle:hover {
 
 @media (max-width: 1920px) {
   .flexslider.home-slider .slides img {
-    height: 500px !important;
+    /*height: 500px !important;*/
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
 
 @media (max-width: 1600px) {
   .flexslider.home-slider .slides img {
-    height: 450px !important;
+    /* height: 450px !important; */
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
 
 @media (max-width: 1368px) {
   .flexslider.home-slider .slides img {
-    height: 380px !important;
+    /* height: 380px !important; */
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
 
 @media (max-width: 1280px) {
   .flexslider.home-slider .slides img {
-    height: 370px !important;
+    /* height: 370px !important; */
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
@@ -21459,6 +21467,8 @@ a.menuToggle:hover {
 @media (max-width: 1199px) {
   .flexslider.home-slider .slides img {
     height: 300px !important;
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
@@ -21466,20 +21476,26 @@ a.menuToggle:hover {
 @media (max-width: 991px) {
   .flexslider.home-slider .slides img {
     height: 225px !important;
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
 
 @media (max-width: 767px) {
   .flexslider.home-slider .slides img {
-    height: 175px !important;
+    /* height: 175px !important; */
+    width: 100%;
+    height: auto;
     object-fit: cover !important;
   }
 }
 
 @media (max-width: 479px) {
   .flexslider.home-slider .slides img {
-    height: auto !important;
+    /* height: auto !important; */
+    width: 100%;
+    height: auto;
     object-fit: inherit !important;
   }
 }

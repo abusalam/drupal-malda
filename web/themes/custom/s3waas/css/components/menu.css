@@ -21,3 +21,13 @@ ul.menu {
 #cssmenu ul {
   z-index: 10!important;
 }
+
+.main-menu>div>div>div,
+.user-menu>div>div>div {
+  padding: 10px;
+}
+
+.main-menu>div>div>div>a>span,
+.user-menu>div>div>div>a>span {
+  color: #fff;
+}
