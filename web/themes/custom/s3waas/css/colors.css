@@ -166,10 +166,12 @@ a:active,
   color: #ffffff;
 }
 
+
+/*
 #topBar1 #accessibility ul li.highContrast.dark a {
   background: #333333;
   color: #fff;
-}
+} */
 
 #topBar1 #accessibility ul li .textSizing ul li a {
   border: 1px solid #e1e1e1;
@@ -312,7 +314,7 @@ ul.tabs.primary {
 }
 
 .menuparent>ul {
-  background: #4da219;
+  background: #424242;
   color: #fff;
   top: inherit!important;
 }
@@ -323,11 +325,13 @@ ul.menu a.is-active {
   ;
 }
 
-.main-menu>div>div>div {
+
+/*
+.sf-accordion-toggle.sf-style-none {
   background: darkgreen;
 }
 
-.user-menu>div>div>div {
+#block-useraccountmenu>.sf-accordion-toggle.sf-style-none {
   padding: 10px;
   background: #3f51b5;
-}
+} */

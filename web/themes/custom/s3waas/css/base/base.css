@@ -21290,7 +21290,7 @@ a.menuToggle:hover {
 
 
 /*#topBar1 #accessibility ul li .textSizing ul li a{padding: 3px 6px;}*/
-
+/* 
 #topBar #accessibility ul li.highContrast.dark a,
 #topBar1 #accessibility ul li.highContrast.dark a {
   background: #000;
@@ -21299,13 +21299,15 @@ a.menuToggle:hover {
   border-right: none;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-}
+} */
 
 .mva7-thc-activetheme-district-theme-3 #topBar1 #accessibility ul li.highContrast.dark a {
   border: 1px solid #ffffff;
   border-right: none;
 }
 
+
+/*
 #topBar #accessibility ul li.highContrast.light a,
 #topBar1 #accessibility ul li.highContrast.light a {
   border: 1px solid #000;
@@ -21314,7 +21316,7 @@ a.menuToggle:hover {
   border-bottom-left-radius: 0;
   background-color: #fff;
   color: #000;
-}
+} */
 
 .mva7-thc-activetheme-district-theme-3 #topBar1 #accessibility ul li.highContrast.light a {
   border: 1px solid #ffffff;

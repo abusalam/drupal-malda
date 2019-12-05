@@ -31,3 +31,17 @@ ul.menu {
 .user-menu>div>div>div>a>span {
   color: #fff;
 }
+
+.sf-accordion-toggle.sf-style-none {
+  font-weight: bold;
+}
+
+#block-useraccountmenu>.sf-accordion-toggle.sf-style-none {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.sf-accordion-toggle.sf-style-none:hover,
+.sf-accordion-toggle.sf-style-none:active {
+  text-decoration: none;
+}
