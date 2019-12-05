@@ -1,0 +1,12 @@
+name: S3WaaS
+type: module
+description: 'Supporting module for the S3WaaS theme contents.'
+package: s3waas
+version: VERSION
+core: 8.x
+configure: s3waas.admin_settings
+dependencies:
+  - drupal:content_translation
+  - drupal:config_translation
+  - drupal:superfish
+  - drupal:libraries

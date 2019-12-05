@@ -1,5 +1,0 @@
-id: s3waas_account_menu
-theme: s3waas
-region: secondary_menu
-weight: 0
-plugin: 'system_menu_block:account'
