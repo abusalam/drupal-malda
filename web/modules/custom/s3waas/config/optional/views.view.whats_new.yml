@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_valid_upto
     - node.type.notice
-    - system.menu.main
     - taxonomy.vocabulary.notice
   content:
     - 'taxonomy_term:notice:03129a6b-99b1-4bee-a87c-dde83a73ac57'
@@ -34,7 +33,7 @@ display:
         options:
           perm: 'access content'
       cache:
-        type: tag
+        type: none
         options: {  }
       query:
         type: views_query
@@ -377,8 +376,8 @@ display:
       display_extenders: {  }
       path: news
       menu:
-        type: normal
-        title: 'What''s New?'
+        type: 'default tab'
+        title: Notice
         description: ''
         expanded: false
         parent: ''
@@ -466,7 +465,7 @@ display:
         groups:
           1: AND
       tab_options:
-        type: normal
+        type: none
         title: 'What''s New?'
         description: ''
         weight: 0
@@ -493,7 +492,7 @@ display:
         title: Recruitments
         description: ''
         expanded: false
-        parent: 'views_view:views.whats_new.page_1'
+        parent: ''
         weight: 0
         context: '0'
         menu_name: main
@@ -623,6 +622,11 @@ display:
         operator: AND
         groups:
           1: AND
+      tab_options:
+        type: none
+        title: ''
+        description: ''
+        weight: 0
     cache_metadata:
       max-age: -1
       contexts:
@@ -772,11 +776,16 @@ display:
         type: tab
         title: Tenders
         description: ''
-        expanded: false
-        parent: 'views_view:views.whats_new.page_1'
+        expanded: true
+        parent: ''
         weight: 0
         context: '0'
         menu_name: main
+      tab_options:
+        type: none
+        title: ''
+        description: ''
+        weight: 0
     cache_metadata:
       max-age: -1
       contexts:
@@ -798,7 +807,7 @@ display:
       path: news/events
       display_description: ''
       menu:
-        type: 'default tab'
+        type: tab
         title: Events
         description: ''
         expanded: false
