@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.notice
+    - taxonomy.vocabulary.notice
+  content:
+    - 'taxonomy_term:notice:2ebc8af2-1665-4a8a-b875-e3cca2e303e0'
+id: node.notice.field_tags
+field_name: field_tags
+entity_type: node
+bundle: notice
+label: Type
+description: 'Write Notice, Recruitment, Tender etc. Default: Notice'
+required: true
+translatable: true
+default_value:
+  -
+    target_uuid: 2ebc8af2-1665-4a8a-b875-e3cca2e303e0
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      notice: notice
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
