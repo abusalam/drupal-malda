@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * S3WaaS theme and master data creation system.
+ */
+
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_modules_installed().
+ */
+function hook_modules_installed($modules)
+{
+  $taxonomy_vocabulary = 'notice';
+  $notice_types = ['Notice', 'Recruitment', 'Tender', 'Event'];
+  foreach ($notice_types as $type) {
+    Term::create([
+      'vid' => $taxonomy_vocabulary,
+      'name' => $type,
+    ])->save();
+  }
+
+  // $new_term->enforceIsNew();
+  // $new_term->save();
+}
