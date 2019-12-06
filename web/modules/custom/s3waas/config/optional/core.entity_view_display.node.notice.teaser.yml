@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.notice.body
+    - field.field.node.notice.field_attachment
+    - field.field.node.notice.field_date
+    - field.field.node.notice.field_memo_no
+    - field.field.node.notice.field_tags
+    - field.field.node.notice.field_valid_upto
+    - node.type.notice
+  module:
+    - text
+    - user
+id: node.notice.teaser
+targetEntityType: node
+bundle: notice
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_attachment: true
+  field_date: true
+  field_memo_no: true
+  field_tags: true
+  field_valid_upto: true
+  langcode: true

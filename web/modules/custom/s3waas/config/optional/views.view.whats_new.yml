@@ -6,9 +6,9 @@ dependencies:
     - node.type.notice
     - taxonomy.vocabulary.notice
   content:
-    - 'taxonomy_term:notice:03129a6b-99b1-4bee-a87c-dde83a73ac57'
-    - 'taxonomy_term:notice:7912b065-09bd-417e-b2d7-208d0e0c2be2'
-    - 'taxonomy_term:notice:b1e53627-5e27-43c4-aa47-f6bd99fdae95'
+    - 'taxonomy_term:notice:d62f60f8-5436-446c-b508-a15dbc60f202'
+    - 'taxonomy_term:notice:dac76972-8f14-4324-a791-3c8334b863f0'
+    - 'taxonomy_term:notice:db97ce0f-41ae-4f60-86e1-d20575abe2f5'
   module:
     - datetime
     - node
@@ -377,7 +377,7 @@ display:
       path: news
       menu:
         type: 'default tab'
-        title: Notice
+        title: Notices
         description: ''
         expanded: false
         parent: ''
@@ -578,7 +578,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            1: 1
+            2: 2
           group: 1
           exposed: false
           expose:

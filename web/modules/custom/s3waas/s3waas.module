@@ -10,17 +10,15 @@ use Drupal\taxonomy\Entity\Term;
 /**
  * Implements hook_modules_installed().
  */
-function hook_modules_installed($modules)
+function s3waas_modules_installed($modules)
 {
-  $taxonomy_vocabulary = 'notice';
-  $notice_types = ['Notice', 'Recruitment', 'Tender', 'Event'];
-  foreach ($notice_types as $type) {
+  $categories_vocabulary = 'notice'; // Vocabulary machine name
+  $categories = ['Notice', 'Recruitment', 'Tender', 'Event']; // List of terms
+  foreach ($categories as $category) {
     Term::create([
-      'vid' => $taxonomy_vocabulary,
-      'name' => $type,
+      'parent' => [],
+      'name' => $category,
+      'vid' => $categories_vocabulary,
     ])->save();
   }
-
-  // $new_term->enforceIsNew();
-  // $new_term->save();
 }

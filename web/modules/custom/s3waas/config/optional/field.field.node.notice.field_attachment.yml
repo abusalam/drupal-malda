@@ -1,0 +1,26 @@
+uuid: 20618a71-e798-4e47-83d5-ab0faa0f8403
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachment
+    - node.type.notice
+  module:
+    - file
+id: node.notice.field_attachment
+field_name: field_attachment
+entity_type: node
+bundle: notice
+label: Attachment
+description: 'Upload scan copy of the signed document in pdf.'
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'notice/[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

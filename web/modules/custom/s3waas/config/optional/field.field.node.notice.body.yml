@@ -1,0 +1,23 @@
+uuid: ca6c705b-40ca-45cc-8e43-93565f9956f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.notice
+  module:
+    - text
+id: node.notice.body
+field_name: body
+entity_type: node
+bundle: notice
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
