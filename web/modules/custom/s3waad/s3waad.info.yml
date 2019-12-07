@@ -1,10 +1,10 @@
-name: S3WaaS
+name: S3WaaD
 type: module
 description: 'Supporting module for the S3WaaS theme contents.'
-package: s3waas
+package: s3waad
 version: VERSION
 core: 8.x
-configure: s3waas.admin_settings
+configure: s3waad.admin_settings
 dependencies:
   - content_translation
   - config_translation

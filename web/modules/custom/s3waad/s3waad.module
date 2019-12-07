@@ -10,7 +10,7 @@ use Drupal\taxonomy\Entity\Term;
 /**
  * Implements hook_modules_installed().
  */
-function s3waas_modules_installed($modules)
+function s3waad_modules_installed($modules)
 {
   $notice_type = 'notice'; // Vocabulary machine name
   $types = ['Notice', 'Recruitment', 'Tender', 'Event']; // List of types
