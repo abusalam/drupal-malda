@@ -61,6 +61,8 @@ global-styling:
       css/components/topbar.css: {}
       css/components/header.css: {}
       css/components/footer.css: {}
+      css/components/highlight.css: {}
+      css/components/utilities.css: {}
     layout:
       css/layout.css: {}
     theme:

@@ -1,0 +1,70 @@
+.public_utils>span.public_util_name {
+  font-weight: bold;
+  top: 10px;
+  position: relative;
+}
+
+.public_utils>span.counter {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.public_utils>span.counter>a {
+  color: inherit;
+}
+
+.public_utils>span.counter>a:hover {
+  text-decoration: none;
+}
+
+.public_utils {
+  padding-left: 5px!important;
+  padding-right: 5px!important;
+  padding-top: 10px;
+}
+
+.quick-links>ul {
+  padding-left: 20px;
+}
+
+.helpline-number {
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  min-height: 85px!important;
+  padding-top: 15px;
+}
+
+.helpline-number .head {
+  font-size: 13px;
+}
+
+.helpline-number div.number {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.region-utilities>div>div>h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.quick-links>ul>li>a {
+  font-size: 15px;
+  color: #000;
+}
+
+.quick-links>ul>li {
+  padding-top: 15px;
+}
+
+.quick-links>ul>li>a:hover {
+  font-size: 15px;
+  text-decoration: none;
+}
