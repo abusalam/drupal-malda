@@ -6,11 +6,12 @@ version: VERSION
 core: 8.x
 configure: s3waas.admin_settings
 dependencies:
-  - 'drupal:content_translation'
-  - 'drupal:config_translation'
-  - 'drupal:superfish'
-  - 'drupal:libraries'
+  - content_translation
+  - config_translation
+  - superfish
+  - libraries
   - datetime
   - node
   - taxonomy
   - user
+  - sitemap

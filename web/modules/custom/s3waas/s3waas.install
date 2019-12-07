@@ -5,10 +5,24 @@
  * Install, update and uninstall functions for the S3WaaS module.
  */
 
+use Drupal\Component\Serialization\Yaml;
 
 /**
  * Implements hook_install().
  */
 function s3waas_install() {
+
+  $config_files = [
+    'sitemap.settings',
+  ];
+
+  foreach ($config_files as $config_id) {
+    $config_file = drupal_get_path('module', 's3waas')
+       . '/config/update/' . $config_id . '.yml';
+    $raw_data = file_get_contents($config_file);
+    \Drupal::configFactory()->getEditable($config_id)
+      ->setData(Yaml::decode($raw_data))
+      ->save();
+  }
 
 }
