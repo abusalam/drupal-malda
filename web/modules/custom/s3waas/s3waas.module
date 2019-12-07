@@ -12,13 +12,18 @@ use Drupal\taxonomy\Entity\Term;
  */
 function s3waas_modules_installed($modules)
 {
-  $categories_vocabulary = 'notice'; // Vocabulary machine name
-  $categories = ['Notice', 'Recruitment', 'Tender', 'Event']; // List of terms
-  foreach ($categories as $category) {
-    Term::create([
-      'parent' => [],
-      'name' => $category,
-      'vid' => $categories_vocabulary,
-    ])->save();
+  $notice_type = 'notice'; // Vocabulary machine name
+  $types = ['Notice', 'Recruitment', 'Tender', 'Event']; // List of types
+  foreach ($types as $term) {
+    if ($terms = taxonomy_term_load_multiple_by_name($term, $notice_type)) {
+      // Only use the first term returned; there should only be one anyways if we do this right.
+      reset($terms);
+    } else {
+      Term::create([
+        'parent' => [],
+        'name' => $term,
+        'vid' => $notice_type,
+      ])->save();
+    }
   }
 }
