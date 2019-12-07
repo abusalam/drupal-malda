@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic'
+  module:
+    - block_content
+    - system
+  theme:
+    - s3waas
+id: s3waas_utilities
+theme: s3waas
+region: utilities
+weight: -6
+provider: null
+plugin: 'block_content'
+settings:
+  id: 'block_content'
+  label: 'Public Utilities, Quick Links, Helpline Numbers'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -79,6 +79,13 @@
         </main>
       </div>
     </div>
+    {% if page.utilities %}
+    <div class="utilities">
+      <aside class="container section clearfix" role="complementary">
+        {{ page.utilities }}
+      </aside>
+    </div>
+    {% endif %}
     <footer class="footer container-fluid">
       <div class="container section clearfix">
         {{ page.footer }}

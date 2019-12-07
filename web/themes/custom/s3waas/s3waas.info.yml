@@ -20,4 +20,5 @@ regions:
   highlighted: Highlighted
   breadcrumb: Breadcrumb
   content: Content
+  utilities: 'Utilities'
   footer: 'Footer'
