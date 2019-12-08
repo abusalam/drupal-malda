@@ -19,7 +19,7 @@
         }, "slow");
       });
 
-      $('.footer').once().before('<img src="/themes/custom/s3waas/images/footer-background.gif" alt="Biswa Bangla" width="100%">');
+      $('.footer').once().before('<img src="/themes/custom/s3waas/images/footer-background.gif" class="footer-bg" alt="Biswa Bangla" width="100%">');
 
       $('.contrast').click(function() {
         var code = this.id;
