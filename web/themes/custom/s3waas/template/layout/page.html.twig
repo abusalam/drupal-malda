@@ -41,56 +41,55 @@
  * @see html.html.twig
  */
 #}
-<div id="page-wrapper contrast">
-  <div id="page">
-    {{ page.topbar }}
-    <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
-      <div class="section container clearfix">
-        {{ page.header }}
-      </div>
-    </header>
-    <div id="menubar" class="section container-fluid clearfix">
-      <div class="section container clearfix">
-        <div class="main-menu pull-left">
-          {{ page.primary_menu }}
-        </div>
-        <div class="user-menu pull-right">
-          {{ page.secondary_menu }}
-        </div>
-      </div>
+
+<div id="page" class="contrast">
+  {{ page.topbar }}
+  <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
+    <div class="section container clearfix">
+      {{ page.header }}
     </div>
-    {% if page.slider %}
-    {{ page.slider }}
-    {{ attach_library('s3waas/slider') }}
-    {% endif %}
-    {% if page.highlighted %}
-    <div class="highlighted">
-      <aside class="container section clearfix" role="complementary">
-        {{ page.highlighted }}
-      </aside>
-    </div>
-    {% endif %}
-    <div id="main-wrapper" class="layout-main-wrapper container clearfix">
-      <div id="main" class="layout-main clearfix">
-        {{ page.breadcrumb }}
-        <main id="content" class="column main-content" role="main">
-          <section class="section">
-            {{ page.content }}
-          </section>
-        </main>
+  </header>
+  <div id="menubar" class="section container-fluid clearfix">
+    <div class="section container clearfix">
+      <div class="main-menu pull-left">
+        {{ page.primary_menu }}
+      </div>
+      <div class="user-menu pull-right">
+        {{ page.secondary_menu }}
       </div>
     </div>
-    {% if page.utilities %}
-    <div class="utilities">
-      <aside class="container section clearfix" role="complementary">
-        {{ page.utilities }}
-      </aside>
-    </div>
-    {% endif %}
-    <footer class="footer container-fluid">
-      <div class="container section clearfix">
-        {{ page.footer }}
-      </div>
-    </footer>
   </div>
+  {% if page.slider %}
+  {{ page.slider }}
+  {{ attach_library('s3waas/slider') }}
+  {% endif %}
+  {% if page.highlighted %}
+  <div class="highlighted">
+    <aside class="container section clearfix" role="complementary">
+      {{ page.highlighted }}
+    </aside>
+  </div>
+  {% endif %}
+  <div id="main-wrapper" class="layout-main-wrapper container clearfix">
+    <div id="main-content" class="layout-main clearfix">
+      {{ page.breadcrumb }}
+      <main id="content" class="column main-content" role="main">
+        <section class="section">
+          {{ page.content }}
+        </section>
+      </main>
+    </div>
+  </div>
+  {% if page.utilities %}
+  <div class="utilities">
+    <aside class="container section clearfix" role="complementary">
+      {{ page.utilities }}
+    </aside>
+  </div>
+  {% endif %}
+  <footer class="footer container-fluid">
+    <div class="container section clearfix">
+      {{ page.footer }}
+    </div>
+  </footer>
 </div>
