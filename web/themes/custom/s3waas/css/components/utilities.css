@@ -1,14 +1,14 @@
 .public_utils>span.public_util_name {
   font-weight: bold;
-  top: 10px;
+  font-size: 15px;
   position: relative;
 }
 
 .public_utils>span.counter {
   font-weight: bold;
-  padding: 10px;
+  padding: 4px;
   border-radius: 20px;
-  min-height: 40px;
+  min-height: 25px;
   min-width: 40px;
   text-align: center;
   vertical-align: middle;

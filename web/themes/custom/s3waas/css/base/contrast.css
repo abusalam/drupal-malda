@@ -39,7 +39,7 @@ span.visitor-count {
 
 .full-cntrl-left-caption-bottom .container .slide-caption {
   color: yellow!important;
-  background: rgba(0, 0, 0, 0.81)!important;
+  /*background: rgba(0, 0, 0, 0.81)!important;*/
 }
 
 #menubar {
@@ -75,4 +75,13 @@ ul.tabs.primary {
 
 a#light {
   color: black!important;
+}
+
+.region-highlighted>div>.col-sm-2>.list-text {
+  color: #ff0;
+}
+
+.public_utils>span.counter,
+.helpline-number {
+  background: #424242;
 }
