@@ -2,16 +2,15 @@ name: S3WaaD
 type: module
 description: 'Supporting module for the S3WaaS theme contents.'
 package: s3waad
-version: VERSION
 core: 8.x
 configure: s3waad.admin_settings
 dependencies:
-  - content_translation
-  - config_translation
-  - superfish
-  - libraries
-  - datetime
-  - node
-  - taxonomy
-  - user
-  - sitemap
+  - drupal:content_translation
+  - drupal:config_translation
+  - drupal:superfish
+  - drupal:libraries
+  - drupal:datetime
+  - drupal:node
+  - drupal:taxonomy
+  - drupal:user
+  - drupal:sitemap

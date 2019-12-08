@@ -291,7 +291,7 @@ ul.tabs.primary {
 .sf-depth-14>a:hover {
   color: #e2e2e2;
   text-decoration: none;
-  background: #3C7D14;
+  background: #3c7d14;
 }
 
 .sf-depth-1>a:active,
@@ -310,7 +310,7 @@ ul.tabs.primary {
 .sf-depth-14>a:active {
   color: #e2e2e2;
   text-decoration: none;
-  background: #3C7D14;
+  background: #3c7d14;
 }
 
 .menuparent>ul {
@@ -321,8 +321,7 @@ ul.tabs.primary {
 
 ul.menu a.is-active {
   color: #fff;
-  background: #3C7D14;
-  ;
+  background: #3c7d14;;
 }
 
 

@@ -10,15 +10,18 @@ use Drupal\taxonomy\Entity\Term;
 /**
  * Implements hook_modules_installed().
  */
-function s3waad_modules_installed($modules)
-{
-  $notice_type = 'notice'; // Vocabulary machine name
-  $types = ['Notice', 'Recruitment', 'Tender', 'Event']; // List of types
+function s3waad_modules_installed($modules) {
+  // Vocabulary machine name.
+  $notice_type = 'notice';
+  // List of types.
+  $types = ['Notice', 'Recruitment', 'Tender', 'Event'];
   foreach ($types as $term) {
     if ($terms = taxonomy_term_load_multiple_by_name($term, $notice_type)) {
-      // Only use the first term returned; there should only be one anyways if we do this right.
+      // Only use the first term returned;
+      // there should only be one anyways if we do this right.
       reset($terms);
-    } else {
+    }
+    else {
       Term::create([
         'parent' => [],
         'name' => $term,

@@ -1,186 +1,186 @@
-  #topBar1 ul,
-  #topBar1 ol {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0px;
-  }
+#topBar1 ul,
+#topBar1 ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
 
-  #topBar1 ul li,
-  #topBar1 ol li {
-    list-style-type: none;
-    padding-bottom: 0;
-  }
+#topBar1 ul li,
+#topBar1 ol li {
+  list-style-type: none;
+  padding-bottom: 0;
+}
 
-  #topBar1 .govBranding ul li {
-    display: inline-block;
-  }
+#topBar1 .govBranding ul li {
+  display: inline-block;
+}
 
-  #topBar1 .govBranding ul li a {
-    display: block;
-    font-size: 0.78em;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding: 8px 10px;
-  }
+#topBar1 .govBranding ul li a {
+  display: block;
+  font-size: 0.78em;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 8px 10px;
+}
 
-  #topBar1 .govBranding ul li:first-child {
-    border-right: 1px solid #e1e1e1;
-  }
+#topBar1 .govBranding ul li:first-child {
+  border-right: 1px solid #e1e1e1;
+}
 
-  #topBar1 #accessibility ul li {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-  }
+#topBar1 #accessibility ul li {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
 
+#topBar1 #accessibility ul li a {
+  font-size: 1.3em;
+  padding: 4px 8px;
+  vertical-align: top;
+  display: block;
+}
+
+#topBar1 #accessibility ul li a:focus {
+  outline: none;
+}
+
+#topBar1 #accessibility ul li {
+  margin: 0 4px 0 0;
+}
+
+#topBar1 #accessibility ul li .textSizing {
+  padding: 3px 12px;
+}
+
+#topBar1 #accessibility ul li .textSizing ul li a {
+  font-size: 0.8em;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 4px 6px;
+  font-weight: 700;
+}
+
+#topBar1 #accessibility ul li select {
+  width: 80px;
+  padding: 2px;
+  margin-top: 4px;
+  font-size: 0.8em;
+  margin-left: 8px;
+  height: 23px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+#topBar1 #accessibility ul li .goiSearch {
+  position: absolute;
+  width: 209px;
+  z-index: 30;
+  left: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  margin-top: 1px;
+}
+
+#topBar1 #accessibility ul li .goiSearch input[type=text],
+#topBar1 #accessibility ul li .goiSearch input[type=search] {
+  display: inline-block;
+  width: 160px;
+}
+
+#topBar1 #accessibility ul li .goiSearch button {
+  display: inline-block;
+  width: 40px;
+  height: 32px;
+  font-size: 20px;
+  padding: 0px 0px;
+  text-align: center;
+  float: right;
+}
+
+#topBar1 #accessibility ul li .socialIcons {
+  position: absolute;
+  width: 27px;
+  z-index: 1;
+  left: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  border-top: 0px;
+  border-left: 0px;
+}
+
+#topBar1 #accessibility ul li .socialIcons ul li {
+  display: block;
+  text-align: center;
+}
+
+#topBar1 #accessibility ul li.mFocus .socialIcons,
+#topBar1 #accessibility ul li.mFocus .goiSearch,
+#topBar1 #accessibility ul li a:focus+.socialIcons,
+#topBar1 #accessibility ul li:hover a+.socialIcons {
+  visibility: visible;
+}
+
+@media (max-width: 940px) {
+  #topBar1 .govBranding {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
   #topBar1 #accessibility ul li a {
-    font-size: 1.3em;
-    padding: 4px 8px;
-    vertical-align: top;
-    display: block;
+    font-size: 1.7em;
+    padding: 4px;
   }
-
-  #topBar1 #accessibility ul li a:focus {
-    outline: none;
-  }
-
-  #topBar1 #accessibility ul li {
-    margin: 0 4px 0 0;
-  }
-
   #topBar1 #accessibility ul li .textSizing {
-    padding: 3px 12px;
+    padding: 7px 6px;
   }
-
-  #topBar1 #accessibility ul li .textSizing ul li a {
-    font-size: 0.8em;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    padding: 4px 6px;
-    font-weight: 700;
-  }
-
-  #topBar1 #accessibility ul li select {
-    width: 80px;
-    padding: 2px;
-    margin-top: 4px;
-    font-size: 0.8em;
-    margin-left: 8px;
-    height: 23px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-  }
-
-  #topBar1 #accessibility ul li .goiSearch {
-    position: absolute;
-    width: 209px;
-    z-index: 30;
-    left: 0px;
-    overflow: hidden;
-    visibility: hidden;
-    margin-top: 1px;
-  }
-
-  #topBar1 #accessibility ul li .goiSearch input[type=text],
-  #topBar1 #accessibility ul li .goiSearch input[type=search] {
-    display: inline-block;
-    width: 160px;
-  }
-
-  #topBar1 #accessibility ul li .goiSearch button {
-    display: inline-block;
-    width: 40px;
-    height: 32px;
-    font-size: 20px;
-    padding: 0px 0px;
-    text-align: center;
-    float: right;
-  }
-
   #topBar1 #accessibility ul li .socialIcons {
-    position: absolute;
-    width: 27px;
-    z-index: 1;
-    left: 0px;
-    overflow: hidden;
-    visibility: hidden;
-    border-top: 0px;
-    border-left: 0px;
+    width: 37px;
   }
+  #topBar1 #accessibility ul li select {
+    margin-top: 6px;
+  }
+}
 
-  #topBar1 #accessibility ul li .socialIcons ul li {
-    display: block;
-    text-align: center;
+@media (max-width: 400px) {
+  #topBar1 #accessibility ul li a {
+    font-size: 1.5em;
+    padding: 4px 2px;
   }
+  #topBar1 #accessibility ul li .textSizing {
+    padding: 6px 4px;
+  }
+  #topBar1 #accessibility ul li .socialIcons {
+    width: 37px;
+  }
+  #topBar1 #accessibility ul li select {
+    margin-top: 6px;
+    margin-left: 0px;
+    width: 46px;
+    padding: 0px;
+    height: 22px;
+  }
+}
 
-  #topBar1 #accessibility ul li.mFocus .socialIcons,
-  #topBar1 #accessibility ul li.mFocus .goiSearch,
-  #topBar1 #accessibility ul li a:focus+.socialIcons,
-  #topBar1 #accessibility ul li:hover a+.socialIcons {
-    visibility: visible;
-  }
+.push-left {
+  float: left;
+}
 
-  @media (max-width: 940px) {
-    #topBar1 .govBranding {
-      display: none;
-    }
-  }
+.push-right {
+  float: right;
+}
 
-  @media (max-width: 500px) {
-    #topBar1 #accessibility ul li a {
-      font-size: 1.7em;
-      padding: 4px;
-    }
-    #topBar1 #accessibility ul li .textSizing {
-      padding: 7px 6px;
-    }
-    #topBar1 #accessibility ul li .socialIcons {
-      width: 37px;
-    }
-    #topBar1 #accessibility ul li select {
-      margin-top: 6px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    #topBar1 #accessibility ul li a {
-      font-size: 1.5em;
-      padding: 4px 2px;
-    }
-    #topBar1 #accessibility ul li .textSizing {
-      padding: 6px 4px;
-    }
-    #topBar1 #accessibility ul li .socialIcons {
-      width: 37px;
-    }
-    #topBar1 #accessibility ul li select {
-      margin-top: 6px;
-      margin-left: 0px;
-      width: 46px;
-      padding: 0px;
-      height: 22px;
-    }
-  }
-
-  .push-left {
-    float: left;
-  }
-
-  .push-right {
-    float: right;
-  }
-
-  .push-center {
-    margin: 0 auto;
-    float: none;
-  }
-  /*
+.push-center {
+  margin: 0 auto;
+  float: none;
+}
+/*
 .visually-hidden:active,
 .visually-hidden {
   clip: auto;
@@ -191,7 +191,7 @@
   font-size: 0.8em;
   padding: 9px 8px;
 } */
-  /*
+/*
   #topBar1 ul li,
   #topBar1 ol li {
     padding-top: 5px;
@@ -216,47 +216,47 @@
     height: 35px!important;
   } */
 
-  a#increase span,
-  a#decrease span,
-  a#normal span {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 4px;
-    font-size: 12px;
-  }
+a#increase span,
+a#decrease span,
+a#normal span {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 12px;
+}
 
-  a#dark span {
-    border: 1px solid white;
-    border-radius: 5px 0px 0px 5px;
-    padding: 4px;
-    font-size: 12px;
-  }
+a#dark span {
+  border: 1px solid white;
+  border-radius: 5px 0px 0px 5px;
+  padding: 4px;
+  font-size: 12px;
+}
 
-  a#light span {
-    border: 1px solid white;
-    border-radius: 0px 5px 5px 0px;
-    padding: 4px;
-    font-size: 12px;
-  }
+a#light span {
+  border: 1px solid white;
+  border-radius: 0px 5px 5px 0px;
+  padding: 4px;
+  font-size: 12px;
+}
 
-  a#increase,
-  a#decrease,
-  a#normal {
-    padding: 2px;
-  }
+a#increase,
+a#decrease,
+a#normal {
+  padding: 2px;
+}
 
-  a#light span {
-    color: black;
-    background: white;
-  }
+a#light span {
+  color: black;
+  background: white;
+}
 
-  a#light,
-  a#dark {
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-  }
+a#light,
+a#dark {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
 
-  #topBar1 #accessibility ul li a {
-    padding: 2px 2px;
-    vertical-align: top;
-  }
+#topBar1 #accessibility ul li a {
+  padding: 2px 2px;
+  vertical-align: top;
+}

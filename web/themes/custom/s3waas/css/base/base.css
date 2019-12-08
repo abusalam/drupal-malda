@@ -3728,11 +3728,6 @@ a.menuToggle:hover {
 
 /*Theme 1 start*/
 
-.mva7-thc-activetheme-district-theme,
-.home-1 {
-  /*#footer { padding-top: 10px;}*/
-}
-
 .mva7-thc-activetheme-district-theme .touristContainer .tourmainContent .photoTxtContainer .txtHeading,
 .home-1 .touristContainer .tourmainContent .photoTxtContainer .txtHeading {
   margin: 10px 0;
@@ -4753,11 +4748,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .mva7-thc-activetheme-district-theme,
-  .home-1 {
-    /*#topBar #accessibility ul li:first-child a{ border-left:none;}*/
-    /*#topBar #accessibility ul li { margin: 0 2px 0 -4px;}*/
-  }
   .mva7-thc-activetheme-district-theme #topBar #accessibility ul li:last-child a,
   .home-1 #topBar #accessibility ul li:last-child a {
     border-right: none;
@@ -4861,33 +4851,6 @@ a.menuToggle:hover {
   .mva7-thc-activetheme-district-theme .logo a span,
   .home-1 .logo a span {
     padding-top: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .mva7-thc-activetheme-district-theme,
-  .home-1 {
-    /*#topBar #accessibility ul li .textSizing, #topBar1 #accessibility ul li .textSizing, #topBar #accessibility ul li .textSizing ul li a, #topBar1 #accessibility ul li .textSizing ul li a {
-        padding: 4px !important;
-      }
-      #topBar #accessibility ul li .textSizing li{ margin: 0 3px 0 0;}
-      #topBar #accessibility ul li .textSizing li:first-child{ margin-left: 3px;}*/
-  }
-}
-
-@media print {
-  .mva7-thc-activetheme-district-theme .box-1,
-  .home-1 .box-1 {
-    width: auto;
-  }
-  .mva7-thc-activetheme-district-theme .khowMinisterBox,
-  .home-1 .khowMinisterBox {
-    text-align: left;
-  }
-  .mva7-thc-activetheme-district-theme .khowMinisterBox .khowMinisterBoxImg img,
-  .home-1 .khowMinisterBox .khowMinisterBoxImg img {
-    max-width: 200px;
-    width: 200px;
   }
 }
 
@@ -7564,11 +7527,6 @@ a.menuToggle:hover {
 
 /*Theme 4 start*/
 
-.mva7-thc-activetheme-district-theme-4,
-.home-4 {
-  /*-----------------*/
-}
-
 .mva7-thc-activetheme-district-theme-4 body,
 .home-4 body {
   overflow-x: hidden;
@@ -8752,13 +8710,6 @@ a.menuToggle:hover {
 
 
 /*Theme 5 start*/
-
-.mva7-thc-activetheme-district-theme-5,
-.home-5 {
-  /*-----------------*/
-  /*.vc_row-fluid { width: 100% !important; max-width: 100% !important;}*/
-  /*.nav li.active>a { border-top: none;}*/
-}
 
 .mva7-thc-activetheme-district-theme-5 body,
 .home-5 body {
@@ -10829,13 +10780,6 @@ a.menuToggle:hover {
 
 /*Theme 7 start*/
 
-.mva7-thc-activetheme-district-theme-7,
-.home-7 {
-  /*.hm-slider-seven.full-cntrl-left-caption-right .container .slide-caption p.heading3 { font-size: 1.2em;}*/
-  /*search category start*/
-  /*search category end*/
-}
-
 .mva7-thc-activetheme-district-theme-7 .singlebox,
 .home-7 .singlebox {
   display: inline-block;
@@ -11744,11 +11688,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-7,
-  .home-7 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-7 .hm-slider-seven.full-cntrl-left-caption-right .container .slide-caption h2,
   .home-7 .hm-slider-seven.full-cntrl-left-caption-right .container .slide-caption h2 {
     text-align: center;
@@ -12982,10 +12921,6 @@ a.menuToggle:hover {
 }
 
 @media (max-width: 768px) {
-  .mva7-thc-activetheme-district-theme-8,
-  .home-8 {
-    /*#topBar1 #accessibility ul li .textSizing li { margin-left: 2px;}*/
-  }
   .mva7-thc-activetheme-district-theme-8 .responsive-show,
   .home-8 .responsive-show {
     display: inherit;
@@ -14380,11 +14315,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-9,
-  .home-9 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-9 .office-bearers-nine .khowMinisterBox .MinisterProfile ul,
   .home-9 .office-bearers-nine .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -15556,11 +15486,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-10,
-  .home-10 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-10 .slide-caption p,
   .home-10 .slide-caption p {
     text-align: left !important;
@@ -15965,12 +15890,6 @@ a.menuToggle:hover {
 
 
 /*Theme 11 start*/
-
-.mva7-thc-activetheme-district-theme-11,
-.home-11 {
-  /*search category start*/
-  /*search category end*/
-}
 
 .mva7-thc-activetheme-district-theme-11 .banner-eleven.full-cntrl-right-caption-left .container,
 .home-11 .banner-eleven.full-cntrl-right-caption-left .container {
@@ -16563,11 +16482,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-11,
-  .home-11 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-11 .office-bearers-eleven .khowMinisterBox .MinisterProfile ul,
   .home-11 .office-bearers-eleven .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -16961,12 +16875,6 @@ a.menuToggle:hover {
 
 
 /*Theme 12 start*/
-
-.mva7-thc-activetheme-district-theme-12,
-.home-12 {
-  /*search category start*/
-  /*search category end*/
-}
 
 .mva7-thc-activetheme-district-theme-12 .banner-twelve.full-cntrl-right-caption-bottom .container .slide-caption,
 .home-12 .banner-twelve.full-cntrl-right-caption-bottom .container .slide-caption {
@@ -17586,11 +17494,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-12,
-  .home-12 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-12 .meet-minister-twelve .khowMinisterBox .MinisterProfile ul,
   .home-12 .meet-minister-twelve .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -17950,12 +17853,6 @@ a.menuToggle:hover {
 
 
 /*Theme 13 start*/
-
-.mva7-thc-activetheme-district-theme-13,
-.home-13 {
-  /*search category start*/
-  /*search category end*/
-}
 
 .mva7-thc-activetheme-district-theme-13 .nav>li,
 .home-13 .nav>li {
@@ -18674,11 +18571,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-13,
-  .home-13 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-13 .office-bearers-thirteen .khowMinisterBox .MinisterProfile ul,
   .home-13 .office-bearers-thirteen .khowMinisterBox .MinisterProfile ul {
     display: inline-block;
@@ -19030,12 +18922,6 @@ a.menuToggle:hover {
 
 
 /*Theme 14 start*/
-
-.mva7-thc-activetheme-district-theme-14,
-.home-14 {
-  /*search category start*/
-  /*search category end*/
-}
 
 .mva7-thc-activetheme-district-theme-14 h2,
 .mva7-thc-activetheme-district-theme-14 h3,
@@ -19647,12 +19533,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-14,
-  .home-14 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-    /*#topBar1 #accessibility ul li .textSizing ul li a { padding: 4px 2px !important;}*/
-  }
   .mva7-thc-activetheme-district-theme-14 .slide-caption p,
   .home-14 .slide-caption p {
     text-align: left !important;
@@ -19993,12 +19873,6 @@ a.menuToggle:hover {
 
 
 /*Theme 15 start*/
-
-.mva7-thc-activetheme-district-theme-15,
-.home-15 {
-  /*search category start*/
-  /*search category end*/
-}
 
 .mva7-thc-activetheme-district-theme-15 .main-banner-fifteen.full-cntrl-right-caption-left .container,
 .home-15 .main-banner-fifteen.full-cntrl-right-caption-left .container {
@@ -20558,11 +20432,6 @@ a.menuToggle:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .mva7-thc-activetheme-district-theme-15,
-  .home-15 {
-    /*for responsive search start*/
-    /*for responsive search end*/
-  }
   .mva7-thc-activetheme-district-theme-15 .slide-caption p,
   .home-15 .slide-caption p {
     text-align: left !important;
@@ -21290,7 +21159,7 @@ a.menuToggle:hover {
 
 
 /*#topBar1 #accessibility ul li .textSizing ul li a{padding: 3px 6px;}*/
-/* 
+/*
 #topBar #accessibility ul li.highContrast.dark a,
 #topBar1 #accessibility ul li.highContrast.dark a {
   background: #000;
