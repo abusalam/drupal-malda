@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a4ef9c3e056b32661f3c6d7a5740ffc",
+    "content-hash": "32a10b52f031feff1f52ee825bdb6bea",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2628,6 +2628,73 @@
                 "source": "http://cgit.drupalcode.org/libraries",
                 "issues": "http://drupal.org/project/issues/libraries",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/menu_breadcrumb",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_breadcrumb.git",
+                "reference": "8.x-1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_breadcrumb-8.x-1.11.zip",
+                "reference": "8.x-1.11",
+                "shasum": "8a867303e9c66be3d7cf54ba2be73919f3c880e4"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.11",
+                    "datestamp": "1567506484",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RyanPrice",
+                    "homepage": "https://www.drupal.org/user/873848"
+                },
+                {
+                    "name": "aaron",
+                    "homepage": "https://www.drupal.org/user/33420"
+                },
+                {
+                    "name": "gdevlugt",
+                    "homepage": "https://www.drupal.org/user/167273"
+                },
+                {
+                    "name": "rphair",
+                    "homepage": "https://www.drupal.org/user/3196607"
+                },
+                {
+                    "name": "vaibhavjain",
+                    "homepage": "https://www.drupal.org/user/1159692"
+                },
+                {
+                    "name": "xurizaemon",
+                    "homepage": "https://www.drupal.org/user/76026"
+                }
+            ],
+            "description": "Create breadcrumbs from nested menu titles and/or taxonomy membership.",
+            "homepage": "https://www.drupal.org/project/menu_breadcrumb",
+            "support": {
+                "source": "https://git.drupalcode.org/project/menu_breadcrumb"
             }
         },
         {
