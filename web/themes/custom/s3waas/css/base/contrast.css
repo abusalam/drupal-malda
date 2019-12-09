@@ -1,4 +1,5 @@
-@import url("../colors.css"); #topBar1 {
+@import url("../colors.css");
+#topBar1 {
   background: #23282d!important;
   color: yellow!important;
 }
@@ -9,7 +10,14 @@ a {
 
 header#header,
 #page,
-#main {
+#main-content,
+.highlighted,
+div#mmain-wrapper,
+.utilities,
+#header,
+#page,
+#main,
+.path-frontpage {
   background: #000000!important;
   color: yellow!important;
 }
