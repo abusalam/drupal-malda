@@ -1,7 +1,8 @@
 @import url("../colors.css");
 #topBar1 {
-  background: #23282d!important;
+  background: #000000!important;
   color: yellow!important;
+  border-bottom: 1px solid #424242;
 }
 
 a {
@@ -92,4 +93,8 @@ a#light {
 .public_utils>span.counter,
 .helpline-number {
   background: #424242;
+}
+
+.footer-bg {
+  background: black;
 }

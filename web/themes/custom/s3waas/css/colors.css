@@ -1,6 +1,7 @@
 /* ---------- Color Module Styles ----------- */
 
-body {
+
+/* body {
   color: #3b3b3b;
   background: #ffffff;
 }
@@ -10,7 +11,7 @@ body {
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
   background: #fff;
-}
+} */
 
 .tabs ul.primary li a.is-active {
   background-color: #fff;
@@ -29,9 +30,10 @@ body {
   background-color: #424242;
 }
 
-#header {
+
+/* #header {
   background-color: #fff;
-}
+} */
 
 a,
 .link {
@@ -222,12 +224,18 @@ span.visitor-count {
   background: #fdfdfd66;
 }
 
-#header,
 #page,
-#main,
-.path-frontpage {
-  background-image: url(../images/texture.png);
+body {
+  background-image: url(../images/texture.png)!important;
+  /* background: blue; */
 }
+
+
+/*
+body {
+  color: #333;
+  background-color: #aa0505!important;
+} */
 
 form#user-login-form,
 form#user-register-form,
