@@ -11,13 +11,13 @@ field_name: field_form_pdf
 entity_type: node
 bundle: forms
 label: 'Form PDF'
-description: ''
+description: 'Upload only one pdf form at a time.'
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_directory: 'forms/[date:custom:Y]-[date:custom:m]'
   file_extensions: pdf
   max_filesize: ''
   description_field: true

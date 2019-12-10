@@ -10,7 +10,7 @@ field_name: field_section
 entity_type: node
 bundle: forms
 label: 'Department / Section / Scheme'
-description: ''
+description: 'Type a few letters of the name of the department, section or scheme and select from the list.'
 required: true
 translatable: false
 default_value: {  }

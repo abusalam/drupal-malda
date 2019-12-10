@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.forms.field_form_pdf
+    - field.field.node.forms.field_section
+    - node.type.forms
+  module:
+    - user
+id: node.forms.teaser
+targetEntityType: node
+bundle: forms
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_form_pdf: true
+  field_section: true
+  langcode: true

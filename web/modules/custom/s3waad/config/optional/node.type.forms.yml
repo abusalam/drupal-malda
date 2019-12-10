@@ -1,4 +1,3 @@
-uuid: 0cba46ed-8e69-4205-afed-d7498524556b
 langcode: en
 status: true
 dependencies:
@@ -12,7 +11,7 @@ third_party_settings:
 name: Forms
 type: forms
 description: 'Use forms for uploading scanned pdf forms for various schemes.'
-help: ''
+help: 'Name of the form should be well known names by which visitors can easily identify the use of the form.'
 new_revision: false
 preview_mode: 1
 display_submitted: false
