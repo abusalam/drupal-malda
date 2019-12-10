@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_form_pdf
+    - node.type.forms
+  module:
+    - file
+id: node.forms.field_form_pdf
+field_name: field_form_pdf
+entity_type: node
+bundle: forms
+label: 'Form PDF'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

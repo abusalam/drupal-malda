@@ -5,13 +5,13 @@ package: s3waad
 core: 8.x
 configure: s3waad.admin_settings
 dependencies:
-  - drupal:content_translation
-  - drupal:config_translation
-  - drupal:superfish
-  - drupal:libraries
-  - drupal:datetime
-  - drupal:node
-  - drupal:taxonomy
-  - drupal:user
-  - drupal:sitemap
-  - drupal:menu_breadcrumb
+  - 'drupal:content_translation'
+  - 'drupal:config_translation'
+  - 'drupal:superfish'
+  - 'drupal:libraries'
+  - 'drupal:datetime'
+  - 'drupal:node'
+  - 'drupal:taxonomy'
+  - 'drupal:user'
+  - 'drupal:sitemap'
+  - 'drupal:menu_breadcrumb'

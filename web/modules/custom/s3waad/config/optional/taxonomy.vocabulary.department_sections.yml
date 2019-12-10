@@ -1,0 +1,8 @@
+uuid: 5daf2cf8-7319-4412-8794-78e73a7da321
+langcode: en
+status: true
+dependencies: {  }
+name: 'Department Sections'
+vid: department_sections
+description: ''
+weight: 0
