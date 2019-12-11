@@ -38,10 +38,15 @@ function s3waas_preprocess_block(&$variables) {
       }
       break;
 
+    case 'slideshow_block':
+      dump($variables);
+      break;
+
     case 'system_powered_by_block':
       $variables['theme_version'] = `git describe --tags`;
       $variables['last_update'] = `git log -1 --format=%cI`;
       $variables['visitor_count'] = time();
       break;
   }
+  // dump($variables);
 }
