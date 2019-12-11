@@ -50,3 +50,17 @@
   padding-left: 20px!important;
   padding-right: 20px!important;
 }
+
+.site_name_regional {
+  color: black;
+  font-size: 30px;
+}
+
+.header-container {
+  padding: 14px;
+}
+
+h1.page-title {
+  font-weight: bold;
+  font-family: none;
+}

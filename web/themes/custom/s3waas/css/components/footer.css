@@ -21,3 +21,7 @@ span.last-update,
 span.visitor-count {
   font-size: 15px;
 }
+
+.footer-content>div {
+  color: white;
+}

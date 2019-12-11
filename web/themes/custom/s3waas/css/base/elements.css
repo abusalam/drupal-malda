@@ -34,4 +34,47 @@ h2:empty {
 
 table {
   width: 100%;
+  border: 1px solid black;
+  margin-bottom: 27px;
+}
+
+caption {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 600;
+  background: #6275dc;
+  padding: 8px;
+  border-top-left-radius: 10px;
+  color: black!important;
+  border-top-right-radius: 10px;
+  border-top: 1px solid #366d98;
+  border-left: 1px solid #366d98;
+  border-right: 1px solid #366d98;
+}
+
+th {
+  padding: 6px!important;
+  border: 1px solid;
+  font-size: 14px;
+  background: #c2c2c2;
+}
+
+td {
+  padding: 6px!important;
+  border: 1px solid;
+  font-size: 14px;
+  background: #f2f2f2;
+}
+
+td:first-child {
+  width: 60%;
+}
+
+caption>a {
+  color: #fff!important;
+}
+
+td>a,
+td>span>a {
+  color: black!important;
 }

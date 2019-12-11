@@ -1,4 +1,5 @@
-@import url("../colors.css"); #topBar1 {
+@import url("../colors.css");
+#topBar1 {
   background: #000000!important;
   color: yellow!important;
   border-bottom: 1px solid #424242;
@@ -51,8 +52,8 @@ span.visitor-count {
 }
 
 #menubar {
-  border-top: 1px solid #777676;
-  border-bottom: 1px solid #777676;
+  border-top: 1px solid #ff0;
+  border-bottom: 1px solid #ff0;
 }
 
 form#user-login-form,
@@ -91,9 +92,74 @@ a#light {
 
 .public_utils>span.counter,
 .helpline-number {
-  background: #424242;
+  background: #000;
+  border: 1px solid #ff0;
 }
 
 .footer-bg {
   background: black;
+}
+
+.site_name_regional {
+  color: #ff0;
+}
+
+caption {
+  color: #ff0;
+  background: #000;
+  border-top: 1px solid #ff0;
+  border-left: 1px solid #ff0;
+  border-right: 1px solid #ff0;
+}
+
+caption>a {
+  color: #ff0!important;
+}
+
+td>a,
+td>span>a {
+  color: #ff0!important;
+}
+
+td {
+  background: #000;
+  border: 1px solid #ff0;
+}
+
+table {
+  border: 1px solid #ff0;
+}
+
+.logo a h1 {
+  color: #ff0;
+}
+
+.region-utilities>div>div>h4 {
+  background: #000000;
+  color: #ff0;
+  border: 1px solid #ff0;
+}
+
+.region-utilities>div>div>div,
+.region-utilities>div>div>ul {
+  background: #000;
+  border-left: 1px solid #ff0;
+  border-right: 1px solid #ff0;
+  border-bottom: 1px solid #ff0;
+}
+
+.pager li>a,
+.pager li>span {
+  background-color: #000;
+  border: 1px solid #ff0;
+}
+
+span.highlight-circle {
+  color: #ff0;
+  background: #000;
+  border: 2px solid #ff0;
+}
+
+#menubar {
+  background-color: #000000;
 }
