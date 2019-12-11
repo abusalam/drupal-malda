@@ -329,7 +329,8 @@ ul.tabs.primary {
 
 ul.menu a.is-active {
   color: #fff;
-  background: #3c7d14;;
+  background: #3c7d14;
+  ;
 }
 
 
@@ -342,3 +343,23 @@ ul.menu a.is-active {
   padding: 10px;
   background: #3f51b5;
 } */
+
+.bg-warning {
+  background: orange!important;
+  color: #000;
+}
+
+.bg-success {
+  background: green!important;
+  color: white;
+}
+
+.bg-primary {
+  background: blue!important;
+  color: white;
+}
+
+.bg-danger {
+  background: red!important;
+  ;
+}

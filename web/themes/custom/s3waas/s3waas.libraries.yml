@@ -63,6 +63,7 @@ global-styling:
       css/components/footer.css: {}
       css/components/highlight.css: {}
       css/components/utilities.css: {}
+      css/components/sitemap.css: {}
     layout:
       css/layout.css: {}
     theme:

@@ -1094,8 +1094,8 @@ header {
   padding: 20px;
   /* background: #c7d9e6;*/
   border: 1px solid #424242;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
 }
 
 .views-row>article>h2>a>span::before {
@@ -1105,4 +1105,20 @@ header {
   padding-right: 8px;
   vertical-align: middle;
   font-weight: 900;
+}
+
+.view-content {
+  /* border-left: 1px solid black; */
+  /* border-right: 1px solid black; */
+  /* border-bottom: 1px solid black; */
+}
+
+#block-s3waas-page-title>h1 {
+  /* border-top: 1px solid black; */
+  /* border-left: 1px solid black; */
+  /* border-right: 1px solid black; */
+  margin-bottom: 0px;
+  padding: 10px;
+  /* border-top-left-radius: 10px; */
+  /* border-top-right-radius: 10px; */
 }

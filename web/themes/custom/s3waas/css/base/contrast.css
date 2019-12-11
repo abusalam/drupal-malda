@@ -2,7 +2,7 @@
 #topBar1 {
   background: #000000!important;
   color: yellow!important;
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid #ff0;
 }
 
 a {
@@ -18,6 +18,7 @@ div#mmain-wrapper,
 #header,
 #page,
 #main,
+body,
 .path-frontpage {
   background: #000000!important;
   color: yellow!important;
@@ -43,7 +44,7 @@ div#mmain-wrapper,
 span.theme-version,
 span.last-update,
 span.visitor-count {
-  color: #fff!important;
+  color: #ff0!important;
 }
 
 .full-cntrl-left-caption-bottom .container .slide-caption {
@@ -78,8 +79,8 @@ ul.tabs.primary {
 }
 
 .breadcrumb {
-  background-color: #121212!important;
-  border: 1px solid #fff!important;
+  background-color: #000!important;
+  border: 1px solid #ff0!important;
 }
 
 a#light {
@@ -162,4 +163,75 @@ span.highlight-circle {
 
 #menubar {
   background-color: #000000;
+}
+
+ul.menu a.is-active,
+ul.menu a:hover {
+  color: #0a0a0a!important;
+  background: #ff0;
+  font-weight: bold;
+}
+
+th {
+  border: 1px solid #ff0;
+  background: #ff0;
+  font-weight: bold;
+  color: #000;
+  padding: 10px;
+}
+
+.content {
+  border: 1px solid #ff0;
+}
+
+a#increase span,
+a#decrease span,
+a#normal span {
+  border: 1px solid #ff0;
+}
+
+a#dark span {
+  border: 1px solid #ff0;
+}
+
+#topBar1 .govBranding ul li:first-child {
+  border-right: 1px solid #ff0;
+}
+
+
+/* .view-content {
+  border-left: 1px solid #ff0;
+  border-right: 1px solid #ff0;
+  border-bottom: 1px solid #ff0;
+}
+
+div#block-s3waas-page-title>h1 {
+  border-top: 1px solid #ff0;
+  border-left: 1px solid #ff0;
+  border-right: 1px solid #ff0;
+} */
+
+
+/* .highlighted {
+  background: #000;
+  border: 1px solid #ff0;
+} */
+
+#topBar1 #accessibility ul li a.change-language {
+  border-right: 1px solid #ff0;
+}
+
+.menuparent>ul {
+  background: #000;
+  color: #ff0;
+  border: 1px solid #ff0;
+}
+
+.footer {
+  border-top: 2px solid #ff0;
+}
+
+a#light span {
+  background: #ff0;
+  border: 1px solid #ff0;
 }
