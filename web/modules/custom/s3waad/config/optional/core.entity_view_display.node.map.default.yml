@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.map.body
+    - field.field.node.map.field_map_images
+    - image.style.map
+    - node.type.map
+  module:
+    - image
+    - text
+    - user
+id: node.map.default
+targetEntityType: node
+bundle: map
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_map_images:
+    weight: 102
+    label: visually_hidden
+    settings:
+      image_style: map
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

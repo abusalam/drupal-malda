@@ -78,3 +78,8 @@ td>a,
 td>span>a {
   color: black!important;
 }
+
+img.image-style-map {
+  width: 100%;
+  height: auto!important;
+}

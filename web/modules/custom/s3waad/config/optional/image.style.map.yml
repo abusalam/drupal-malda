@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: map
+label: 'Map (1130x1695)'
+effects:
+  2cd2c420-9ba6-4e5b-ba57-30f41d47a408:
+    uuid: 2cd2c420-9ba6-4e5b-ba57-30f41d47a408
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1130
+      height: 1695
+      anchor: center-center

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: map_thumbnail
+label: 'Map Thumbnail (320x480)'
+effects:
+  cc26e1e5-1ab7-4bff-bad0-ca4ebfec3738:
+    uuid: cc26e1e5-1ab7-4bff-bad0-ca4ebfec3738
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 480
+      anchor: center-center
