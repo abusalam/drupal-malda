@@ -66,7 +66,7 @@ td {
   background: #f2f2f2;
 }
 
-td:first-child {
+.view-download-forms>div>table>tbody>tr>td:first-child {
   width: 60%;
 }
 
@@ -82,4 +82,32 @@ td>span>a {
 img.image-style-map {
   width: 100%;
   height: auto!important;
+}
+
+.view-download-forms>div>table>caption::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  display: inline-block;
+  padding-right: 8px;
+  vertical-align: middle;
+  font-weight: 900;
+  color: white;
+}
+
+.node__content>div>p:first-of-type:first-child::first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 60px;
+  line-height: 40px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.node__content>div>p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 20px;
 }

@@ -1084,14 +1084,14 @@ header {
 
 .views-row {
   /* border: 1px solid black; */
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .content {
-  padding: 20px;
+  /* padding: 20px; */
   /* background: #c7d9e6;*/
   /* border: 1px solid #424242; */
   /* border-top-left-radius: 10px;
@@ -1129,4 +1129,48 @@ header {
 
 ul.tabs {
   margin: 0!important;
+}
+
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row>article>h2,
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row>article.node--type-forms>h2 {
+  font-size: 20px;
+}
+
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row>article.node--type-forms>div>.field--type-file>.field__label,
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row>article.node--type-forms>div>.field--type-file>.field__item {
+  display: inline;
+  padding-left: 30px;
+}
+
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row>article>.node__content>.node__links,
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row>article.node--type-forms>div>.node__links {
+  text-align: right;
+}
+
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row {
+  background: #fdfdfd;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 5px;
+}
+
+.node__content>div>h4 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  background: #6275dc;
+  color: #fff;
+}
+
+.node__content>div>h4::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0a4";
+  display: inline-block;
+  padding-right: 8px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.thumbnail .caption {
+  text-align: center;
 }
