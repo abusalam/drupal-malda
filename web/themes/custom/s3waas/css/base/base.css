@@ -1093,7 +1093,7 @@ header {
 .content {
   padding: 20px;
   /* background: #c7d9e6;*/
-  border: 1px solid #424242;
+  /* border: 1px solid #424242; */
   /* border-top-left-radius: 10px;
   border-top-right-radius: 10px; */
 }
@@ -1111,6 +1111,10 @@ header {
   /* border-left: 1px solid black; */
   /* border-right: 1px solid black; */
   /* border-bottom: 1px solid black; */
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
 #block-s3waas-page-title>h1 {
@@ -1121,4 +1125,8 @@ header {
   padding: 10px;
   /* border-top-left-radius: 10px; */
   /* border-top-right-radius: 10px; */
+}
+
+ul.tabs {
+  margin: 0!important;
 }

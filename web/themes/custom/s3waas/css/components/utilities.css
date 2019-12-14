@@ -70,7 +70,7 @@
 }
 
 .region-utilities>div>div>h4 {
-  background: #414f9c;
+  background: #6275dc;
   color: white;
   padding: 10px;
   padding-left: 20px;
@@ -84,7 +84,7 @@
 
 .region-utilities>div>div>div,
 .region-utilities>div>div>ul {
-  background: #f2f2f2;
+  background: #fdfdfd;
   padding: 5px;
   min-height: 250px;
   padding-top: 10px;
