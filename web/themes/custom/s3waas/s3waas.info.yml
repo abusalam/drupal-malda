@@ -18,6 +18,9 @@ regions:
   secondary_menu: 'Secondary menu'
   slider: 'Slideshow'
   highlighted: Highlighted
+  sidebar_left: 'Left Sidebar'
+  center: 'Center Content'
+  sidebar_right: 'Right Sidebar'
   breadcrumb: Breadcrumb
   content: Content
   utilities: 'Utilities'

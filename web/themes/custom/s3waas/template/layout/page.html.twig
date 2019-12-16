@@ -70,6 +70,23 @@
     </aside>
   </div>
   {% endif %}
+  <div class="container">
+    {% if page.sidebar_left %}
+      <aside class="col-md-4" role="complementary">
+        {{ page.sidebar_left }}
+      </aside>
+    {% endif %}
+    {% if page.center %}
+      <aside class="col-md-4" role="complementary">
+        {{ page.center }}
+      </aside>
+    {% endif %}
+    {% if page.sidebar_right %}
+      <aside class="col-md-4" role="complementary">
+        {{ page.sidebar_right }}
+      </aside>
+    {% endif %}
+  </div>
   <div id="main-wrapper" class="layout-main-wrapper container clearfix">
     <div id="main-content" class="layout-main clearfix">
       {{ page.breadcrumb }}
@@ -87,7 +104,7 @@
     </aside>
   </div>
   {% endif %}
-  <img src="/{{ directory }}/images/footer-background.gif" class="footer-bg" alt="Biswa Bangla">
+  <img src="/{{ directory }}/images/footer-background.gif" class="footer-bg img-responsive" alt="Biswa Bangla">
   {% if page.logos %}
     <div class="footer-slider">
       {{ page.logos }}
