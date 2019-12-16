@@ -87,6 +87,12 @@
     </aside>
   </div>
   {% endif %}
+  <img src="/{{ directory }}/images/footer-background.gif" class="footer-bg" alt="Biswa Bangla">
+  {% if page.logos %}
+    <div class="footer-slider">
+      {{ page.logos }}
+    </div>
+  {% endif %}
   <footer class="footer container-fluid">
     <div class="container section clearfix">
       {{ page.footer }}

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: logo_slide
+label: 'Logo Slide (300x140)'
+effects:
+  d60f3efa-348d-4b3c-a147-4627fd71935a:
+    uuid: d60f3efa-348d-4b3c-a147-4627fd71935a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 140
+      anchor: center-center

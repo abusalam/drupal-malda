@@ -329,8 +329,7 @@ ul.tabs.primary {
 
 ul.menu a.is-active {
   color: #fff;
-  background: #3c7d14;
-  ;
+  background: #3c7d14;;
 }
 
 
@@ -360,6 +359,5 @@ ul.menu a.is-active {
 }
 
 .bg-danger {
-  background: red!important;
-  ;
+  background: red!important;;
 }

@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.logo_slide.body
+    - field.field.node.logo_slide.field_logo
+    - field.field.node.logo_slide.field_logo_link
+    - node.type.logo_slide
+  module:
+    - text
+    - user
+id: node.logo_slide.teaser
+targetEntityType: node
+bundle: logo_slide
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_logo: true
+  field_logo_link: true
+  langcode: true

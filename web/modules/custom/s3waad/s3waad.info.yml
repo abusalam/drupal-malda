@@ -16,3 +16,7 @@ dependencies:
   - 'drupal:sitemap'
   - 'drupal:menu_breadcrumb'
   - menu_ui
+  - image
+  - link
+  - node
+  - user

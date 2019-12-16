@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logo
+    - node.type.logo_slide
+  module:
+    - image
+id: node.logo_slide.field_logo
+field_name: field_logo
+entity_type: node
+bundle: logo_slide
+label: logo
+description: 'Upload 300x140 px logo image'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'logo/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 300x140
+  min_resolution: 300x140
+  alt_field: true
+  alt_field_required: true
+  title_field: true
+  title_field_required: true
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
