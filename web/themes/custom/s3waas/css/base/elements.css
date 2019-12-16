@@ -111,3 +111,41 @@ img.image-style-map {
   line-height: 25px;
   margin-bottom: 20px;
 }
+
+#block-views-block-whats-new-block-1>h2,
+#block-fromdmsdesk>h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.region.region-sidebar-left,
+.region.region-center {
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ffffff;
+  border-radius: 3px;
+  margin: 0px;
+  text-align: justify;
+}
+
+#block-views-block-whats-new-block-1>div>div>div>div {
+  padding-left: 0px!important;
+}
+
+#block-views-block-whats-new-block-1>div>div>div>div>div:first-child::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f101";
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+#page>.container {
+  margin-top: 25px;
+}

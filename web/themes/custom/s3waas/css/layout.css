@@ -29,7 +29,7 @@
 .footer {
   position: relative;
   /* negative value of footer height */
-  min-height: 150px;
+  /* min-height: 150px; */
   clear: both;
   padding-top: 20px;
 }
