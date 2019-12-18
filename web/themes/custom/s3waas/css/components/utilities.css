@@ -29,16 +29,17 @@
 }
 
 .quick-links>ul {
-  padding-left: 20px;
+  padding-left: 20px!important;
 }
 
 .helpline-number {
   border: 1px solid #e2e2e2;
   background: #fff;
-  padding: 10px;
-  margin: 10px;
-  min-height: 85px!important;
-  padding-top: 15px;
+  padding: 5px;
+  /* padding: 10px; */
+  margin-top: 10px;
+  /* min-height: 85px!important; */
+  /* padding-top: 15px; */
 }
 
 .helpline-number .head {
@@ -77,8 +78,8 @@
   padding: 10px;
   padding-left: 20px;
   margin-bottom: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   border: 1px solid #2b356f;
   /* border-top: 2px solid #2b356f; */
   /* border-right: 2px solid #2b356f; */
@@ -89,8 +90,8 @@
   background: #fdfdfd;
   padding: 5px;
   min-height: 250px;
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-top: 15px;
+  /* padding-left: 20px; */
   margin-bottom: 0px;
   border-left: 1px solid #d2d2d2;
   border-right: 1px solid #d2d2d2;
@@ -129,12 +130,16 @@
   font-weight: 900;
 }
 
+.region-utilities>div>div>div>div>ul>li>ul {
+  list-style: none;
+  padding-left: 20px;
+}
 
-/* .region-utilities>div>div>ul>li>ul>li:before {
+.region-utilities>div>div>div>div>ul>li>ul>li:before {
   font-family: "Font Awesome 5 Free";
-  content: "\f111";
+  content: "\f666";
   display: inline-block;
   padding-right: 10px;
   vertical-align: middle;
   font-weight: 900;
-} */
+}
