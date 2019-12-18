@@ -17,21 +17,19 @@
           }
         }
       });
-      jQuery(document).ready(function() {
-        jQuery("#footerScrollbar").flexslider({
-          animation: "slide",
-          animationLoop: true,
-          itemWidth: 300,
-          minItems: 2,
-          slideshow: 1,
-          move: 1,
-          controlNav: false,
-          pausePlay: true,
-          prevText: "<span class='hide'>Previous</span>",
-          nextText: "<span class='hide'>Next</span>",
-          pauseText: "<span class='hide'>Pause</span>",
-          playText: "<span class='hide'>Play</span>",
-        })
+      jQuery(".footer-slider").flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 300,
+        minItems: 2,
+        slideshow: 1,
+        move: 1,
+        controlNav: false,
+        pausePlay: true,
+        prevText: "<span class='hide'>Previous</span>",
+        nextText: "<span class='hide'>Next</span>",
+        pauseText: "<span class='hide'>Pause</span>",
+        playText: "<span class='hide'>Play</span>",
       });
     }
   };

@@ -106,9 +106,8 @@
   {% endif %}
   <img src="/{{ directory }}/images/footer-background.gif" class="footer-bg img-responsive" alt="Biswa Bangla">
   {% if page.logos %}
-    <div class="footer-slider">
-      {{ page.logos }}
-    </div>
+    {{ page.logos }}
+    {{ attach_library('s3waas/slider') }}
   {% endif %}
   <footer class="footer container-fluid">
     <div class="container section clearfix">

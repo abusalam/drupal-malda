@@ -207,16 +207,16 @@ img.image-style-map {
 
 /*Footer Slider*/
 
-div#footerScrollbar>.flex-viewport {
+div.footer-slider>.flex-viewport {
   background: #f2f2f2;
   padding-top: 5px;
 }
 
-div#footerScrollbar>.flex-viewport>ul>li {
+div.footer-slider>.flex-viewport>ul>li {
   padding-left: 10px;
   padding-right: 10px;
-  border-right: 1px solid #a2a2a2;
-  border-left: 1px solid #a2a2a2;
+  border-right: 1px solid #d6d1d1;
+  border-left: 1px solid #d6d1d1;
 }
 
 
