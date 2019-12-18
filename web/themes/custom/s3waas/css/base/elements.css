@@ -150,7 +150,7 @@ img.image-style-map {
   margin-top: 25px;
 }
 
-.view-frontpage>.view-content>.views-view-grid>.views-row>.views-col>article.node.node--type-notice.node--promoted.node--view-mode-teaser {
+.views-view-grid>.views-row>.views-col>article {
   background: #fff;
   margin: 10px;
   border: 1px solid #e2e2e2;
@@ -159,23 +159,23 @@ img.image-style-map {
   min-height: 150px;
 }
 
-.view-frontpage>.view-content>.views-view-grid>.views-row>.views-col>article.node.node--type-notice.node--promoted.node--view-mode-teaser>h2 {
+.views-view-grid>.views-row>.views-col>article>h2 {
   font-size: 18px;
   margin: 0px;
   margin-bottom: 11px;
   vertical-align: baseline;
 }
 
-.view-frontpage>.view-content>.views-view-grid>.views-row>.views-col>article.node.node--type-notice.node--promoted.node--view-mode-teaser>footer {
+.views-view-grid>.views-row>.views-col>article>footer {
   font-size: 12px;
 }
 
-.view-frontpage>.view-content>.views-view-grid>.views-row>.views-col>article.node.node--type-notice.node--promoted.node--view-mode-teaser>.node__content {
+.views-view-grid>.views-row>.views-col>article>.node__content {
   font-size: 12px;
   text-align: right;
 }
 
-.view-frontpage>.view-content>.views-view-grid>.views-row {
+.views-view-grid>.views-row {
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -217,4 +217,23 @@ div#footerScrollbar>.flex-viewport>ul>li {
   padding-right: 10px;
   border-right: 1px solid #a2a2a2;
   border-left: 1px solid #a2a2a2;
+}
+
+
+/* frontpage view coloumn mobile responsive*/
+
+.views-col {
+  width: 25%;
+}
+
+@media only screen and (max-width: 767px) {
+  .views-col {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .views-col {
+    width: 50%;
+  }
 }
