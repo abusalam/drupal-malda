@@ -50,7 +50,7 @@
   font-weight: bold;
 }
 
-.region-utilities>div>div>h4 {
+.region-utilities>div>div>div>div>h4 {
   font-size: 22px;
   font-weight: bold;
 }
@@ -71,7 +71,7 @@
   text-decoration: none;
 }
 
-.region-utilities>div>div>h4 {
+.region-utilities>div>div>div>div>h4 {
   background: #6275dc;
   color: white;
   padding: 10px;
@@ -84,8 +84,8 @@
   /* border-right: 2px solid #2b356f; */
 }
 
-.region-utilities>div>div>div,
-.region-utilities>div>div>ul {
+.region-utilities>div>div>div>div>div,
+.region-utilities>div>div>div>div>ul {
   background: #fdfdfd;
   padding: 5px;
   min-height: 250px;
@@ -111,7 +111,7 @@
 /*,
 /*.region-utilities>div>div>ul>li>ul*/
 
-.region-utilities>div>div>ul {
+.region-utilities>div>div>div>div>ul {
   list-style: none;
 }
 
@@ -120,7 +120,7 @@
   padding-left: 15px;
 } */
 
-.region-utilities>div>div>ul>li:before {
+.region-utilities>div>div>div>div>ul>li:before {
   font-family: "Font Awesome 5 Free";
   content: "\f138";
   display: inline-block;

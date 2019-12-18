@@ -329,7 +329,8 @@ ul.tabs.primary {
 
 ul.menu a.is-active {
   color: #fff;
-  background: #3c7d14;;
+  background: #3c7d14;
+  ;
 }
 
 
@@ -344,20 +345,31 @@ ul.menu a.is-active {
 } */
 
 .bg-warning {
-  background: orange!important;
-  color: #000;
+  background: #d04a0d!important;
+  color: #fff;
 }
 
 .bg-success {
-  background: green!important;
+  background: #06880e!important;
   color: white;
 }
 
 .bg-primary {
-  background: blue!important;
+  background: #0972a8!important;
   color: white;
 }
 
 .bg-danger {
-  background: red!important;;
+  background: #cc4647!important;
+  color: white;
+}
+
+.bg-grey {
+  background: #cacaca!important;
+  color: black;
+}
+
+.bg-dark-grey {
+  background: #737373!important;
+  color: black;
 }
