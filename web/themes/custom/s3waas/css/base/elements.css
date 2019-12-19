@@ -79,7 +79,8 @@ td>span>a {
   color: black!important;
 }
 
-img.image-style-map {
+img.image-style-map,
+.field--name-field-logo > img {
   width: 100%;
   height: auto!important;
 }
@@ -208,7 +209,7 @@ img.image-style-map {
 /*Footer Slider*/
 
 div.footer-slider>.flex-viewport {
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
   padding-top: 5px;
 }
 
