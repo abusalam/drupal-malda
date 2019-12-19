@@ -23,6 +23,8 @@
         "drupal/colorbox": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8",
+        "drupal/crop": "^1.5",
+        "drupal/image_widget_crop": "^2.2",
         "drupal/libraries": "^3.0@alpha",
         "drupal/menu_breadcrumb": "^1.11",
         "drupal/photos": "^4.2",
