@@ -51,7 +51,8 @@
   font-weight: bold;
 }
 
-.region-utilities>div>div>div>div>h4 {
+.region-utilities>div.row>div>h4,
+.region-utilities>div>div>div.row>div>h4 {
   font-size: 22px;
   font-weight: bold;
 }
@@ -72,7 +73,12 @@
   text-decoration: none;
 }
 
-.region-utilities>div>div>div>div>h4 {
+.region-utilities>div>div>div.row>div.col-md-6>h4,
+.region-utilities>div>div>div.row>div.col-md-5>h4,
+.region-utilities>div>div>div.row>div.col-md-3>h4,
+.region-utilities>div.row>div.col-md-6>h4,
+.region-utilities>div.row>div.col-md-5>h4,
+.region-utilities>div.row>div.col-md-3>h4 {
   background: #6275dc;
   color: white;
   padding: 10px;
@@ -85,14 +91,20 @@
   /* border-right: 2px solid #2b356f; */
 }
 
-.region-utilities>div>div>div>div>div,
-.region-utilities>div>div>div>div>ul {
+.region-utilities>div.row>div.col-md-6>div.row,
+.region-utilities>div.row>div.col-md-5>div.row,
+.region-utilities>div.row>div.col-md-3>div.row,
+.region-utilities>div>div>div.row>div.col-md-6>div.row,
+.region-utilities>div>div>div.row>div.col-md-5>div.row,
+.region-utilities>div>div>div.row>div.col-md-3>div.row,
+.region-utilities>div.row>div.col-md-3>ul,
+.region-utilities>div>div>div.row>div.col-md-3>ul {
   background: #fdfdfd;
   padding: 5px;
-  min-height: 250px;
+  min-height: 280px;
   padding-top: 15px;
   /* padding-left: 20px; */
-  margin-bottom: 0px;
+  margin: 0px;
   border-left: 1px solid #d2d2d2;
   border-right: 1px solid #d2d2d2;
   border-bottom: 1px solid #d2d2d2;
@@ -112,7 +124,8 @@
 /*,
 /*.region-utilities>div>div>ul>li>ul*/
 
-.region-utilities>div>div>div>div>ul {
+.region-utilities>div.row>div.col-md-3>ul,
+.region-utilities>div>div>div.row>div.col-md-3>ul {
   list-style: none;
 }
 
@@ -121,7 +134,8 @@
   padding-left: 15px;
 } */
 
-.region-utilities>div>div>div>div>ul>li:before {
+.region-utilities>div.row>div.col-md-3>ul>li:before,
+.region-utilities>div>div>div.row>div.col-md-3>ul>li:before {
   font-family: "Font Awesome 5 Free";
   content: "\f138";
   display: inline-block;
@@ -130,12 +144,14 @@
   font-weight: 900;
 }
 
-.region-utilities>div>div>div>div>ul>li>ul {
+.region-utilities>div.row>div.col-md-3>ul>li>ul,
+.region-utilities>div>div>div.row>div.col-md-3>ul>li>ul {
   list-style: none;
   padding-left: 20px;
 }
 
-.region-utilities>div>div>div>div>ul>li>ul>li:before {
+.region-utilities>div>div.col-md-3>ul>li>ul>li:before,
+.region-utilities>div>div>div>div.col-md-3>ul>li>ul>li:before {
   font-family: "Font Awesome 5 Free";
   content: "\f666";
   display: inline-block;
@@ -143,3 +159,15 @@
   vertical-align: middle;
   font-weight: 900;
 }
+
+.col-md-5.helpline-number {
+  padding: 10px;
+  margin: 10px;
+  min-height: 100px;
+}
+
+
+/*
+div.region.region-utilities>div.row>div.col-md-6>div.row>div.col-md-5>span.counter:before {
+  border: 1px solid black;
+} */

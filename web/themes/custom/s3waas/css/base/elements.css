@@ -80,7 +80,7 @@ td>span>a {
 }
 
 img.image-style-map,
-.field--name-field-logo > img {
+.field--name-field-logo>img {
   width: 100%;
   height: auto!important;
 }
@@ -117,7 +117,7 @@ img.image-style-map,
 #block-fromdmsdesk>h2 {
   margin-top: 10px;
   font-weight: bold;
-  font-family: cursive;
+  /* font-family: cursive; */
   font-size: 25px;
   text-decoration: underline;
 }
@@ -237,4 +237,13 @@ div.footer-slider>.flex-viewport>ul>li {
   .views-col {
     width: 50%;
   }
+}
+
+.views-field>span.views-label,
+.views-field>.field-content {
+  display: inline;
+}
+
+.breadcrumb {
+  background-color: transparent!important;
 }

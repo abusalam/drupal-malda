@@ -1,6 +1,7 @@
-@import url("../colors.css"); #topBar1 {
+@import url("../colors.css");
+#topBar1 {
   background: #000000!important;
-  color: yellow!important;
+  color: ylow!important;
   border-bottom: 1px solid #ff0;
 }
 
@@ -37,7 +38,8 @@ body,
 }
 
 .scrollToTop {
-  color: #ffffff!important;
+  color: #000!important;
+  background: #ff0;
 }
 
 span.theme-version,
@@ -59,27 +61,49 @@ span.visitor-count {
 form#user-login-form,
 form#user-register-form,
 form#user-pass {
-  background: black;
-  border: 2px solid #ffffff;
+  background: #000;
+  border: 2px solid #ff0;
 }
 
 ul.tabs.primary {
-  background: #121212;
-  border: 2px solid #ffffff;
+  background: #000;
+  border: 2px solid #ff0;
 }
 
 .tabs ul.primary li.is-active a {
   border-bottom-color: #000;
-  background-color: #5f5e5e;
+  background-color: #ff0;
+  color: #000!important;
+  font-weight: bold;
 }
 
 .tabs>li>a:hover {
-  background: #525252;
+  background: #ff0;
+  color: #000;
+}
+
+input {
+  border: 1px solid #000;
+  background: #ff0;
+  color: #000;
+}
+
+.form-submit {
+  background: #000;
+  color: #ff0;
+  border: 1px solid #ff0;
+}
+
+.form-submit:hover {
+  background: #ff0;
+  color: #000;
+  border: 1px solid #000;
+  outline: 1px solid #ff0;
 }
 
 .breadcrumb {
   background-color: #000!important;
-  border: 1px solid #ff0!important;
+  /* border: 1px solid #ff0!important; */
 }
 
 a#light {
@@ -92,7 +116,30 @@ a#light {
 
 .public_utils>span.counter,
 .helpline-number {
+  background: #000!important;
+  border: 1px solid #ff0;
+}
+
+.region-utilities>div.row>div.col-md-6>div.row,
+.region-utilities>div.row>div.col-md-5>div.row,
+.region-utilities>div.row>div.col-md-3>div.row,
+.region-utilities>div>div>div.row>div.col-md-6>div.row,
+.region-utilities>div>div>div.row>div.col-md-5>div.row,
+.region-utilities>div>div>div.row>div.col-md-3>div.row,
+.region-utilities>div.row>div.col-md-3>ul,
+.region-utilities>div>div>div.row>div.col-md-3>ul {
   background: #000;
+  border: 1px solid #ff0;
+}
+
+.region-utilities>div>div>div.row>div.col-md-6>h4,
+.region-utilities>div>div>div.row>div.col-md-5>h4,
+.region-utilities>div>div>div.row>div.col-md-3>h4,
+.region-utilities>div.row>div.col-md-6>h4,
+.region-utilities>div.row>div.col-md-5>h4,
+.region-utilities>div.row>div.col-md-3>h4 {
+  background: #000;
+  color: #ff0;
   border: 1px solid #ff0;
 }
 
@@ -102,6 +149,15 @@ a#light {
 
 .site_name_regional {
   color: #ff0;
+}
+
+div.footer-slider>.flex-viewport>ul>li {
+  border-right: 1px solid #ff0;
+  border-left: 1px solid #ff0;
+}
+
+div.footer-slider>.flex-viewport {
+  border-top: 1px solid #ff0;
 }
 
 caption {
@@ -132,20 +188,6 @@ table {
 
 .logo a h1 {
   color: #ff0;
-}
-
-.region-utilities>div>div>h4 {
-  background: #000000;
-  color: #ff0;
-  border: 1px solid #ff0;
-}
-
-.region-utilities>div>div>div,
-.region-utilities>div>div>ul {
-  background: #000;
-  border-left: 1px solid #ff0;
-  border-right: 1px solid #ff0;
-  border-bottom: 1px solid #ff0;
 }
 
 .pager li>a,
@@ -226,11 +268,54 @@ div#block-s3waas-page-title>h1 {
   border: 1px solid #ff0;
 }
 
-.footer {
-  border-top: 2px solid #ff0;
-}
+
+/* .footer {
+  border-top: 1px solid #ff0;
+} */
 
 a#light span {
   background: #ff0;
   border: 1px solid #ff0;
+}
+
+.views-view-grid>.views-row>.views-col>article {
+  background: #000;
+  border: 1px solid #ff0;
+}
+
+.region.region-sidebar-left,
+.region.region-center {
+  border: 1px solid #ff0;
+  background: #000;
+  color: #ff0;
+}
+
+.thumbnail {
+  background: #000;
+  color: #ff0;
+  border: 1px solid #ff0;
+}
+
+.caption>h3,
+.caption>p {
+  color: #ff0;
+  background: #000;
+}
+
+.flex-viewport {
+  border-bottom: 1px solid #ff0;
+}
+
+.flex-direction-nav a:before,
+.flex-pauseplay,
+.full-cntrl-left-caption-bottom.nav-white .flex-direction-nav a:before,
+.full-cntrl-left-caption-bottom.nav-white .flex-pauseplay a:before {
+  text-shadow: -1px -1px 2px #f4ff5a !important;
+  color: #fff400!important;
+}
+
+#main-wrapper>#main-content>main>section>.region.region-content>article {
+  background: #000!important;
+  color: #ff0!important;
+  border: 1px solid #ff0!important;
 }
