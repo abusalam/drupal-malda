@@ -87,6 +87,9 @@
       </aside>
     {% endif %}
   </div>
+  {% if page.gallery_top %}
+      {{ page.gallery_top }}
+  {% endif %}
   <div id="main-wrapper" class="layout-main-wrapper container clearfix">
     <div id="main-content" class="layout-main clearfix">
       {{ page.breadcrumb }}
@@ -97,6 +100,9 @@
       </main>
     </div>
   </div>
+  {% if page.gallery_bottom %}
+    {{ page.gallery_bottom }}
+  {% endif %}
   {% if page.utilities %}
   <div class="utilities">
     <aside class="container-fluid section clearfix" role="complementary">

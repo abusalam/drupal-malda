@@ -21,8 +21,10 @@ regions:
   sidebar_left: 'Left Sidebar'
   center: 'Center Content'
   sidebar_right: 'Right Sidebar'
+  gallery_top: 'Top Gallery'
   breadcrumb: Breadcrumb
   content: Content
+  gallery_bottom: 'Bottom Gallery'
   utilities: 'Utilities'
   logos: 'Logo Slider'
   footer: 'Footer'
