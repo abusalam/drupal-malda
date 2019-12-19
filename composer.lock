@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55a8f55cb4ae6ad1b2ae81e786db7d8d",
+    "content-hash": "81c3cdee7a85a7581a9615e79d53a372",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2696,6 +2696,57 @@
             "homepage": "https://www.drupal.org/project/menu_breadcrumb",
             "support": {
                 "source": "https://git.drupalcode.org/project/menu_breadcrumb"
+            }
+        },
+        {
+            "name": "drupal/photos",
+            "version": "4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/photos.git",
+                "reference": "8.x-4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/photos-8.x-4.2.zip",
+                "reference": "8.x-4.2",
+                "shasum": "8c59436578a1144ddabc84db9d305d6a8ea413fc"
+            },
+            "require": {
+                "drupal/core": "^8.7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.2",
+                    "datestamp": "1575478380",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nathaniel",
+                    "homepage": "https://www.drupal.org/user/443482"
+                },
+                {
+                    "name": "eastcn",
+                    "homepage": "https://www.drupal.org/user/134014"
+                }
+            ],
+            "description": "Picture management module. Photo albums.",
+            "homepage": "https://www.drupal.org/project/photos",
+            "support": {
+                "source": "https://git.drupalcode.org/project/photos"
             }
         },
         {
