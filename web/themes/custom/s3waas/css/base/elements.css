@@ -80,7 +80,8 @@ td>span>a {
 }
 
 img.image-style-map,
-.field--name-field-logo>img {
+.field--name-field-logo>img,
+.image-style-large {
   width: 100%;
   height: auto!important;
 }
