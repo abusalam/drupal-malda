@@ -1,8 +1,13 @@
 form#user-login-form,
 form#user-register-form,
 form#user-pass {
-  border-radius: 5px;
   padding: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 18px;
+  background-color: #2196f3;
+  box-shadow: 0 0 7px #999;
+  outline: none;
 }
 
 input {
@@ -13,6 +18,29 @@ input {
 
 input[type=submit] {
   min-width: 150px;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #4caf50;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+input[type=submit]:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+
+input[type=submit]:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+  padding: 12px 18px;
 }
 
 input:active {
@@ -29,7 +57,7 @@ input:active {
 }
 
 ul.tabs {
-  margin: 0 0 0em;
+  margin: 0 0 0;
   padding: 0;
   list-style: none;
 }
@@ -37,6 +65,10 @@ ul.tabs {
 ul.tabs.primary {
   padding: 5px;
   border-radius: 5px;
+  border: none;
+  padding: 12px 18px;
+  box-shadow: 0 0 4px #999;
+  outline: none;
 }
 
 .tabs>li>a:hover {
@@ -47,6 +79,10 @@ ul.tabs.primary {
 
 .tabs>li>a {
   margin-right: 5px;
+}
+
+.tabs {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {

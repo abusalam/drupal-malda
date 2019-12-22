@@ -95,7 +95,8 @@ img.image-style-map,
   color: white;
 }
 
-.node__content>div>p:first-of-type:first-child::first-letter {
+
+/* .node__content>div>p:first-of-type:first-child::first-letter {
   color: #903;
   float: left;
   font-family: Georgia;
@@ -104,7 +105,7 @@ img.image-style-map,
   padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
-}
+} */
 
 .node__content>div>p {
   text-align: justify;

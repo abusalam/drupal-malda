@@ -241,7 +241,7 @@ form#user-login-form,
 form#user-register-form,
 form#user-pass {
   background: white;
-  border: 1px solid #d8d3d3;
+  /* border: 1px solid #d8d3d3; */
 }
 
 input {
@@ -259,7 +259,7 @@ input:active {
 
 ul.tabs.primary {
   background: white;
-  border: 1px solid #c3c3c3;
+  /* border: 1px solid #c3c3c3; */
 }
 
 .tabs>li {
@@ -329,7 +329,8 @@ ul.tabs.primary {
 
 ul.menu a.is-active {
   color: #fff;
-  background: #3c7d14;;
+  background: #3c7d14;
+  ;
 }
 
 
