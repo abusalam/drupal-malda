@@ -64,6 +64,7 @@ global-styling:
       css/components/highlight.css: {}
       css/components/utilities.css: {}
       css/components/sitemap.css: {}
+      css/components/gallery.css: {}
     layout:
       css/layout.css: {}
     theme:
