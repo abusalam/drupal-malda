@@ -20,25 +20,34 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/captcha": "^1.0@beta",
         "drupal/colorbox": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8",
         "drupal/crop": "^1.5",
+        "drupal/geofield": "^1.8",
+        "drupal/geolocation": "^1.11",
+        "drupal/google_directions": "^1.0",
         "drupal/image_widget_crop": "^2.2",
         "drupal/libraries": "^3.0@alpha",
         "drupal/menu_breadcrumb": "^1.11",
         "drupal/photos": "^4.2",
+        "drupal/simple_gmap": "^1.4",
         "drupal/sitemap": "^1.5",
         "drupal/superfish": "^1.3",
+        "drupal/token": "^1.5",
         "drupal/webform": "^5.6",
+        "drupal/webform_views": "^5.0@alpha",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
+        "wikimedia/composer-merge-plugin": "^1.4",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8",
+        "drupal/devel": "^2.1",
         "friendsoftwig/twigcs": "^3.2"
     },
     "conflict": {
@@ -70,6 +79,11 @@
         ]
     },
     "extra": {
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/webform/composer.libraries.json"
+            ]
+        },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
