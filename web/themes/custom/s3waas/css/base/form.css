@@ -114,3 +114,49 @@ form#user-pass {
 form#contact-message-feedback-form {
   width: 60%;
 }
+
+
+/* Search Form */
+
+div#block-searchform {
+  text-align: center;
+}
+
+div#block-searchform>form#search-block-form {
+  width: 40%;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  margin-left: 50%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+div#block-searchform>form#search-block-form>div>input#edit-keys {
+  height: 40px;
+  width: 70%;
+}
+
+div#block-searchform>form#search-block-form>div>input#edit-submit {
+  height: 40px;
+  width: 10%;
+  top: 2px;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  input#edit-keys {
+    height: 40px;
+    width: 50%!important;
+  }
+  #edit-submit--2 {
+    height: 40px;
+    width: 5%!important;
+  }
+  div#block-searchform>form#search-block-form {
+    width: 100%;
+    margin: auto;
+  }
+}

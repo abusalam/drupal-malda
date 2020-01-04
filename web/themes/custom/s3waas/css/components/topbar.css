@@ -180,6 +180,8 @@
   margin: 0 auto;
   float: none;
 }
+
+
 /*
 .visually-hidden:active,
 .visually-hidden {
@@ -191,6 +193,8 @@
   font-size: 0.8em;
   padding: 9px 8px;
 } */
+
+
 /*
   #topBar1 ul li,
   #topBar1 ol li {
@@ -259,4 +263,9 @@ a#dark {
 #topBar1 #accessibility ul li a {
   padding: 2px 2px;
   vertical-align: top;
+}
+
+a#searchBar {
+  margin-top: 2px;
+  margin-right: 8px;
 }
