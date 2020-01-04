@@ -36,6 +36,11 @@
 
 .footer-bg {
   margin-top: auto !important;
+  width: 100%;
+}
+
+.bottom-image {
+  padding: 0px!important;
 }
 
 .scrollToTop {
