@@ -61,6 +61,8 @@
 .photos-list-view-info {
   margin: 0px;
 }
+
+
 /* .photos-album-grid>div {
     width: 50%;
     display: inline-table;
@@ -80,10 +82,16 @@
 
 .photos-image {
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .image-load {
   position: relative;
+}
+
+.photos-view-links {
+  text-align: center;
 }
 
 .photo-pager-left {
@@ -112,9 +120,13 @@
   background-size: 100%;
   transition: background 0s;
 }
+
+
 /* .photo-pager-right>a:after {
     content: 'sss';
   } */
+
+
 /* .photo-pager-left>a:before {
     content: 'sss';
   } */
@@ -134,5 +146,98 @@
 
 .photo-pager-left>a:hover,
 .photo-pager-right>a:hover {
+  text-decoration: none!important;
+}
+
+.photos-view-links>.photo-links-info,
+.photos-view-links>.photo-links-info>.photos-edit-edit,
+.photos-view-links>.photo-links-info>.photos-edit-delete {
+  margin: 10px;
+}
+
+.photos-list-view-info>a.colorbox-load.photos-edit-delete,
+.photos-list-view-info>a.colorbox-load.photos-edit-edit,
+.photos-list-view-info>a {
+  display: block;
+  margin: 10px;
+}
+
+.photos-view-links>.photo-links-info>a {
+  background: blueviolet;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.photos-view-links>.photo-links-info>.photos-edit-delete {
+  background: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.photos-list-view-info>a.colorbox-load.photos-edit-delete {
+  color: red;
+}
+
+.photos-view-links>.photo-links-info>.photos-edit-edit {
+  background: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.photos-view-links>.photo-links-info>a:hover,
+.photos-view-links>.photo-links-info>.photos-edit-delete:hover,
+.photos-view-links>.photo-links-info>.photos-edit-edit:hover {
+  color: #c2c2c2;
   text-decoration: none;
+}
+
+.photos-list-view-info>a.colorbox-load.photos-edit-edit {
+  color: green;
+}
+
+.photos-view-links>.photo-links-info>.photos-edit-delete::before,
+.photos-list-view-info>a.colorbox-load.photos-edit-delete::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1f8";
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.photos-view-links>.photo-links-info>.photos-edit-edit::before,
+.photos-list-view-info>a.colorbox-load.photos-edit-edit::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f044";
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+
+/* .photos-edit-delete::before {} */
+
+@media only screen and (max-width: 767px) {
+  .photos-image-list-view {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .photos-image-list-view {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .photos-image-list-view {
+    /* width: 25%; */
+  }
 }

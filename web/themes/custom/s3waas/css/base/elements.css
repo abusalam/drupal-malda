@@ -248,3 +248,8 @@ div.footer-slider>.flex-viewport>ul>li {
 .breadcrumb {
   background-color: transparent!important;
 }
+
+div#main-content {
+  margin: 0px;
+  padding: 0px!important;
+}
