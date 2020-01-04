@@ -319,3 +319,7 @@ a#light span {
   color: #ff0!important;
   border: 1px solid #ff0!important;
 }
+
+.region.region-footer>nav.block.block-menu>ul.menu>li::after {
+  color: #ff0;
+}

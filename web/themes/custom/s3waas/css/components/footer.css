@@ -25,3 +25,37 @@ span.visitor-count {
 .footer-content>div {
   color: white;
 }
+
+
+/* footer menu */
+
+.region.region-footer>nav.block.block-menu>ul.menu {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.region.region-footer>nav.block.block-menu>ul.menu>li>a {
+  color: #fff;
+}
+
+.region.region-footer>nav.block.block-menu>ul.menu>li>a:hover {
+  color: #c2c2c2;
+  text-decoration: none;
+}
+
+.region.region-footer>nav.block.block-menu>ul.menu>li {
+  display: inline;
+  color: #fff;
+}
+
+.region.region-footer>nav.block.block-menu>ul.menu>li::after {
+  content: "/";
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.region.region-footer>nav.block.block-menu>ul.menu>li:last-child::after {
+  content: "";
+}
