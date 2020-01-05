@@ -1,10 +1,8 @@
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic'
   module:
-    - block_content
+    - s3waad
   theme:
     - s3waas
 id: s3waas_slideshow
@@ -12,11 +10,11 @@ theme: s3waas
 region: slider
 weight: 0
 provider: null
-plugin: 'block_content'
+plugin: 's3waas_slideshow'
 settings:
-  id: 'block_content'
+  id: 's3waas_slideshow'
   label: 'Slide Show'
-  provider: block_content
+  provider: s3waad
   label_display: '0'
   status: true
   info: ''

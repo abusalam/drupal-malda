@@ -1,11 +1,8 @@
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic'
   module:
-    - block_content
-    - system
+    - s3waad
   theme:
     - s3waas
 id: s3waas_utilities
@@ -13,11 +10,11 @@ theme: s3waas
 region: utilities
 weight: -6
 provider: null
-plugin: 'block_content'
+plugin: 's3waas_utilities'
 settings:
-  id: 'block_content'
+  id: 's3waas_utilities'
   label: 'Public Utilities, Quick Links, Helpline Numbers'
-  provider: block_content
+  provider: s3waad
   label_display: '0'
   status: true
   info: ''

@@ -66,10 +66,10 @@ services:
       NGINX_VHOST_PRESET: $NGINX_VHOST_PRESET
       NGINX_MODSECURITY_ENABLED: 1
       NGINX_PAGESPEED_ENABLED: 1
-      NGINX_CONF_INCLUDE: /var/www/html/vhost.conf
+      # NGINX_CONF_INCLUDE: /var/www/html/vhost.conf
 #      NGINX_DRUPAL_FILE_PROXY_URL: http://example.com
-    ports:
-      - '443:443'
+    # ports:
+      # - '443:443'
     volumes:
       - ./:/var/www/html
 # For macOS users (https://wodby.com/docs/stacks/drupal/local#docker-for-mac)
@@ -292,7 +292,7 @@ services:
       - --entrypoints.https
       - --entrypoints.https.address=:443
     ports:
-      - '8000:80'
+      - '80:80'
       - '443:443'
       - '8080:8080' # Dashboard
     volumes:
