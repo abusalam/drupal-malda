@@ -34,8 +34,13 @@
   padding-top: 20px;
 }
 
-.footer-bg {
+.howrah-bridge {
   margin-top: auto !important;
+  width: 100% !important;
+}
+
+.footer-bg {
+  height: auto !important;
   width: 100%;
 }
 
