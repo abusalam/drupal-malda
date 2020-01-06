@@ -32,6 +32,7 @@
         "drupal/libraries": "^3.0@alpha",
         "drupal/menu_breadcrumb": "^1.11",
         "drupal/photos": "^4.2",
+        "drupal/searchindex_wipe": "^1.4",
         "drupal/simple_gmap": "^1.4",
         "drupal/sitemap": "^1.5",
         "drupal/superfish": "^1.3",
