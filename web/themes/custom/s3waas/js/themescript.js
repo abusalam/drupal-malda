@@ -67,14 +67,11 @@
       $('#searchBar').click(function() {
         if (click) {
           click = false;
-
-          $('div#block-searchform form#search-block-form').hide()
+          $('div#block-searchform form#search-block-form').hide();
         } else {
           click = true;
-
-          $('div#block-searchform form#search-block-form').show()
+          $('div#block-searchform form#search-block-form').show();
         }
-
       });
 
       $('.font-size').click(function() {
@@ -98,6 +95,9 @@
           }
         }
       });
+
+
+      $('#edit-submit').val('🔍');
 
     }
   };

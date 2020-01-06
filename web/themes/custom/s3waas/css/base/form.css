@@ -17,7 +17,7 @@ input {
 }
 
 input[type=submit] {
-  min-width: 150px;
+  /* min-width: 150px; */
   border: none;
   border-radius: 2px;
   padding: 12px 18px;
@@ -142,7 +142,7 @@ div#block-searchform>form#search-block-form>div>input#edit-keys {
 div#block-searchform>form#search-block-form>div>input#edit-submit {
   height: 40px;
   width: 10%;
-  top: 2px;
+  top: -1px;
   position: relative;
 }
 
@@ -159,4 +159,16 @@ div#block-searchform>form#search-block-form>div>input#edit-submit {
     width: 100%;
     margin: auto;
   }
+}
+
+#edit-submit {
+  padding: 0px!important;
+  height: auto;
+  content: "Sumanta";
+}
+
+#edit-submit::after {
+  content: 'sumananana';
+  background: red;
+  width: 10px;
 }
