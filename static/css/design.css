@@ -54,7 +54,7 @@
         }
 
         .public_utils {
-            padding-bottom: 10px;
+            padding: 15px;
         }
 
         .counter {
@@ -208,7 +208,6 @@
         .about_district_home {
             min-height: 315px;
             border: 1px solid #e1e1e1;
-            background: ;
         }
 
         .tab>.tablinks {

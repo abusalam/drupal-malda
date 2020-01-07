@@ -23,9 +23,7 @@
 }
 
 .public_utils {
-  padding-left: 5px!important;
-  padding-right: 5px!important;
-  padding-top: 10px;
+  padding: 15px;
 }
 
 .quick-links>ul {
@@ -161,9 +159,8 @@
 }
 
 .col-md-5.helpline-number {
-  padding: 10px;
   margin: 10px;
-  min-height: 100px;
+  width: 45%;
 }
 
 
