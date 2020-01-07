@@ -124,9 +124,9 @@ div#block-searchform {
 
 div#block-searchform>form#search-block-form {
   width: 40%;
-  padding: 10px;
-  background: #fff;
-  border: 1px solid #c2c2c2;
+  /* padding: 10px; */
+  /* background: #fff; */
+  /* border: 1px solid #c2c2c2; */
   border-radius: 5px;
   margin-left: 50%;
   position: absolute;
@@ -135,15 +135,17 @@ div#block-searchform>form#search-block-form {
 }
 
 div#block-searchform>form#search-block-form>div>input#edit-keys {
-  height: 40px;
-  width: 70%;
+  height: 30px;
+  width: 250px;
+  border-radius: 0px;
 }
 
 div#block-searchform>form#search-block-form>div>input#edit-submit {
-  height: 40px;
+  /* height: 40px;
   width: 10%;
   top: -1px;
-  position: relative;
+  position: relative; */
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -171,4 +173,16 @@ div#block-searchform>form#search-block-form>div>input#edit-submit {
   content: 'sumananana';
   background: red;
   width: 10px;
+}
+
+.search_submit_s3waas {
+  height: 30px;
+  position: absolute;
+  margin: 0px;
+  color: #000;
+  background: #e2e2e2;
+  border-radius: 0px!important;
+  border-right: 1px solid #c3c3c3!important;
+  border-top: 1px solid #c3c3c3!important;
+  border-bottom: 1px solid #c3c3c3!important;
 }

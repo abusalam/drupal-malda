@@ -97,7 +97,8 @@
       });
 
 
-      $('#edit-submit').val('🔍');
+      // $('#edit-keys').attr('placeholder', "Search.");
+      $('.form-type-search').append('<button type="submit" class=" btn search_submit_s3waas"><i class="fa fa-search"></i></button>');
 
     }
   };
