@@ -74,6 +74,18 @@
         }
       });
 
+      $('#searchBar').focus(function(e) {
+        click = true;
+        $('div#block-searchform form#search-block-form').show();
+      });
+      $('#searchBar').keydown(function(e) {
+        click = false;
+        $('div#block-searchform form#search-block-form').hide();
+      });
+
+
+      $('#block-searchform').wrap('<div class="container"></div>');
+
       $('.font-size').click(function() {
         var code = this.id;
         var fontSize = parseInt($(".slide-caption").css("font-size"));

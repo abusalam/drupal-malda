@@ -1,11 +1,9 @@
-form#user-login-form,
-form#user-register-form,
-form#user-pass {
+main#content>section>.region>form {
   padding: 20px;
   border: none;
   border-radius: 5px;
   padding: 12px 18px;
-  background-color: #2196f3;
+  background-color: #fff;
   box-shadow: 0 0 7px #999;
   outline: none;
 }
@@ -119,19 +117,25 @@ form#contact-message-feedback-form {
 /* Search Form */
 
 div#block-searchform {
-  text-align: center;
+  text-align: right;
+  padding-left: 75%;
 }
 
 div#block-searchform>form#search-block-form {
-  width: 40%;
+  /* width: 40%; */
+  /* background: red; */
   /* padding: 10px; */
   /* background: #fff; */
   /* border: 1px solid #c2c2c2; */
   border-radius: 5px;
-  margin-left: 50%;
+  /* margin-left: 30%; */
   position: absolute;
+  /* left: 40%; */
+  /* float: right; */
   z-index: 999;
   display: none;
+  margin: auto;
+  text-align: right;
 }
 
 div#block-searchform>form#search-block-form>div>input#edit-keys {
@@ -148,31 +152,34 @@ div#block-searchform>form#search-block-form>div>input#edit-submit {
   display: none;
 }
 
+@media only screen and (max-width: 941px) {
+  div#block-searchform {
+    text-align: right;
+    padding-left: 31%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   input#edit-keys {
     height: 40px;
     width: 50%!important;
   }
+  div#block-searchform {
+    /* text-align: right; */
+    padding-left: 31%!important;
+  }
   #edit-submit--2 {
     height: 40px;
     width: 5%!important;
   }
-  div#block-searchform>form#search-block-form {
-    width: 100%;
-    margin: auto;
-  }
 }
 
-#edit-submit {
-  padding: 0px!important;
-  height: auto;
-  content: "Sumanta";
+input#edit-submit {
+  display: none;
 }
 
-#edit-submit::after {
-  content: 'sumananana';
-  background: red;
-  width: 10px;
+input#edit-keys {
+  border-radius: 0px;
 }
 
 .search_submit_s3waas {
