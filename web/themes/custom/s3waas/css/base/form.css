@@ -174,10 +174,6 @@ div#block-searchform>form#search-block-form>div>input#edit-submit {
   }
 }
 
-input#edit-submit {
-  display: none;
-}
-
 input#edit-keys {
   border-radius: 0px;
 }
