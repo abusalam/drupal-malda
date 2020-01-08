@@ -31,6 +31,7 @@
         "drupal/image_widget_crop": "^2.2",
         "drupal/libraries": "^3.0@alpha",
         "drupal/menu_breadcrumb": "^1.11",
+        "drupal/password_encrypt": "^1.0",
         "drupal/photos": "^4.2",
         "drupal/searchindex_wipe": "^1.4",
         "drupal/simple_gmap": "^1.4",
