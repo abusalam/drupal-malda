@@ -1065,6 +1065,7 @@ header {
   }
 }
 
+
 /* .views-row:first-child {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -1156,4 +1157,8 @@ ul.tabs {
 
 .thumbnail .caption {
   text-align: center;
+}
+
+div.node__content>a>img.image-style-album-photo {
+  width: 100%;
 }

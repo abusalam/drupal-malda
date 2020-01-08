@@ -683,6 +683,7 @@
 
 .full-cntrl-left-caption-bottom .container {
   position: absolute;
+  padding: 12px;
   width: 100%;
   z-index: 99;
   bottom: 0px;

@@ -249,3 +249,19 @@ div.footer-slider>.flex-viewport>ul>li {
 .breadcrumb {
   background-color: transparent!important;
 }
+
+div#main-content {
+  margin: 0px;
+  padding: 0px!important;
+}
+
+.views-row {
+  padding-bottom: 0px!important;
+}
+
+.views-col>.views-field>.field-content>img {
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #c2c2c2;
+}
