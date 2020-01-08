@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * S3WaaS theme and master data creation system.
+ */
+
+/**
+ * Implements hook_modules_installed().
+ */
+function s3waad_photos_modules_installed($modules) {
+
+}

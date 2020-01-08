@@ -1,0 +1,9 @@
+name: S3WaaD Photos
+type: module
+description: 'Supporting module for the S3WaaS Slideshow contents.'
+package: s3waad
+core: 8.x
+configure: s3waad.admin_settings
+dependencies:
+  - 'drupal:s3waad'
+  - 'drupal:photos'
