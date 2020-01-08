@@ -235,9 +235,3 @@
     width: 50%;
   }
 }
-
-@media only screen and (min-width: 991px) {
-  .photos-image-list-view {
-    /* width: 25%; */
-  }
-}

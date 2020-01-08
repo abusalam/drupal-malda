@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: slideshow
+label: 'Slideshow (1800x500)'
+effects:
+  cbc63f46-9a5c-474d-9621-fc262c44b464:
+    uuid: cbc63f46-9a5c-474d-9621-fc262c44b464
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1800
+      height: 500
+      anchor: center-center
