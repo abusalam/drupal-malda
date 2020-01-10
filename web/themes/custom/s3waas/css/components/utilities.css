@@ -45,7 +45,7 @@
 }
 
 .helpline-number div.number {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -159,7 +159,7 @@
 }
 
 .col-md-5.helpline-number {
-  margin: 10px;
+  margin: 8px;
   width: 45%;
 }
 
@@ -168,3 +168,7 @@
 div.region.region-utilities>div.row>div.col-md-6>div.row>div.col-md-5>span.counter:before {
   border: 1px solid black;
 } */
+
+.card {
+  padding: 10px!important;
+}

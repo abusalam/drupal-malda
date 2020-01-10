@@ -799,14 +799,15 @@ header {
   .flex-pauseplay {
     display: none !important;
   }
-  .logo a strong {
+  /* .logo a strong {
     font-size: 85% !important;
-  }
+  } */
   .logo a h1 {
     font-size: 100% !important;
   }
   .logo .logo-text {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    vertical-align: middle;
   }
   #topBar1 #accessibility ul li a.change-language {
     padding: 9px 4px !important;
@@ -834,6 +835,9 @@ header {
   }
   table tbody tr:nth-child(even) td {
     background: #f2f2f2 !important;
+  }
+  .right-content.clearfix {
+    display: none;
   }
 }
 
@@ -907,6 +911,7 @@ header {
   }
   .logo a h1 {
     padding: 0 !important;
+    display: none;
   }
 }
 
@@ -1058,7 +1063,7 @@ header {
 
 @media (max-width: 479px) {
   .flexslider.home-slider .slides img {
-    /* height: auto !important; */
+    height: auto !important;
     width: 100%;
     height: auto;
     object-fit: inherit !important;

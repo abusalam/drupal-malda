@@ -52,6 +52,7 @@ div>ul.sitemap-menu li a {
   border: 1px #ccc solid;
   border-radius: 5px;
   padding: 5px 20px;
+  background: #fff;
 }
 
 div>ul.sitemap-menu li a:hover,

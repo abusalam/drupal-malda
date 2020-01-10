@@ -26,6 +26,11 @@ span.visitor-count {
   color: white;
 }
 
+#block-footer ul.menu a.is-active {
+  background: none;
+  text-decoration: underline;
+}
+
 
 /* footer menu */
 
@@ -53,7 +58,7 @@ span.visitor-count {
   padding-left: 8px;
   padding-right: 8px;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .region.region-footer>nav.block.block-menu>ul.menu>li:last-child::after {

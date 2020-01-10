@@ -45,3 +45,7 @@ ul.menu {
 .sf-accordion-toggle.sf-style-none:active {
   text-decoration: none;
 }
+
+a#superfish-account-toggle>span {
+  visibility: hidden;
+}

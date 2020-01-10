@@ -229,13 +229,13 @@ div.footer-slider>.flex-viewport>ul>li {
   width: 25%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
   .views-col {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
   .views-col {
     width: 50%;
   }
@@ -264,4 +264,13 @@ div#main-content {
   padding: 5px;
   background: #fff;
   border: 1px solid #c2c2c2;
+}
+
+img.image-style-album-photo {
+  width: 100%;
+}
+
+article {
+  margin-left: 10px;
+  margin-right: 10px;
 }
