@@ -44,7 +44,6 @@
         "drupal/menu_breadcrumb": "^1.11",
         "drupal/password_encrypt": "^1.0",
         "drupal/password_policy": "^3.0@alpha",
-        "drupal/permission_spreadsheet": "^1.0",
         "drupal/persistent_login": "^1.1",
         "drupal/photos": "^4.2",
         "drupal/rules": "^3.0@alpha",
@@ -71,6 +70,7 @@
     "require-dev": {
         "drupal/core-dev": "^8.8",
         "drupal/devel": "^2.1",
+        "drupal/permission_spreadsheet": "^1.0",
         "friendsoftwig/twigcs": "^3.2"
     },
     "conflict": {
