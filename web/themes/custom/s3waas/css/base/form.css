@@ -189,3 +189,11 @@ input#edit-keys {
   border-top: 1px solid #c3c3c3!important;
   border-bottom: 1px solid #c3c3c3!important;
 }
+
+#search-block-form>.form-actions>input#edit-submit--2 {
+  display: none;
+}
+
+#search-form>.form-wrapper>input#edit-submit {
+  display: none;
+}

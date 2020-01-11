@@ -64,3 +64,16 @@ span.visitor-count {
 .region.region-footer>nav.block.block-menu>ul.menu>li:last-child::after {
   content: "";
 }
+
+#block-visitors>h2 {
+  display: none;
+}
+
+#block-visitors>.item-list {
+  text-align: center;
+}
+
+#block-visitors>.item-list>ul>li {
+  display: inline;
+  color: #d8d3d3;
+}
