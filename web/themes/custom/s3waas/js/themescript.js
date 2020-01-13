@@ -107,7 +107,20 @@
           }
         }
       });
+      var clickMenu = true;
+      $('.menu-icon-open').click(
+        function() {
+          if (clickMenu) {
+            clickMenu = false;
+            $('#menubar').show(300);
+            $('#superfish-main-accordion').removeClass('sf-hidden').addClass('sf-expanded').attr('style', 'display:block').show('slow');
+          } else {
+            clickMenu = true;
+            $('#menubar').hide(300);
+            $('#superfish-main-accordion').removeClass('sf-expanded').addClass('sf-hidden').attr('style', 'display:block').hide('slow');
+          }
 
+        });
 
       // $('#edit-keys').attr('placeholder', "Search.");
       $('.form-type-search').append('<button type="submit" class=" btn search_submit_s3waas"><i class="fa fa-search"></i></button>');
