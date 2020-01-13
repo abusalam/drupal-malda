@@ -1167,3 +1167,34 @@ ul.tabs {
 div.node__content>a>img.image-style-album-photo {
   width: 100%;
 }
+
+@media (max-width: 991px) {
+  section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.region.region-content>.views-element-container>.view.view-whats-new {
+  background: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.region.region-content>.views-element-container>.view.view-whats-new>.view-content>.views-row>.views-field.views-field-title::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.region.region-content>.views-element-container>.view.view-whats-new>.view-content>.views-row>.views-field.views-field-field-time-from {
+  padding-left: 25px;
+}
+
+.region.region-content>.views-element-container>.view.view-whats-new>.view-content>.views-row {
+  margin-bottom: 10px;
+}

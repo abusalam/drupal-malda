@@ -6,6 +6,9 @@
   .offset-sm-2 {
     margin-left: 0%!important;
   }
+  #block-visitors>.item-list>ul>li {
+    display: block;
+  }
 }
 
 .offset-sm-2 {
