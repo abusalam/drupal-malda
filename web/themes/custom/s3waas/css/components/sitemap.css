@@ -1,106 +1,106 @@
-  div>ul.sitemap-menu ul {
-    margin-left: 20px;
-  }
+div>ul.sitemap-menu ul {
+  margin-left: 20px;
+}
 
-  div>ul.sitemap-menu li {
-    list-style-type: none;
-    margin: 10px;
-    position: relative;
-  }
+div>ul.sitemap-menu li {
+  list-style-type: none;
+  margin: 10px;
+  position: relative;
+}
 
-  @media screen and (min-width: 941px) {
-    div>ul.sitemap-menu li::before {
-      content: "";
-      position: absolute;
-      top: -7px;
-      left: -20px;
-      border-left: 1px solid #ccc;
-      border-bottom: 1px solid #ccc;
-      border-radius: 0 0 0 0px;
-      width: 20px;
-      height: 15px;
-    }
-    div>ul.sitemap-menu li::after {
-      position: absolute;
-      content: "";
-      top: 8px;
-      left: -20px;
-      border-left: 1px solid #ccc;
-      border-top: 1px solid #ccc;
-      border-radius: 0px 0 0 0;
-      width: 20px;
-      height: 100%;
-    }
+@media screen and (min-width: 941px) {
+  div>ul.sitemap-menu li::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -20px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0 0 0 0px;
+    width: 20px;
+    height: 15px;
   }
-
-  div>ul.sitemap-menu li:last-child::after {
-    display: none;
+  div>ul.sitemap-menu li::after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: -20px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-radius: 0px 0 0 0;
+    width: 20px;
+    height: 100%;
   }
+}
 
-  div>ul.sitemap-menu li:last-child:before {
-    border-radius: 0 0 0 5px;
-  }
+div>ul.sitemap-menu li:last-child::after {
+  display: none;
+}
 
-  ul>div>ul.sitemap-menu>li:first-child::before {
-    display: none;
-  }
+div>ul.sitemap-menu li:last-child:before {
+  border-radius: 0 0 0 5px;
+}
 
-  ul>div>ul.sitemap-menu>li:first-child::after {
-    border-radius: 5px 0 0 0;
-  }
+ul>div>ul.sitemap-menu>li:first-child::before {
+  display: none;
+}
 
-  div>ul.sitemap-menu li a {
-    border: 1px #ccc solid;
-    border-radius: 5px;
-    padding: 5px 5px;
-    background: #fff;
-    color: #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+ul>div>ul.sitemap-menu>li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
 
-  div>ul.sitemap-menu li a:hover,
-  div>ul.sitemap-menu li a:hover+ul li a,
-  div>ul.sitemap-menu li a:focus,
-  div>ul.sitemap-menu li a:focus+ul li a {
-    background: #ccc;
-    color: #000;
-    border: 1px solid #000;
-  }
+div>ul.sitemap-menu li a {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background: #fff;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  div>ul.sitemap-menu li a:hover+ul li::after,
-  div>ul.sitemap-menu li a:focus+ul li::after,
-  div>ul.sitemap-menu li a:hover+ul li::before,
-  div>ul.sitemap-menu li a:focus+ul li::before div>ul li a:hover+ul::before,
-  div>ul.sitemap-menu li a:focus+ul::before div>ul li a:hover+ul ul::before,
-  div>ul.sitemap-menu li a:focus+ul ul::before {
-    border-color: #000;
-    /*connector color on hover*/
-  }
+div>ul.sitemap-menu li a:hover,
+div>ul.sitemap-menu li a:hover+ul li a,
+div>ul.sitemap-menu li a:focus,
+div>ul.sitemap-menu li a:focus+ul li a {
+  background: #ccc;
+  color: #000;
+  border: 1px solid #000;
+}
 
-  @media screen and (max-width: 940px) {
-    /* div>ul.sitemap-menu li a:focus+ul ul::before {
+div>ul.sitemap-menu li a:hover+ul li::after,
+div>ul.sitemap-menu li a:focus+ul li::after,
+div>ul.sitemap-menu li a:hover+ul li::before,
+div>ul.sitemap-menu li a:focus+ul li::before div>ul li a:hover+ul::before,
+div>ul.sitemap-menu li a:focus+ul::before div>ul li a:hover+ul ul::before,
+div>ul.sitemap-menu li a:focus+ul ul::before {
+  border-color: #000;
+  /*connector color on hover*/
+}
+
+@media screen and (max-width: 940px) {
+  /* div>ul.sitemap-menu li a:focus+ul ul::before {
       border-color: #000;
 
     } */
-    div>ul.sitemap-menu ul {
-      margin-left: 0px;
-      padding-left: 12px;
-    }
-    div>ul.sitemap-menu li a {
-      border: 0px;
-      border-radius: 0px;
-      padding: 0px;
-      background: transparent;
-      color: #000;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    div>ul.sitemap-menu li {
-      position: inherit;
-    }
-    .sitemap-menu {
-      padding-left: 0px;
-    }
-    /* .sitemap-menu>li::before {
+  div>ul.sitemap-menu ul {
+    margin-left: 0px;
+    padding-left: 12px;
+  }
+  div>ul.sitemap-menu li a {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    background: transparent;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  div>ul.sitemap-menu li {
+    position: inherit;
+  }
+  .sitemap-menu {
+    padding-left: 0px;
+  }
+  /* .sitemap-menu>li::before {
     font-family: "Font Awesome 5 Free";
     content: "\f138";
     display: inline-block;
@@ -108,44 +108,44 @@
     vertical-align: middle;
     font-weight: 900;
   } */
-    .content>ul.sitemap-menu>li::before {
-      font-family: "Font Awesome 5 Free";
-      content: "\f111"!important;
-      display: inline-block;
-      padding-right: 10px;
-      vertical-align: middle;
-      font-weight: 900;
-    }
-    .content>ul.sitemap-menu>li>ul.sitemap-menu>li::before {
-      font-family: "Font Awesome 5 Free";
-      content: "\f144"!important;
-      display: inline-block;
-      padding-right: 10px;
-      vertical-align: middle;
-      font-weight: 900;
-    }
-    .content>ul.sitemap-menu>li>ul.sitemap-menu>li>ul.sitemap-menu>li::before {
-      font-family: "Font Awesome 5 Free";
-      content: "\f105"!important;
-      display: inline-block;
-      padding-right: 10px;
-      vertical-align: middle;
-      font-weight: 900;
-    }
-    .content>ul.sitemap-menu>li>ul.sitemap-menu>li>ul.sitemap-menu>li>ul.sitemap-menu>li::before {
-      font-family: "Font Awesome 5 Free";
-      content: "\f101"!important;
-      display: inline-block;
-      padding-right: 10px;
-      vertical-align: middle;
-      font-weight: 900;
-    }
-    div>ul.sitemap-menu li a:hover,
-    div>ul.sitemap-menu li a:hover+ul li a,
-    div>ul.sitemap-menu li a:focus,
-    div>ul.sitemap-menu li a:focus+ul li a {
-      background: transparent;
-      color: #000;
-      border: 0px;
-    }
+  .content>ul.sitemap-menu>li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111"!important;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 900;
   }
+  .content>ul.sitemap-menu>li>ul.sitemap-menu>li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f144"!important;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 900;
+  }
+  .content>ul.sitemap-menu>li>ul.sitemap-menu>li>ul.sitemap-menu>li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f105"!important;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 900;
+  }
+  .content>ul.sitemap-menu>li>ul.sitemap-menu>li>ul.sitemap-menu>li>ul.sitemap-menu>li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f101"!important;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 900;
+  }
+  div>ul.sitemap-menu li a:hover,
+  div>ul.sitemap-menu li a:hover+ul li a,
+  div>ul.sitemap-menu li a:focus,
+  div>ul.sitemap-menu li a:focus+ul li a {
+    background: transparent;
+    color: #000;
+    border: 0px;
+  }
+}
