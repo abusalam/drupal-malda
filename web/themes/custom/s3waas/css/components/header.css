@@ -1,6 +1,6 @@
 .logo {
   float: left;
-  font-size: 160%;
+  font-size: 30px;
   line-height: 105%;
   min-height: 110px;
   padding: 10px 0 0 10px;
@@ -17,17 +17,6 @@
 @media (max-width: 1100px) {
   .container {
     width: 100%!important;
-  }
-}
-
-.header section {
-  min-height: 100px!important;
-}
-
-@media screen and (max-width: 639px) {
-  .logo .emblem img {
-    height: auto !important;
-    width: 76px;
   }
 }
 
@@ -62,4 +51,47 @@
 h1.page-title {
   font-weight: bold;
   font-family: none;
+}
+
+.logo a h1 {
+  display: block;
+  font-weight: inherit;
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+  font-family: inherit;
+  margin-top: 5px;
+}
+
+.strong.site-name {
+  font-size: 30px;
+}
+
+strong.site-name {
+  color: black;
+}
+
+@media screen and (max-width: 639px) {
+  .logo .emblem img {
+    width: 45px;
+  }
+  .header-container {
+    padding: 5px;
+  }
+  .logo {
+    padding: 0px;
+    min-height: 0px;
+    margin-bottom: 0px;
+  }
+  .site-name {
+    font-size: 25px;
+  }
+  .logo .site_text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 18px 0 0 0px;
+  }
+  .logo a h1 {
+    font-size: 14px;
+  }
 }

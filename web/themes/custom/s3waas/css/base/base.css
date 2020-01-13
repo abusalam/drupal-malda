@@ -261,6 +261,7 @@ table a.is-info:hover {
 
 .logo .emblem {
   position: inherit;
+  position: inherit;
   float: none;
   display: inline-block;
   margin-top: 0;
@@ -270,9 +271,9 @@ table a.is-info:hover {
   height: 100px !important;
 }
 
-.logo .logo-text {
+.logo .site_text {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin: 25px 0 0 10px;
 }
 
@@ -321,15 +322,6 @@ caption .heading4 {
 .govBranding li a,
 .events-wrapper .event-title {
   color: #333;
-}
-
-.logo a h1 {
-  display: block;
-  font-weight: inherit;
-  font-size: 18px;
-  color: black;
-  font-weight: 300;
-  font-family: inherit;
 }
 
 .breadcrumb-outer span.icon-facebook {
@@ -802,10 +794,10 @@ header {
   /* .logo a strong {
     font-size: 85% !important;
   } */
-  .logo a h1 {
+  /* .logo a h1 {
     font-size: 100% !important;
-  }
-  .logo .logo-text {
+  } */
+  .logo .site_text {
     /* margin-top: 20px; */
     vertical-align: middle;
   }
@@ -895,10 +887,10 @@ header {
   .logo .emblem {
     margin-right: 5px;
   }
-  .logo a h1,
+  /* .logo a h1,
   .logo a span {
     font-weight: 600 !important;
-  }
+  } */
   .slide-caption h2 {
     font-size: 1.3em !important;
   }
@@ -908,10 +900,6 @@ header {
   #footer2 .footerMenu ul li,
   #footer2 .footerMenu ul.list-style.colmn2 li {
     text-align: center;
-  }
-  .logo a h1 {
-    padding: 0 !important;
-    display: none;
   }
 }
 

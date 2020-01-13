@@ -17,20 +17,20 @@
 <section class="wrapper header-wrapper">
   <div class="header-container">
     <div class="logo">
-      {% if site_logo %}
       <a href="{{ path('<front>') }}" aria-label="{{ 'Go to home'|t }}" title="{{ 'Home'|t }}" class="emblem"
         rel="home">
+        {% if site_logo %}
         <img class="site_logo" id="logo" src="{{ site_logo }}" alt="{{ 'Home'|t }}">
+        {% endif %}
+        <div class="site_text">
+          {% if site_name %}
+          <strong class="site-name">{{ site_name }}</strong>
+          {% endif %}
+          {% if site_slogan %}
+          <h1 class="site-slogan">{{ site_slogan }}</h1>
+          {% endif %}
+        </div>
       </a>
-      {% endif %}
-      {% if site_name %}
-      <div class="site-name">
-        <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
-      </div>
-      {% endif %}
-      {% if site_slogan %}
-      <div class="site-slogan">{{ site_slogan }}</div>
-      {% endif %}
     </div>
     <div class="header-right clearfix">
       <div class="right-content clearfix">
