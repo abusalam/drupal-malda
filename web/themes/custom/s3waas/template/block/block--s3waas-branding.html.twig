@@ -20,12 +20,13 @@
       {% if site_logo %}
       <a href="{{ path('<front>') }}" aria-label="{{ 'Go to home'|t }}" title="{{ 'Home'|t }}" class="emblem"
         rel="home">
-        <img class="site_logo" id="logo" src="{{ site_logo }}" alt="{{ 'Home'|t }}" height="100">
-        <div class="logo-text">
-          <strong class="site_name_regional" lang="grt">মালদা জেলা</strong>
-          <h1 class="site_name_english">{{ site_name }}</h1>
-        </div>
+        <img class="site_logo" id="logo" src="{{ site_logo }}" alt="{{ 'Home'|t }}">
       </a>
+      {% endif %}
+      {% if site_name %}
+      <div class="site-name">
+        <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+      </div>
       {% endif %}
       {% if site_slogan %}
       <div class="site-slogan">{{ site_slogan }}</div>
