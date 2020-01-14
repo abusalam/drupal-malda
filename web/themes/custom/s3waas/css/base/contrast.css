@@ -1,5 +1,4 @@
-@import url("../colors.css");
-#topBar1 {
+@import url("../colors.css"); #topBar1 {
   background: #000000!important;
   color: ylow!important;
   border-bottom: 1px solid #ff0;
