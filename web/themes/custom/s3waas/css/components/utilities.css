@@ -172,3 +172,8 @@ div.region.region-utilities>div.row>div.col-md-6>div.row>div.col-md-5>span.count
 .card {
   padding: 10px!important;
 }
+
+.helpline>div.row>div.col-md-6 {
+  padding-left: 5px;
+  padding-right: 5px;
+}

@@ -106,13 +106,13 @@ strong.site-name {
 }
 
 @media screen and (max-width: 767px) {
-  #menubar {
-    display: none;
-  }
   .menu-icon-open {
     display: block;
   }
   .region.region-slider {
     border-top: 1px solid #c2c2c2;
+  }
+  header#header {
+    background: #fff;
   }
 }

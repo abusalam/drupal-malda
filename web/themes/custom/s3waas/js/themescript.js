@@ -108,15 +108,13 @@
         }
       });
       var clickMenu = true;
-      $('.menu-icon-open').click(
+      $('.menu-icon').click(
         function() {
           if (clickMenu) {
             clickMenu = false;
-            $('#menubar').show(300);
             $('#superfish-main-accordion').removeClass('sf-hidden').addClass('sf-expanded').attr('style', 'display:block').show('slow');
           } else {
             clickMenu = true;
-            $('#menubar').hide(300);
             $('#superfish-main-accordion').removeClass('sf-expanded').addClass('sf-hidden').attr('style', 'display:block').hide('slow');
           }
 

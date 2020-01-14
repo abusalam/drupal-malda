@@ -1,4 +1,5 @@
-@import url("../colors.css"); #topBar1 {
+@import url("../colors.css");
+#topBar1 {
   background: #000000!important;
   color: ylow!important;
   border-bottom: 1px solid #ff0;
@@ -109,7 +110,7 @@ a#light {
   color: black!important;
 }
 
-div>div>.col-sm-2>.list-text {
+div>div>div>.list-text {
   color: #ff0;
 }
 
