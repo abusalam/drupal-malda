@@ -8,18 +8,6 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 1400px) {
-  .container {
-    width: 100%!important;
-  }
-}
-
-@media (max-width: 1100px) {
-  .container {
-    width: 100%!important;
-  }
-}
-
 .float-element {
   float: left;
   margin-left: 12px;

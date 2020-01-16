@@ -598,12 +598,6 @@ header {
 
 /*page scroll progress and scroll to top end*/
 
-@media screen and (min-width: 1285px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
 @media only screen and (min-width: 1024px) {
   table#gallexy-of-collectors {
     margin: 0 auto;
@@ -985,89 +979,6 @@ header {
     padding: 4px 4px 5px !important;
   }
 }
-
-@media (max-width: 1920px) {
-  .flexslider.home-slider .slides img {
-    /*height: 500px !important;*/
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 1600px) {
-  .flexslider.home-slider .slides img {
-    /* height: 450px !important; */
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 1368px) {
-  .flexslider.home-slider .slides img {
-    /* height: 380px !important; */
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 1280px) {
-  .flexslider.home-slider .slides img {
-    /* height: 370px !important; */
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 1199px) {
-  .flexslider.home-slider .slides img {
-    height: 300px !important;
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 991px) {
-  .flexslider.home-slider .slides img {
-    height: 225px !important;
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .flexslider.home-slider .slides img {
-    /* height: 175px !important; */
-    width: 100%;
-    height: auto;
-    object-fit: cover !important;
-  }
-}
-
-@media (max-width: 479px) {
-  .flexslider.home-slider .slides img {
-    height: auto !important;
-    width: 100%;
-    height: auto;
-    object-fit: inherit !important;
-  }
-}
-
-
-/* .views-row:first-child {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.views-row:last-child {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-} */
 
 .views-row {
   /* border: 1px solid black; */

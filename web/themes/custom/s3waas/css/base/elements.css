@@ -373,7 +373,7 @@ img.image-style-album-photo {
   border-radius: 5px;
   margin: 0px 0px 10px 0px;
   outline: none;
-  box-shadow: 0 0 7px #999
+  box-shadow: 0 0 7px #999;
 }
 
 .search-results>li>h3 {
