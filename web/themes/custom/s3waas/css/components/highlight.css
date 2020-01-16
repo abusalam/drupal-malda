@@ -10,11 +10,15 @@ div>div>div>.list-text {
 }
 
 span.highlight-circle {
+  display: block;
   color: white;
   padding: 20px;
   background: #067dbb;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  margin: auto;
+  height: 65px;
+  width: 65px;
 }

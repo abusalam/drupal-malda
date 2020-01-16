@@ -1125,7 +1125,7 @@ ul.tabs {
 }
 
 .view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row {
-  background: #fdfdfd;
+  background: #ffffff;
   border-radius: 5px;
   border: 1px solid #e2e2e2;
   margin-bottom: 5px;
@@ -1156,11 +1156,9 @@ div.node__content>a>img.image-style-album-photo {
   width: 100%;
 }
 
-@media (max-width: 991px) {
-  section {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+section {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .region.region-content>.views-element-container>.view.view-whats-new {

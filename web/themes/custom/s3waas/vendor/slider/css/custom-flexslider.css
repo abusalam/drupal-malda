@@ -1211,6 +1211,11 @@
   .container .slide-caption p:nth-child(2) {
     display: none;
   }
+  .slide-caption h3,
+  .slide-caption .heading3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
   .container .slide-caption p,
   .container .slide-caption h2 {
     text-align: center !important;

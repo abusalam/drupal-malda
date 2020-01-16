@@ -6,7 +6,7 @@ s3waas.mobile:
     - 1x
 s3waas.narrow:
   label: narrow
-  mediaQuery: 'all and (min-width: 576px) and (max-width: 767px)'
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 767px)'
   weight: 1
   multipliers:
     - 1x
