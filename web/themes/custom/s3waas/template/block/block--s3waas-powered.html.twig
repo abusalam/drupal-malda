@@ -4,20 +4,19 @@
  * S3WaaS's override for language switcher block
  *
  * Available variables:
- * - theme_version: For accessibility links and language switcher.
- * - last_update: For the branding logo and sitename with secondary branding.
- * - visitor_count: For the main menu in container.
+ * - theme_version: git version tags.
+ * - changed: last updated timestamp of current content node.
  *
  * @see template_preprocess_block()
  *
  */
 #}
-<div class="row text-white text-center ml-3">
+<div class="row text-white text-center">
   <span class="theme-version">
-    {{ 'Version:'|t }} {{ theme_version }}
+    {{ 'Updated at:'|t }} {{ changed|format_date('custom', 'd/m/Y h:i A') }}
   </span>
 </div>
-<div class="row text-white ml-3">
+<div class="row text-white">
   <div class="col-sm-2 offset-sm-2 text-right">
     <a href="http://www.nic.in/">
       <img src="/{{ directory }}/images/icons/nicLogo.png" alt="National Informatics Centre">
@@ -37,4 +36,7 @@
       <img src="/{{ directory }}/images/icons/digitalIndia.png" alt="Digital India">
     </a>
   </div>
+</div>
+<div class="row text-white text-center">
+  <span>{{ 'Version:'|t }} {{ theme_version }}</span>
 </div>
