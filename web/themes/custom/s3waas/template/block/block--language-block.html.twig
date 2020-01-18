@@ -15,12 +15,14 @@
               <span class="fa fa-search" aria-hidden="true"></span>
             </a>
           </li>
+          {% if not logged_in %}
           <li>
             <a href="/user" title="{{ 'Login'|t }}" id="login-icon" class="loginBar">
               <span class="off-css">{{ 'Login'|t }}</span>
               <i class="fa fa-sign-in-alt" aria-hidden="true"></i>
             </a>
           </li>
+          {% endif %}
           <li>
             <a href="javascript:void(0);" title="{{ 'Social Media Links'|t }}" class="show-social-links">
               <span class="fa fa-share-square" aria-hidden="true">
