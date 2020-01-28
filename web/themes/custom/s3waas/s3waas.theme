@@ -40,8 +40,8 @@ function s3waas_preprocess_block(&$variables) {
 
     case 'system_powered_by_block':
       $variables['theme_version'] = `git describe --tags`;
-      $node = \Drupal::routeMatch()->getParameter('node');
-      $variables['changed'] = $node->changed->value;
+      // $node = \Drupal::routeMatch()->getParameter('node');
+      // $variables['changed'] = $node->changed->value;
       break;
 
     default:
