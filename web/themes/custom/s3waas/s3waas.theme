@@ -28,6 +28,7 @@ function s3waas_preprocess_block(&$variables) {
     case 'language_block':
       $current_path = \Drupal::service('path.current')->getPath();
       $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+      $variables['bangla'] = ($langcode == 'bn') ? '/bn' : '';
       if ($langcode == 'bn') {
         $variables['switch_path'] = $current_path;
         $variables['switch_lang'] = t('English');
