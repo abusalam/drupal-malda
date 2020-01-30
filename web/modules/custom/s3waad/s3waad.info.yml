@@ -20,4 +20,3 @@ dependencies:
   - 'drupal:link'
   - 'drupal:webform'
   - 'drupal:webform_views'
-  - 'drupal:webform_submission_export_import'
