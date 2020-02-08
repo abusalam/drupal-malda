@@ -1,20 +1,29 @@
 @import url("../colors.css");
-#topBar1 {
-  background: #000000!important;
+* {
+  box-shadow: none!important;
+}
+
+.view-download-forms>div>table>caption::before,
+.full-cntrl-left-caption-bottom.nav-white .flex-direction-nav a:before,
+.full-cntrl-left-caption-bottom.nav-white .flex-pauseplay a:before,
+.region.region-footer>nav.block.block-menu>ul.menu>li::after,
+a#superfish-main-toggle>span,
+div>div>div>.list-text,
+.site_name_regional,
+blockquote .small,
+blockquote footer,
+blockquote small,
+strong.site-name,
+.logo a h1,
+a,
+caption>a,
+#cssmenu>ul>li>a.is-active,
+span.theme-version,
+span.last-update,
+span.visitor-count,
+td>a,
+td>span>a {
   color: #ff0!important;
-  border-bottom: 1px solid #ff0;
-}
-
-a {
-  color: #ff0!important;
-}
-
-strong.site-name {
-  color: #ff0;
-}
-
-a#superfish-main-toggle>span {
-  color: #ff0;
 }
 
 header#header,
@@ -28,32 +37,67 @@ div#mmain-wrapper,
 #main,
 body,
 .path-frontpage {
-  background: #000000!important;
-  color: yellow!important;
+  background: #000!important;
+  color: #ff0!important;
 }
 
-.full-cntrl-left-caption-bottom.nav-white .flex-direction-nav a:before,
-.full-cntrl-left-caption-bottom.nav-white .flex-pauseplay a:before {
-  color: yellow!important;
+.region-utilities>div.row>div.col-md-6>div.row,
+.region-utilities>div.row>div.col-md-5>div.row,
+.region-utilities>div.row>div.col-md-3>div.row,
+.region-utilities>div>div>div.row>div.col-md-6>div.row,
+.region-utilities>div>div>div.row>div.col-md-5>div.row,
+.region-utilities>div>div>div.row>div.col-md-3>div.row,
+.region-utilities>div.row>div.col-md-3>ul,
+.region-utilities>div>div>div.row>div.col-md-3>ul,
+.region-utilities>div>div>div.row>div.col-md-6>h4,
+.region-utilities>div>div>div.row>div.col-md-5>h4,
+.region-utilities>div>div>div.row>div.col-md-3>h4,
+.region-utilities>div.row>div.col-md-6>h4,
+.region-utilities>div.row>div.col-md-5>h4,
+.region-utilities>div.row>div.col-md-3>h4,
+td,
+span.highlight-circle,
+.region.region-content>.views-element-container>.view.view-whats-new,
+div>ul.sitemap-menu li a,
+form#user-login-form,
+form#user-register-form,
+form#user-pass,
+form,
+.form-submit {
+  background: #000!important;
+  color: #ff0!important;
+  border: 1px solid #ff0!important;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th,
+ul.sf-menu a,
+ul.sf-menu span.nolink,
+a#increase span,
+a#decrease span,
+a#normal span,
+a#dark span,
+table {
+  border: 1px solid #ff0!important;
+}
+
+#topBar1 {
+  background: #000000!important;
+  color: #ff0!important;
+  border-bottom: 1px solid #ff0;
 }
 
 #cssmenu>ul>li>a.is-active {
-  background: #000000!important;
-}
-
-#cssmenu>ul>li>a.is-active {
-  color: yellow!important;
+  background: #000!important;
 }
 
 .scrollToTop {
   color: #000!important;
   background: #ff0;
-}
-
-span.theme-version,
-span.last-update,
-span.visitor-count {
-  color: #ff0!important;
 }
 
 .full-cntrl-left-caption-bottom .container .slide-caption {
@@ -64,13 +108,6 @@ span.visitor-count {
 #menubar {
   border-top: 1px solid #ff0;
   border-bottom: 1px solid #ff0;
-}
-
-form#user-login-form,
-form#user-register-form,
-form#user-pass {
-  background: #000;
-  border: 2px solid #ff0;
 }
 
 ul.tabs.primary {
@@ -96,12 +133,6 @@ input {
   color: #000;
 }
 
-.form-submit {
-  background: #000;
-  color: #ff0;
-  border: 1px solid #ff0;
-}
-
 .form-submit:hover {
   background: #ff0;
   color: #000;
@@ -118,45 +149,14 @@ a#light {
   color: black!important;
 }
 
-div>div>div>.list-text {
-  color: #ff0;
-}
-
 .public_utils>span.counter,
 .helpline-number {
   background: #000!important;
   border: 1px solid #ff0;
 }
 
-.region-utilities>div.row>div.col-md-6>div.row,
-.region-utilities>div.row>div.col-md-5>div.row,
-.region-utilities>div.row>div.col-md-3>div.row,
-.region-utilities>div>div>div.row>div.col-md-6>div.row,
-.region-utilities>div>div>div.row>div.col-md-5>div.row,
-.region-utilities>div>div>div.row>div.col-md-3>div.row,
-.region-utilities>div.row>div.col-md-3>ul,
-.region-utilities>div>div>div.row>div.col-md-3>ul {
-  background: #000;
-  border: 1px solid #ff0;
-}
-
-.region-utilities>div>div>div.row>div.col-md-6>h4,
-.region-utilities>div>div>div.row>div.col-md-5>h4,
-.region-utilities>div>div>div.row>div.col-md-3>h4,
-.region-utilities>div.row>div.col-md-6>h4,
-.region-utilities>div.row>div.col-md-5>h4,
-.region-utilities>div.row>div.col-md-3>h4 {
-  background: #000;
-  color: #ff0;
-  border: 1px solid #ff0;
-}
-
 .footer-bg {
-  background: black;
-}
-
-.site_name_regional {
-  color: #ff0;
+  background: #000;
 }
 
 div.footer-slider>.flex-viewport>ul>li {
@@ -176,38 +176,17 @@ caption {
   border-right: 1px solid #ff0;
 }
 
-caption>a {
-  color: #ff0!important;
-}
-
-td>a,
-td>span>a {
-  color: #ff0!important;
-}
-
-td {
-  background: #000;
-  border: 1px solid #ff0;
-}
-
-table {
-  border: 1px solid #ff0;
-}
-
-.logo a h1 {
-  color: #ff0;
-}
-
 .pager li>a,
 .pager li>span {
   background-color: #000;
   border: 1px solid #ff0;
 }
 
-span.highlight-circle {
-  color: #ff0;
-  background: #000;
-  border: 2px solid #ff0;
+.pager li>a:hover,
+.pager li>span:hover {
+  background-color: #ff0;
+  border: 1px solid #ff0;
+  color: #000!important;
 }
 
 #menubar {
@@ -233,16 +212,6 @@ th {
 /* .content {
   border: 1px solid #ff0;
 } */
-
-a#increase span,
-a#decrease span,
-a#normal span {
-  border: 1px solid #ff0;
-}
-
-a#dark span {
-  border: 1px solid #ff0;
-}
 
 #topBar1 .govBranding ul li:first-child {
   border-right: 1px solid #ff0;
@@ -271,34 +240,11 @@ div#block-s3waas-page-title>h1 {
   border-right: 1px solid #ff0;
 }
 
-.menuparent>ul {
-  background: #000;
-  color: #ff0;
-  border: 1px solid #ff0;
-}
-
-
-/* .footer {
-  border-top: 1px solid #ff0;
-} */
-
-a#light span {
-  background: #ff0;
-  border: 1px solid #ff0;
-}
-
-.views-view-grid>.views-row>.views-col>article {
-  background: #000;
-  border: 1px solid #ff0;
-}
-
+.menuparent>ul,
+a#light span,
+.views-view-grid>.views-row>.views-col>article,
 .region.region-sidebar-left,
-.region.region-center {
-  border: 1px solid #ff0;
-  background: #000;
-  color: #ff0;
-}
-
+.region.region-center,
 .thumbnail {
   background: #000;
   color: #ff0;
@@ -329,10 +275,6 @@ a#light span {
   /* border: 1px solid #ff0!important; */
 }
 
-.region.region-footer>nav.block.block-menu>ul.menu>li::after {
-  color: #ff0;
-}
-
 .view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row {
   background: #000000;
   border-radius: 5px;
@@ -348,39 +290,8 @@ a#light span {
   background: #000000;
 }
 
-@media screen and (max-width: 767px) {
-  table tbody tr:nth-child(even) td {
-    background: #000000 !important;
-  }
-}
-
-.table-bordered>tbody>tr>td,
-.table-bordered>tbody>tr>th,
-.table-bordered>tfoot>tr>td,
-.table-bordered>tfoot>tr>th,
-.table-bordered>thead>tr>td,
-.table-bordered>thead>tr>th {
-  border: 1px solid #ff0;
-}
-
-.view-download-forms>div>table>caption::before {
-  color: #ff0;
-}
-
 blockquote {
   border-left: 5px solid #ff0;
-}
-
-blockquote .small,
-blockquote footer,
-blockquote small {
-  color: #ff0;
-}
-
-div>ul.sitemap-menu li a {
-  border: 1px #ff0 solid;
-  background: #000;
-  color: #ff0;
 }
 
 div>ul.sitemap-menu li::before {
@@ -393,7 +304,8 @@ div>ul.sitemap-menu li::after {
   border-top: 1px solid #ff0;
 }
 
-ul.sf-menu a,
-ul.sf-menu span.nolink {
-  border: 1px solid #ff0;
+@media screen and (max-width: 767px) {
+  table tbody tr:nth-child(even) td {
+    background: #000000 !important;
+  }
 }
