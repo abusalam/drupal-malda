@@ -1038,8 +1038,11 @@ ul.tabs {
 .view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row {
   background: #ffffff;
   border-radius: 5px;
-  border: 1px solid #e2e2e2;
-  margin-bottom: 5px;
+  /* border: 1px solid #e2e2e2; */
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 7px 0px #999;
+  margin-bottom: 10px;
 }
 
 .node__content>div>h4 {
@@ -1095,3 +1098,10 @@ section {
 .region.region-content>.views-element-container>.view.view-whats-new>.view-content>.views-row {
   margin-bottom: 10px;
 }
+
+
+/* .thumbnail {
+  border: none!important;
+  outline: none!important;
+  box-shadow: 0px 0px 7px 0px #999;
+} */

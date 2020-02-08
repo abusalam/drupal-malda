@@ -1,11 +1,20 @@
-@import url("../colors.css"); #topBar1 {
+@import url("../colors.css");
+#topBar1 {
   background: #000000!important;
-  color: ylow!important;
+  color: #ff0!important;
   border-bottom: 1px solid #ff0;
 }
 
 a {
-  color: yellow!important;
+  color: #ff0!important;
+}
+
+strong.site-name {
+  color: #ff0;
+}
+
+a#superfish-main-toggle>span {
+  color: #ff0;
 }
 
 header#header,
@@ -220,9 +229,10 @@ th {
   padding: 10px;
 }
 
-.content {
+
+/* .content {
   border: 1px solid #ff0;
-}
+} */
 
 a#increase span,
 a#decrease span,
@@ -316,9 +326,74 @@ a#light span {
 #main-wrapper>#main-content>main>section>.region.region-content>article {
   background: #000!important;
   color: #ff0!important;
-  border: 1px solid #ff0!important;
+  /* border: 1px solid #ff0!important; */
 }
 
 .region.region-footer>nav.block.block-menu>ul.menu>li::after {
   color: #ff0;
+}
+
+.view.view-taxonomy-term.view-id-taxonomy_term>.view-content>.views-row {
+  background: #000000;
+  border-radius: 5px;
+  border: 1px solid #ff0;
+  color: #ff0;
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.node--type-notice {
+  color: #ff0;
+  background: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  table tbody tr:nth-child(even) td {
+    background: #000000 !important;
+  }
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+  border: 1px solid #ff0;
+}
+
+.view-download-forms>div>table>caption::before {
+  color: #ff0;
+}
+
+blockquote {
+  border-left: 5px solid #ff0;
+}
+
+blockquote .small,
+blockquote footer,
+blockquote small {
+  color: #ff0;
+}
+
+div>ul.sitemap-menu li a {
+  border: 1px #ff0 solid;
+  background: #000;
+  color: #ff0;
+}
+
+div>ul.sitemap-menu li::before {
+  border-left: 1px solid #ff0;
+  border-bottom: 1px solid #ff0;
+}
+
+div>ul.sitemap-menu li::after {
+  border-left: 1px solid #ff0;
+  border-top: 1px solid #ff0;
+}
+
+ul.sf-menu a,
+ul.sf-menu span.nolink {
+  border: 1px solid #ff0;
 }
