@@ -448,3 +448,17 @@ img.image-style-album-photo {
 .minh-5 {
   min-height: 15rem;
 }
+
+@media only screen and (max-width: 640px) {
+  .view-download-forms>div>table>tbody>tr>td:first-child {
+    width: 100%;
+    /* font-weight: bold; */
+  }
+}
+
+
+/* overwrite responsive table */
+
+.tablesaw caption {
+  margin-bottom: 0px;
+}
