@@ -161,18 +161,22 @@ div#block-searchform>form#search-block-form>div>input#edit-submit {
 @media only screen and (max-width: 941px) {
   div#block-searchform {
     text-align: right;
-    padding-left: 31%;
+    padding-left: 0%;
+  }
+  div#block-searchform>form#search-block-form {
+    width: 85%;
+    padding-left: 8%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   input#edit-keys {
     height: 40px;
-    width: 50%!important;
+    width: 100%!important;
   }
   div#block-searchform {
     /* text-align: right; */
-    padding-left: 31%!important;
+    padding-left: 0%!important;
   }
   #edit-submit--2 {
     height: 40px;
