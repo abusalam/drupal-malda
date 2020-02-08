@@ -86,27 +86,39 @@
 
       $('#block-searchform').wrap('<div class="container"></div>');
 
+
+      //set font change array
+      var fontelem = new Array('p', '.slide-caption', '.layout-main', '.list-text', '.views-field-title', 'td');
+      resize = fontelem.join(',');
+      //reset font
+      $(resize).attr("style", 'font-size: 14px');
+
+
       $('.font-size').click(function() {
         var code = this.id;
-        var fontSize = parseInt($(".slide-caption").css("font-size"));
+        var fontSize = parseInt($("p").css("font-size"));
+        console.log(fontSize);
+
         if (code == 'normal') {
-          $('.slide-caption, .layout-main ').attr("style", 'font-size: 14px');
+          $(resize).attr("style", 'font-size: 14px');
         } else if (code == 'increase') {
           fontSize = fontSize + 1;
           if (fontSize < 21) {
-            $('.slide-caption, .layout-main ').attr("style", 'font-size: ' + fontSize + 'px');
+            $(resize).attr("style", 'font-size: ' + fontSize + 'px');
           } else {
             return false;
           }
         } else if (code == 'decrease') {
           fontSize = fontSize - 1;
           if (fontSize > 9) {
-            $('.slide-caption, .layout-main ').attr("style", 'font-size: ' + fontSize + 'px');
+            $(resize).attr("style", 'font-size: ' + fontSize + 'px');
           } else {
             return false;
           }
         }
       });
+
+
       var clickMenu = true;
       $('.menu-icon').click(
         function() {
