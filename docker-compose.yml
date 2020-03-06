@@ -85,6 +85,7 @@ services:
     labels:
       - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
       - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
+      - "traefik.http.routers.${PROJECT_NAME}_mailhog.tls=true"
 
 #  postgres:
 #    image: wodby/postgres:$POSTGRES_TAG
