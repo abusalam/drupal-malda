@@ -75,5 +75,3 @@ global-scripts:
   version: VERSION
   js:
     js/themescript.js: {}
-  dependencies:
-    - s3waas/cssmenumaker
