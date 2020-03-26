@@ -136,6 +136,12 @@ img.image-style-map,
   text-align: justify;
 }
 
+.region.region-sidebar-left,
+.region.region-center,
+.region.region-sidebar-right {
+  margin: 15px 0px 0px 0px;
+}
+
 #block-views-block-whats-new-block-1>div>div>div>div {
   padding-left: 0px!important;
 }
