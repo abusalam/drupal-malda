@@ -45,6 +45,7 @@
         "drupal/login_security": "^1.5",
         "drupal/menu_breadcrumb": "^1.11",
         "drupal/message_notify": "^1.1",
+        "drupal/mobile_number": "^1.0@alpha",
         "drupal/no_autocomplete": "^1.5",
         "drupal/otp_sms": "^1.0",
         "drupal/password_encrypt": "^1.0",
