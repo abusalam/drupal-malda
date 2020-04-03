@@ -38,6 +38,7 @@
         "drupal/health_check": "^1.2",
         "drupal/http_response_headers": "^2.0@alpha",
         "drupal/image_widget_crop": "^2.2",
+        "drupal/imce": "^1.7",
         "drupal/indic_script": "^1.0",
         "drupal/insert": "^1.0",
         "drupal/lazy": "^3.4",
