@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b479487c4a8a3544c27bfbf99593bd5",
+    "content-hash": "9fab329130a8ffdd627fc9438838b9ba",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3298,6 +3298,55 @@
             }
         },
         {
+            "name": "drupal/events_log_track",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/events_log_track.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/events_log_track-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "559e0d34414dd881e7e7a7d33916232e13c28df5"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/event_log_track": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1487851984",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kumaratulesh",
+                    "homepage": "https://www.drupal.org/user/1840602"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/events_log_track",
+            "support": {
+                "source": "https://git.drupalcode.org/project/events_log_track"
+            }
+        },
+        {
             "name": "drupal/extlink",
             "version": "1.2.0",
             "source": {
@@ -4235,6 +4284,61 @@
                 "source": "http://cgit.drupalcode.org/libraries",
                 "issues": "http://drupal.org/project/issues/libraries",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/login_history",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/login_history.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/login_history-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "b6d028738c6ef60af6a2e5295022f58401a9d453"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1447941840",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Cottser",
+                    "homepage": "https://www.drupal.org/user/1167326"
+                },
+                {
+                    "name": "bocaj",
+                    "homepage": "https://www.drupal.org/user/582042"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                }
+            ],
+            "description": "A history of the site's user logins.",
+            "homepage": "https://www.drupal.org/project/login_history",
+            "support": {
+                "source": "https://git.drupalcode.org/project/login_history"
             }
         },
         {
@@ -7372,6 +7476,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -7418,6 +7523,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
