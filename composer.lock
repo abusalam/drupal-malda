@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fab329130a8ffdd627fc9438838b9ba",
+    "content-hash": "41ba4b2a47ca5fd1b3c1176e9b5ad20b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5091,6 +5091,64 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/responsive_tables_filter"
             }
+        },
+        {
+            "name": "drupal/restrict_by_ip",
+            "version": "dev-4.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/restrict_by_ip.git",
+                "reference": "e491eb8f628687f304d77f38496b62f2f0062c43"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.x-dev",
+                    "datestamp": "1580428796",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "james.wilson",
+                    "homepage": "https://www.drupal.org/user/341166"
+                },
+                {
+                    "name": "panthar",
+                    "homepage": "https://www.drupal.org/user/568326"
+                },
+                {
+                    "name": "rocketeerbkw",
+                    "homepage": "https://www.drupal.org/user/615672"
+                },
+                {
+                    "name": "vangorra",
+                    "homepage": "https://www.drupal.org/user/121671"
+                },
+                {
+                    "name": "ymmatt",
+                    "homepage": "https://www.drupal.org/user/92457"
+                }
+            ],
+            "description": "Enables limiting user login and role access to specific IP Addresses.",
+            "homepage": "https://www.drupal.org/project/restrict_by_ip",
+            "support": {
+                "source": "https://git.drupalcode.org/project/restrict_by_ip"
+            },
+            "time": "2020-01-31T01:01:53+00:00"
         },
         {
             "name": "drupal/rules",
@@ -14242,6 +14300,7 @@
         "drupal/libraries": 15,
         "drupal/mobile_number": 15,
         "drupal/password_policy": 15,
+        "drupal/restrict_by_ip": 20,
         "drupal/rules": 15,
         "drupal/sms_account_activate": 15,
         "drupal/sms_rule_based": 10,
