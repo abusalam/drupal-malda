@@ -482,3 +482,13 @@ img.image-style-album-photo {
 .tablesaw caption {
   margin-bottom: 0px;
 }
+
+ul#photos-sortable>li.photos-sort-grid {
+  width: 284px;
+  height: auto;
+}
+
+ul#photos-sortable>li.photos-sort-grid>img.image-style-thumbnail {
+  width: 100%;
+  height: auto;
+}
