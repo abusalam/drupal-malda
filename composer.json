@@ -20,6 +20,7 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/ape": "^1.4",
         "drupal/autologout": "^1.0",
         "drupal/captcha": "^1.0@beta",
         "drupal/colorbox": "^1.4",
