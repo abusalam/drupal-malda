@@ -82,12 +82,13 @@
 
 .photos-image {
   text-align: center;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
 .image-load {
   position: relative;
+  margin-bottom: 25px;
 }
 
 .photos-view-links {
@@ -95,7 +96,7 @@
 }
 
 .photo-pager-left {
-  top: 45%;
+  top: 60%;
   left: 10px;
   position: absolute;
 }
@@ -132,7 +133,7 @@
   } */
 
 .photo-pager-right {
-  top: 45%;
+  top: 60%;
   right: 0px;
   position: absolute;
 }
@@ -165,7 +166,7 @@
 .photos-view-links>.photo-links-info>a {
   background: blueviolet;
   color: white;
-  padding: 5px;
+  padding: 7px;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -173,7 +174,7 @@
 .photos-view-links>.photo-links-info>.photos-edit-delete {
   background: red;
   color: white;
-  padding: 5px;
+  padding: 7px;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -185,7 +186,7 @@
 .photos-view-links>.photo-links-info>.photos-edit-edit {
   background: green;
   color: white;
-  padding: 5px;
+  padding: 7px;
   border-radius: 5px;
   font-weight: bold;
 }

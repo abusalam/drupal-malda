@@ -492,3 +492,34 @@ ul#photos-sortable>li.photos-sort-grid>img.image-style-thumbnail {
   width: 100%;
   height: auto;
 }
+
+article.contextual-region.node.node--type-photos.node--view-mode-full {
+  background: red;
+  width: 1%;
+}
+
+form.photos-image-edit>div.item-list>ul {
+  list-style: none;
+}
+
+form.photos-image-edit>div.item-list>ul>li>a>img {
+  width: 100%;
+}
+
+form.photos-image-edit>div.item-list>ul>li {
+  padding: 0!important;
+  margin: 0!important;
+}
+
+form.photos-image-edit>div.item-list>ul>li:nth-child(2) {
+  float: right;
+}
+
+form.photos-image-edit>div.item-list>ul>li:nth-child(2)>a {
+  background: #0094f0;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
