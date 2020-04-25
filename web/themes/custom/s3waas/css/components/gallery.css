@@ -59,7 +59,7 @@
 .photos-image-list-view>.photos-list-view-title,
 .photos-list-view-des,
 .photos-list-view-info {
-  margin: 0px;
+  margin: 10px;
 }
 
 
@@ -93,6 +93,9 @@
 
 .photos-view-links {
   text-align: center;
+  position: relative;
+  top: 40px;
+  /* display: none; */
 }
 
 .photo-pager-left {
@@ -164,7 +167,7 @@
 }
 
 .photos-view-links>.photo-links-info>a {
-  background: blueviolet;
+  background: #337ab7;
   color: white;
   padding: 7px;
   border-radius: 5px;
@@ -172,7 +175,7 @@
 }
 
 .photos-view-links>.photo-links-info>.photos-edit-delete {
-  background: red;
+  background: #ff3b00;
   color: white;
   padding: 7px;
   border-radius: 5px;
@@ -184,7 +187,7 @@
 }
 
 .photos-view-links>.photo-links-info>.photos-edit-edit {
-  background: green;
+  background: #3bb63d;
   color: white;
   padding: 7px;
   border-radius: 5px;

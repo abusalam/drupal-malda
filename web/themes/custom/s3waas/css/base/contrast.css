@@ -1,4 +1,5 @@
-@import url("../colors.css"); * {
+@import url("../colors.css");
+* {
   box-shadow: none!important;
 }
 
@@ -307,4 +308,30 @@ div>ul.sitemap-menu li::after {
   table tbody tr:nth-child(even) td {
     background: #000000 !important;
   }
+}
+
+a#light span {
+  color: black;
+  background: #ff0;
+}
+
+textarea {
+  color: black;
+  background: #ff0;
+}
+
+.region-sidebar-left .block-views,
+.region-sidebar-left .s3waas-col-block,
+.region-sidebar-right .block-views,
+.region-sidebar-right .s3waas-col-block,
+.region-center .block-views,
+.region-center .s3waas-col-block {
+  background: #000;
+}
+
+.photos-album-cover>.photos-image-html>a>img,
+.photos-album-right,
+.photos-image-list-view {
+  background: #000;
+  border: 1px solid #ff0;
 }
