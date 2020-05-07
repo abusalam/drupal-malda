@@ -493,11 +493,6 @@ ul#photos-sortable>li.photos-sort-grid>img.image-style-thumbnail {
   height: auto;
 }
 
-article.contextual-region.node.node--type-photos.node--view-mode-full {
-  /* background: red;
-  width: 100%; */
-}
-
 form.photos-image-edit>div.item-list>ul {
   list-style: none;
 }
